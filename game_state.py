@@ -1,7 +1,7 @@
 import os
 import time
 import re
-import pygetwindow as gw
+import pywinctl as gw
 
 class GameState:
 
@@ -59,8 +59,7 @@ class GameState:
  
 
     def extract_blinds_from_title(self):
-        title_contains = "No Limit" 
-        windows = gw.getWindowsWithTitle(title_contains)
+        windows = [w for w in gw.getAllWindows() if "no limit" in w.title.lower()]
 
         for window in windows:
             # Find all monetary amounts (assuming they follow a '$' symbol)

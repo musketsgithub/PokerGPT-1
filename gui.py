@@ -43,6 +43,7 @@ class GUI:
 
 
     def add_widgets(self):
+        print('hi')
         padding = {'padx': 10, 'pady': 10}
         self.fontStyle = tkFont.Font(family="Lucida Grande", size=14, weight='bold')
         tableFont = tkFont.Font(family="Lucida Grande", size=14)  # Font for Treeview elements
