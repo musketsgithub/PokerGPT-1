@@ -14,8 +14,12 @@ from read_poker_table       import ReadPokerTable
 from hero_hand_range        import PokerHandRangeDetector
 from hero_info              import HeroInfo
 
+import time
+
 import os
 os.environ['SDL_VIDEODRIVER'] = 'x11'  # Add this at the very top of your file
+
+import pytesseract
 
 # Import your existing imports here
 import pygame
@@ -74,17 +78,20 @@ def main():
 
 def locate_poker_window():
     """Locate the poker client window."""
-    windows = [w for w in gw.getAllWindows() if "no limit" in w.title.lower()]
+
+    windows = []
+
+    while windows ==[]:
+        windows = [w for w in gw.getAllWindows() if "no limit" in w.title.lower()]
+        # time.sleep(3)
 
     for window in windows:
 
         if "USD" in window.title or "Money" in window.title:
-            print(window)
-
             print(f"Poker client window found. Size: {window.width}x{window.height}")
 
-            default_width   = 1920
-            default_height  = 1080
+            default_width   = 482
+            default_height  = 346
 
             resize_poker_window( window, default_width, default_height )
 
@@ -92,7 +99,6 @@ def locate_poker_window():
 
     print(f"Poker client window NOT Found.")
     return None
-
 
 
 def resize_poker_window( window, width, height ):
