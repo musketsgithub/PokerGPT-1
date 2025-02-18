@@ -141,9 +141,13 @@ def analyze_hand_with_openai(openai_client, hand_history):
 
 
 def locate_poker_windows():
+
     """Locate all poker client windows."""
-    windows = [w for w in gw.getAllWindows() if "no limit" in w.title.lower()]
-    poker_windows = []
+    windows = []
+
+    while windows == []:
+        windows = [w for w in gw.getAllWindows() if "no limit" in w.title.lower()]
+        poker_windows = []
 
     for window in windows:
         if "USD" in window.title or "Money" in window.title:

@@ -7861,3 +7861,39 @@ Table Pot: $3.57
 Table Pot: $4.02
 
 
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $0.23
+Flop: 4♠  7♠  5♦
+Player4(None): Check in 2.0 seconds
+Player3(None): Fold in 1.0 seconds
+Table Pot: $0.31
+Flop: 4♠  7♠  5♦
+Player4(None): Call $0.08 in 5.0 seconds [Pot: $0.08]
+Table Pot: $0.38
+Player4(None): Check in 10.0 seconds
+Player5(None): Bet $0.19 in 20.0 seconds [Pot: $0.19]
+Table Pot: $0.57
+Player4(None): Call $0.19 in 5.0 seconds [Pot: $0.27]
+Table Pot: $0.74
+Turn: 4♠  7♠  5♦  8♠
+Player4(None): Check in 11.0 seconds
+Player5(None): Check in 31.0 seconds
+Table Pot: $0.03
+Player6(None): Fold in 0 seconds
+Hero(None): Fold in 41.0 seconds
+Player3(None): Fold in 14.0 seconds
+Player2(None): Fold in 0 seconds
+Table Pot: $0.04
+Player4(None): Call $0.01 in 2.0 seconds [Pot: $0.28]
+Player5(None): Check in 48.0 seconds
+Player4(None): Check in 1.0 seconds
+Player5(None): Check in 51.0 seconds
+Player4(None): Bet $0.08 in 3.0 seconds [Pot: $0.36]
+Table Pot: $0.12
+Player5(None): Fold in 1.0 seconds
+Table Pot: $0.04
+
+

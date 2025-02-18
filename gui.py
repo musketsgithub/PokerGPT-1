@@ -198,7 +198,7 @@ class GUI:
                 # player_info.get('psychology', '')
             ))
 
-        # Update the number of active players on the table
+        # Update the number of active players on the tablew
         self.total_players_info.delete("1.0", tk.END)
         self.total_players_info.insert(tk.END, str(len(self.game_state.active_players)))
 

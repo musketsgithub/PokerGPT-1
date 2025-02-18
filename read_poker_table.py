@@ -354,7 +354,7 @@ class ReadPokerTable:
         """
         Detect text from a specified region of the screen with optimizations.
         """
-        screenshot = self.capture_screen_area(relative_x, relative_y, width, height)
+        screenshot = self.capture_screen_area(relative_x, relative_y, width, height, resize_dimensions=(width, height))
 
         if screenshot is None:
             return None
@@ -478,7 +478,7 @@ class ReadPokerTable:
         player_similarities = {}
 
         for player_number, (region_x, region_y) in gray_background_region.items():
-            progress_bar = self.capture_screen_area(region_x, region_y, 132, 8)
+            progress_bar = self.capture_screen_area(region_x, region_y, 132, 8, resize_dimensions=(132,8))
             progress_bar_gray = cv2.cvtColor(np.array(progress_bar), cv2.COLOR_BGR2GRAY)
 
             is_turn = False
@@ -600,6 +600,7 @@ class ReadPokerTable:
 
     def find_player_cards(self, player_number):
         """Find the cards of a specific player."""
+        print('hello2')
         # Player Card Numbers/Letters
         # Player Cards1: 0.442, 0.621  Player Cards: x=0.442, y=0.655
         # Player Cards2: 0.505, 0.621
@@ -645,11 +646,8 @@ class ReadPokerTable:
             card_filename = f"card{index}Icon_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
 
             screenshot_icon = self.capture_screen_area(icon_x, icon_y, icon_width,
-                                                       icon_height)  # , filename=card_filename)
+                                                       icon_height, resize_dimensions=(icon_width, icon_height))  # , filename=card_filename)
             screenshot_icon_gray = cv2.cvtColor(np.array(screenshot_icon), cv2.COLOR_BGR2GRAY)
-
-            # plt.imshow(screenshot_icon_gray)
-            # plt.show()
 
             card_suit = None
 
@@ -658,6 +656,8 @@ class ReadPokerTable:
                 # print(screenshot_icon_gray.shape)
                 # print(template.shape)
 
+                print("icon shape", screenshot_icon_gray.shape)
+                print("template shape", template.shape)
                 similarity, _ = ssim(screenshot_icon_gray, template, full=True)
                 if similarity > 0.6:
                     card_suit = suit
@@ -666,11 +666,22 @@ class ReadPokerTable:
             # Capture and process card number/letter using template matching
             card2_filename = f"card{index}Letter_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
 
-            screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height)  # , filename=card2_filename)
+            screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))  # , filename=card2_filename)
             screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
+
+            print('test123')
+
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
+            filename = f"screenshot_{timestamp}.png"
+            filepath = os.path.join("card_images", filename)
+
+            # Save the image
+            plt.imsave(filepath, screenshot_num_gray, cmap='gray')
 
             card_rank = None
             for rank, template in self.card_number_templates.items():
+                print(screenshot_num_gray.shape)
+                print(template.shape)
                 similarity, _ = ssim(screenshot_num_gray, template, full=True)
 
                 # print(f"rank: {rank}, similarity: {similarity}")
@@ -722,7 +733,7 @@ class ReadPokerTable:
             num_width, num_height = 27, 50  # Card number/letter dimensions
 
             # Capture and process card suit
-            screenshot_icon = self.capture_screen_area(x, y, icon_width, icon_height)
+            screenshot_icon = self.capture_screen_area(x, y, icon_width, icon_height, resize_dimensions=(icon_width, icon_height))
 
             # try:
             screenshot_icon_gray = cv2.cvtColor(np.array(screenshot_icon), cv2.COLOR_BGR2GRAY)
@@ -763,7 +774,7 @@ class ReadPokerTable:
             card_suit = max(possible_suits, key=possible_suits.get, default=None)
 
             # Capture and process card number/letter using template matching
-            screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height)
+            screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))
             screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
 
             # print('hey')
@@ -843,7 +854,7 @@ class ReadPokerTable:
         for player_number, (region_x, region_y) in dealer_button_regions.items():
 
             width, height = 30,24 # Adjust these dimensions as necessary
-            screenshot = self.capture_screen_area(region_x, region_y, width, height)
+            screenshot = self.capture_screen_area(region_x, region_y, width, height, resize_dimensions=(width, height))
             screenshot_gray = cv2.cvtColor(np.array(screenshot), cv2.COLOR_BGR2GRAY)
 
             # plt.imshow(screenshot_gray)
@@ -1208,7 +1219,7 @@ class ReadPokerTable:
 
     def detect_text_changed(self, player_number, unique_id, relative_x, relative_y, width, height, typeofthing=None):
         """Detect text from a specified region of the screen with optimizations."""
-        screenshot = self.capture_screen_area(relative_x, relative_y, width, height)
+        screenshot = self.capture_screen_area(relative_x, relative_y, width, height, resize_dimensions=(width, height))
 
         if screenshot is None:
             return None
@@ -1297,49 +1308,51 @@ class ReadPokerTable:
         """Continuously detect game state changes."""
 
         while True:
-            if not self.window:
-                time.sleep(0.5)  # Adjust the sleep time as needed
-                continue  # Skip to the next iteration of the loop
-
-            for player_number in range(1, 7):  # Assuming 6 players in the game
-                # player_number = 1
-
-                if self.check_player_card_active(player_number):
-
-                    # print(f"Player {player_number} cards active: YES!")
-
-                    new_cards_detected = self.find_player_cards(player_number)
-
-                    current_cards_detected_length = len(new_cards_detected)
-
-                    if current_cards_detected_length == 2:
-
-                        with self.game_state_lock:
-
-                            current_cards_stored = self.game_state.players.get(player_number, {}).get('cards')
-
-                            if new_cards_detected != current_cards_stored:
-                                # print(f"Player{player_number} NEW card = {new_cards_detected} | current_cards_stored = {current_cards_stored}")
-
-                                # Update the game state if there's a change
-                                self.game_state.update_player(player_number, cards=new_cards_detected)
-
-                                # community_cards_count = len(self.game_state.community_cards)
-                                # if community_cards_count < 5:
-
-                                # if self.game_state.hero_player_number == 0:
-                                # self.game_state.update_player(player_number, hero=True)
-                                # print(f"Player{player_number} is HERO!")
-
-                                # print(f"Player {player_number} cards updated: {current_cards_detected}")
-
-                            # else:
-                            # print(f"No change in cards for Player {player_number}")
-                # else:
-                # print(f"Cards not active for Player {player_number}")
-
-            # Sleep before the next detection cycle
-            time.sleep(1.0)  # Adjust the sleep time as needed
+            self.find_player_cards(1)
+            time.sleep(0.5)
+            # if not self.window:
+            #     time.sleep(0.5)  # Adjust the sleep time as needed
+            #     continue  # Skip to the next iteration of the loop
+            #
+            # for player_number in range(1, 7):  # Assuming 6 players in the game
+            #     # player_number = 1
+            #
+            #     if self.check_player_card_active(player_number):
+            #
+            #         # print(f"Player {player_number} cards active: YES!")
+            #
+            #         new_cards_detected = self.find_player_cards(player_number)
+            #
+            #         current_cards_detected_length = len(new_cards_detected)
+            #
+            #         if current_cards_detected_length == 2:
+            #
+            #             with self.game_state_lock:
+            #
+            #                 current_cards_stored = self.game_state.players.get(player_number, {}).get('cards')
+            #
+            #                 if new_cards_detected != current_cards_stored:
+            #                     # print(f"Player{player_number} NEW card = {new_cards_detected} | current_cards_stored = {current_cards_stored}")
+            #
+            #                     # Update the game state if there's a change
+            #                     self.game_state.update_player(player_number, cards=new_cards_detected)
+            #
+            #                     # community_cards_count = len(self.game_state.community_cards)
+            #                     # if community_cards_count < 5:
+            #
+            #                     # if self.game_state.hero_player_number == 0:
+            #                     # self.game_state.update_player(player_number, hero=True)
+            #                     # print(f"Player{player_number} is HERO!")
+            #
+            #                     # print(f"Player {player_number} cards updated: {current_cards_detected}")
+            #
+            #                 # else:
+            #                 # print(f"No change in cards for Player {player_number}")
+            #     # else:
+            #     # print(f"Cards not active for Player {player_number}")
+            #
+            # # Sleep before the next detection cycle
+            # time.sleep(1.0)  # Adjust the sleep time as needed
 
     def continuous_detection_total_pot_size(self):
         """Continuously detect game state changes."""
