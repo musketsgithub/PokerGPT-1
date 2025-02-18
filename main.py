@@ -146,17 +146,12 @@ def locate_poker_windows():
     windows = []
 
     while windows == []:
-        windows = [w for w in gw.getAllWindows() if "no limit" in w.title.lower()]
+        windows = [w for w in gw.getAllWindows() if "nlhp" in w.title.lower()]
         poker_windows = []
 
     for window in windows:
-        if "USD" in window.title or "Money" in window.title:
-            print(f"Poker client window found: {window.title}")
-            default_width = 963
-            default_height = 692
-            window.resizeTo(default_width, default_height)
-            print('resized window')
-            poker_windows.append(window)
+        print(f"Poker client window found: {window.title}")
+        poker_windows.append(window)
 
     if not poker_windows:
         print("No poker client windows found.")

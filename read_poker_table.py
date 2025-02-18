@@ -666,16 +666,16 @@ class ReadPokerTable:
             # # Capture and process card number/letter using template matching
             # card2_filename = f"card{index}Letter_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
 
-            if player_number == 1 and index == 1:
-                screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))  # , filename=card2_filename)
-                screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
-
-                timestamp = time.strftime("%Y%m%d_%H%M%S")
-                filename = f"screenshot_{timestamp}.png"
-                filepath = os.path.join("card_images", filename)
-
-                # Save the image
-                plt.imsave(filepath, screenshot_num_gray, cmap='gray')
+            # if player_number == 1 and index == 1:
+            #     screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))  # , filename=card2_filename)
+            #     screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
+            #
+            #     timestamp = time.strftime("%Y%m%d_%H%M%S")
+            #     filename = f"screenshot_{timestamp}.png"
+            #     filepath = os.path.join("card_images", filename)
+            #
+            #     # Save the image
+            #     plt.imsave(filepath, screenshot_num_gray, cmap='gray')
 
             # card_rank = None
             # for rank, template in self.card_number_templates.items():
@@ -729,7 +729,7 @@ class ReadPokerTable:
             x, y = icon_position
             num_x, num_y = number_position
             icon_width, icon_height = 30, 30# Card icon dimensions
-            num_width, num_height = 27, 50  # Card number/letter dimensions
+            num_width, num_height = 200, 200  # Card number/letter dimensions
 
             # Capture and process card suit
             screenshot_icon = self.capture_screen_area(x, y, icon_width, icon_height, resize_dimensions=(icon_width, icon_height))
@@ -776,6 +776,13 @@ class ReadPokerTable:
             screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))
             screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
 
+            timestamp = time.strftime("%Y%m%d_%H%M%S")
+            filename = f"{index}_screenshot_{timestamp}.png"
+            filepath = os.path.join("card_images", filename)
+
+            # Save the image
+            plt.imsave(filepath, screenshot_num_gray, cmap='gray')
+
             # print('hey')
             # plt.imshow(screenshot_num_gray)
             # plt.show()
@@ -788,16 +795,16 @@ class ReadPokerTable:
             # plt.imsave(filepath, screenshot_num_gray, cmap='gray')
 
             card_rank = None
-            possible_ranks = {}
-            for rank, template in self.card_number_templates.items():
-                similarity, _ = ssim(screenshot_num_gray, template, full=True)
-
-                # print(f"Rank : {rank}, Similarity: {similarity}")
-
-                if similarity > 0.3:
-                    possible_ranks[rank] = similarity
-
-            card_rank = max(possible_ranks, key=possible_ranks.get, default=None)
+            # possible_ranks = {}
+            # for rank, template in self.card_number_templates.items():
+            #     similarity, _ = ssim(screenshot_num_gray, template, full=True)
+            #
+            #     # print(f"Rank : {rank}, Similarity: {similarity}")
+            #
+            #     if similarity > 0.3:
+            #         possible_ranks[rank] = similarity
+            #
+            # card_rank = max(possible_ranks, key=possible_ranks.get, default=None)
 
             if card_rank and card_suit:
                 card = f'{card_rank}{card_suit}'

@@ -67,7 +67,7 @@ class GameState:
         windows = []
 
         while windows == []:
-            windows = [w for w in gw.getAllWindows() if "no limit" in w.title.lower()]
+            windows = [w for w in gw.getAllWindows() if "nlhp" in w.title.lower()]
             poker_windows = []
 
         for window in windows:
