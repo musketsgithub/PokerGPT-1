@@ -155,6 +155,7 @@ def locate_poker_windows():
             default_width = 963
             default_height = 692
             window.resizeTo(default_width, default_height)
+            print('resized window')
             poker_windows.append(window)
 
     if not poker_windows:

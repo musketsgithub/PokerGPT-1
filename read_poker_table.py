@@ -640,61 +640,60 @@ class ReadPokerTable:
         for index, (num_x, num_y) in enumerate(player_card_positions[player_number], start=1):
             icon_x, icon_y = num_x, num_y + 0.032  # Adjust for icon position
             icon_width, icon_height = 30, 30  # Card icon dimensions
-            num_width, num_height = 27, 50 # Card number/letter dimensions
+            num_width, num_height = 200, 200 # Card number/letter dimensions
 
-            # Process card suit
-            card_filename = f"card{index}Icon_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+            # # Process card suit
+            # card_filename = f"card{index}Icon_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+            #
+            # screenshot_icon = self.capture_screen_area(icon_x, icon_y, icon_width,
+            #                                            icon_height, resize_dimensions=(icon_width, icon_height))  # , filename=card_filename)
+            # screenshot_icon_gray = cv2.cvtColor(np.array(screenshot_icon), cv2.COLOR_BGR2GRAY)
+            #
+            # card_suit = None
+            #
+            # for suit, template in self.card_icon_templates.items():
+            #
+            #     # print(screenshot_icon_gray.shape)
+            #     # print(template.shape)
+            #
+            #     print("icon shape", screenshot_icon_gray.shape)
+            #     print("template shape", template.shape)
+            #     similarity, _ = ssim(screenshot_icon_gray, template, full=True)
+            #     if similarity > 0.6:
+            #         card_suit = suit
+            #         # print(f"(Icon) for Player {player_number}, Card {index}: {card_suit}")
+            #
+            # # Capture and process card number/letter using template matching
+            # card2_filename = f"card{index}Letter_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
 
-            screenshot_icon = self.capture_screen_area(icon_x, icon_y, icon_width,
-                                                       icon_height, resize_dimensions=(icon_width, icon_height))  # , filename=card_filename)
-            screenshot_icon_gray = cv2.cvtColor(np.array(screenshot_icon), cv2.COLOR_BGR2GRAY)
+            if player_number == 1 and index == 1:
+                screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))  # , filename=card2_filename)
+                screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
 
-            card_suit = None
+                timestamp = time.strftime("%Y%m%d_%H%M%S")
+                filename = f"screenshot_{timestamp}.png"
+                filepath = os.path.join("card_images", filename)
 
-            for suit, template in self.card_icon_templates.items():
+                # Save the image
+                plt.imsave(filepath, screenshot_num_gray, cmap='gray')
 
-                # print(screenshot_icon_gray.shape)
-                # print(template.shape)
-
-                print("icon shape", screenshot_icon_gray.shape)
-                print("template shape", template.shape)
-                similarity, _ = ssim(screenshot_icon_gray, template, full=True)
-                if similarity > 0.6:
-                    card_suit = suit
-                    # print(f"(Icon) for Player {player_number}, Card {index}: {card_suit}")
-
-            # Capture and process card number/letter using template matching
-            card2_filename = f"card{index}Letter_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
-
-            screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))  # , filename=card2_filename)
-            screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
-
-            print('test123')
-
-            timestamp = time.strftime("%Y%m%d_%H%M%S")
-            filename = f"screenshot_{timestamp}.png"
-            filepath = os.path.join("card_images", filename)
-
-            # Save the image
-            plt.imsave(filepath, screenshot_num_gray, cmap='gray')
-
-            card_rank = None
-            for rank, template in self.card_number_templates.items():
-                print(screenshot_num_gray.shape)
-                print(template.shape)
-                similarity, _ = ssim(screenshot_num_gray, template, full=True)
-
-                # print(f"rank: {rank}, similarity: {similarity}")
-
-                if similarity > 0.6:
-                    card_rank = rank
-                    # print(f"(Rank) for Player {player_number}, Card {index}: {card_rank}")
-
-            if card_rank and card_suit:
-                card = f'{card_rank}{card_suit}'
-                cards_found.append(card)
-            else:
-                cards_found.append(None)
+            # card_rank = None
+            # for rank, template in self.card_number_templates.items():
+            #     print(screenshot_num_gray.shape)
+            #     print(template.shape)
+            #     similarity, _ = ssim(screenshot_num_gray, template, full=True)
+            #
+            #     # print(f"rank: {rank}, similarity: {similarity}")
+            #
+            #     if similarity > 0.6:
+            #         card_rank = rank
+            #         # print(f"(Rank) for Player {player_number}, Card {index}: {card_rank}")
+            #
+            # if card_rank and card_suit:
+            #     card = f'{card_rank}{card_suit}'
+            #     cards_found.append(card)
+            # else:
+            #     cards_found.append(None)
 
         valid_cards = [card for card in cards_found if card is not None]
 
