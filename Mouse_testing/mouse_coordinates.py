@@ -53,7 +53,7 @@ class MouseCoordinates:
         self.overlay.geometry(f'{self.window.width}x{self.window.height}+{self.window.left}+{self.window.top}')
 
         # Load the image from the 'images/' directory
-        image_path = 'images/PokerTable2.png'
+        image_path = 'images/PokerTable.png'
         image = Image.open(image_path)
         self.photo = ImageTk.PhotoImage(image, master=self.overlay)
 

@@ -819,3 +819,7045 @@ Player6: Inactive
 Player6: Inactive
 
 
+Player1 is Hero
+Table Pot: $2.18
+Flop: A♣  5♠  6♥
+Table Pot: $1.18
+Player2(None): Fold in 2.0 seconds
+Player6: Won $1.18, Total Wins: 1
+Table Pot: $0.75
+
+
+Player1 is Hero
+Table Pot: $12.15
+Turn: 4♦  4♠  8♦  3♣
+Table Pot: $24.3
+Player2(None): Bet $12.15  [Pot: $12.15]
+
+
+Player1 is Hero
+Table Pot: $0.75
+
+
+Player1 is Hero
+River: 3♦  8♥  J♥  J♦  K♣
+Table Pot: $21.26
+Table Pot: $0.75
+Player5: Inactive
+Table Pot: $1.75
+Player4(None): Fold in 0 seconds
+Player6(None): Fold in 0 seconds
+Player5: Inactive
+
+
+Player1 is Hero
+Player1: Inactive
+River: 2♦  A♠  A♣  10♣  K♠
+Table Pot: $0.13
+Table Pot: $0.03
+Player4: Won $0.13, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $0.05
+Turn: Q♦  9♠  6♣  2♦
+
+
+Player1 is Hero
+Flop: A♥  4♦  K♥
+Table Pot: $0.12
+Player5: Inactive
+Flop: A♥  4♦  K♥
+Table Pot: $0.18
+Player2(BTN): Bet $0.06  [Pot: $0.06]
+Turn: A♥  4♦  K♥  2♣
+Table Pot: $0.24
+River: A♥  4♦  K♥  2♣  Q♠
+Table Pot: $0.36
+Table Pot: $0.24
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $0.77
+Player6(BB) Stack: $3.09
+Player4(SB) Stack: $1.71
+Player2(HJ) Stack: $2.34
+Player3(BTN) Stack: $2.65
+Player5(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.04
+Player4(SB): Call $0.01  [Pot: $0.01]
+Flop: K♥  Q♣  5♦
+Table Pot: $0.08
+Table Pot: $0.04
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BB): $0.77
+Player6(SB) Stack: $3.11
+Player4(BTN) Stack: $1.7
+Player2(UTG) Stack: $2.34
+Player3(HJ) Stack: $2.65
+Player5(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.05
+Player6: Won $0.04, Total Wins: 1
+Table Pot: $0.07
+Table Pot: $0.09
+Flop: 4♥  J♠  Q♥
+Turn: 4♥  J♠  Q♥  6♦
+River: 4♥  J♠  Q♥  6♦  6♣
+Table Pot: $0.14
+Table Pot: $0.09
+
+
+Player1 is Hero
+Table Pot: $2.0
+
+
+Player1 is Hero
+Table Pot: $0.23
+
+
+Player1 is Hero
+Player1: Inactive
+Table Pot: $0.05
+Table Pot: $0.07
+Table Pot: $0.08
+Flop: 2♠  Q♣  8♠
+Player1: Inactive
+Turn: 2♠  Q♣  8♠  Q♠
+River: 2♠  Q♣  8♠  Q♠  9♣
+Player1: Inactive
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BB): $0.0
+Player5(HJ) Stack: $0.0
+Player6(BTN) Stack: $1.56
+Player2(SB) Stack: $4.79
+Player3(BB) Stack: $0.0
+Player4(UTG) Stack: $1.4
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.04
+Player1: Inactive
+
+
+Player1 is Hero
+Table Pot: $0.38
+Turn: 5♣  6♥  K♦  8♠
+Table Pot: $0.57
+Turn: 5♣  6♥  K♦  8♠
+River: 5♣  6♥  K♦  8♠  10♦
+Table Pot: $0.74
+Player4(SB): Call $0.19  [Pot: $0.19]
+Table Pot: $0.03
+
+
+Player1 is Hero
+River: 8♠  A♠  5♦  5♠  J♣
+Table Pot: $0.09
+Table Pot: $0.14
+
+
+Player1 is Hero
+Flop: 3♣  2♦  10♠
+Table Pot: $0.1
+Turn: 3♣  2♦  10♠  K♦
+Table Pot: $0.11
+Table Pot: $0.22
+Turn: 3♣  2♦  10♠  K♦
+Table Pot: $0.11
+
+
+Player1 is Hero
+Table Pot: $0.08
+Player5(HJ): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $2.63
+Player3(BB) Stack: $1.96
+Player2(SB) Stack: $4.5
+Player5(HJ) Stack: $2.34
+Player6(MP) Stack: $1.81
+Player4(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+River: 7♣  8♥  3♥  8♠  10♥
+Table Pot: $0.08
+Table Pot: $0.03
+Table Pot: $0.05
+Table Pot: $0.09
+Table Pot: $0.12
+Table Pot: $0.14
+Table Pot: $0.15
+Flop: 9♦  9♥  5♥
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(HJ): $2.7
+Player3(BTN) Stack: $96.0
+Player2(MP) Stack: $4.58
+Player5(BB) Stack: $2.34
+Player6(UTG) Stack: $1.81
+Player4(SB) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.11
+Player4(SB): Fold in 0 seconds
+Flop: 5♣  10♣  5♦
+Table Pot: $0.12
+Table Pot: $0.18
+Flop: 5♣  10♣  5♦
+Flop: 5♣  10♣  5♦
+Table Pot: $0.12
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $2.7
+Player3(MP) Stack: $96.0
+Player2(HJ) Stack: $4.58
+Player5(SB) Stack: $2.34
+Player6(BB) Stack: $1.98
+Player4(BTN) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.01
+Table Pot: $0.03
+Table Pot: $0.04
+Flop: K♠  5♥  3♠
+Turn: K♠  5♥  3♠  2♦
+River: K♠  5♥  3♠  2♦  K♦
+Table Pot: $0.06
+Table Pot: $0.04
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 4
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $2.7
+Player3(UTG) Stack: $96.0
+Player2(BB) Stack: $4.58
+Player5(BTN) Stack: $2.34
+Player6(SB) Stack: $1.98
+Player4(HJ) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player1: Inactive
+Table Pot: $0.05
+Flop: 4♥  9♦  7♣
+Player1: Inactive
+Turn: 4♥  9♦  7♣  8♣
+River: 4♥  9♦  7♣  8♣  Q♦
+
+
+----------------------------------
+ROUND: 5
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $2.7
+Player3(BB) Stack: $96.0
+Player2(SB) Stack: $4.58
+Player5(HJ) Stack: $2.34
+Player6(BTN) Stack: $1.98
+Player4(UTG) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.05
+Table Pot: $0.07
+Table Pot: $0.08
+Flop: 7♦  9♣  3♦
+Turn: 7♦  9♣  3♦  A♥
+Table Pot: $0.0
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 6
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $2.7
+Player3(SB) Stack: $96.0
+Player2(BTN) Stack: $4.58
+Player5(UTG) Stack: $2.34
+Player6(HJ) Stack: $1.95
+Player4(BB) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player1: Inactive
+Table Pot: $0.0
+Table Pot: $0.09
+Player1: Inactive
+Table Pot: $0.12
+Flop: K♦  9♥  3♣
+Table Pot: $0.24
+Player1: Inactive
+Table Pot: $0.12
+Player6: Inactive
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 7
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $2.7
+Player3(BTN) Stack: $96.0
+Player2(HJ) Stack: $4.58
+Player5(BB) Stack: $2.34
+Player6(HJ) Stack: $1.95
+Player4(SB) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player1: Inactive
+Table Pot: $0.02
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 8
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $2.7
+Player3(MP) Stack: $96.0
+Player2(HJ) Stack: $4.58
+Player5(SB) Stack: $2.34
+Player6(BB) Stack: $1.95
+Player4(BTN) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.04
+Flop: 6♠  Q♦  8♥
+Turn: 6♠  Q♦  8♥  Q♣
+River: 6♠  Q♦  8♥  Q♣  8♣
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 9
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BB): $2.7
+Player3(HJ) Stack: $96.0
+Player2(UTG) Stack: $4.58
+Player5(BTN) Stack: $2.34
+Player6(SB) Stack: $1.95
+Player4(MP) Stack: $1.87
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.05
+Table Pot: $0.06
+Flop: J♥  8♦  8♣
+Turn: J♥  8♦  8♣  3♠
+River: J♥  8♦  8♣  3♠  A♥
+Table Pot: $0.18
+Table Pot: $0.28
+
+
+Player1 is Hero
+Flop: 2♠  7♠  7♥
+Table Pot: $0.18
+Player3: Inactive
+Turn: 2♠  7♠  7♥  K♥
+River: 2♠  7♠  7♥  K♥  6♦
+
+
+Player1 is Hero
+Table Pot: $0.07
+River: 9♠  K♥  2♠  J♥  9♥
+Table Pot: $0.09
+Table Pot: $0.11
+Table Pot: $0.1
+
+
+Player1 is Hero
+Table Pot: $0.03
+Table Pot: $0.04
+Flop: Q♥  2♦  8♥
+Table Pot: $0.06
+Table Pot: $0.04
+Player4: Won $0.04, Total Wins: 1
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $2.1
+Player5(SB) Stack: $2.36
+Player2(HJ) Stack: $447.0
+Player4(BTN) Stack: $1.7
+Player3(MP) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.09
+Table Pot: $0.05
+Table Pot: $0.01
+
+
+Player1 is Hero
+Flop: 8♣  8♦  7♣
+Table Pot: $0.13
+Player5(BTN): Bet $0.09  [Pot: $0.09]
+Table Pot: $0.22
+Player1: Inactive
+Table Pot: $0.13
+
+
+Player1 is Hero
+Table Pot: $0.05
+Flop: 9♥  Q♦  6♠
+
+
+Player1 is Hero
+Table Pot: $0.03
+Table Pot: $0.02
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(SB): $2.01
+Player5(MP) Stack: $1.93
+Player6(BTN) Stack: $2.16
+Player2(BB) Stack: $2.2
+Player3(UTG) Stack: $0.8
+Player4(HJ) Stack: $2.35
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.05
+Hero: Won $0.0, Total Wins: 1
+Flop: A♠  10♠  9♠
+Turn: A♠  10♠  9♠  8♦
+Table Pot: $0.07
+Table Pot: $0.05
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $2.01
+Player5(HJ) Stack: $1.93
+Player6(MP) Stack: $2.16
+Player2(SB) Stack: $2.2
+Player3(BB) Stack: $0.8
+Player4(UTG) Stack: $2.35
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player5: Inactive
+Player5(HJ): Fold in 0 seconds
+Table Pot: $0.09
+Table Pot: $0.05
+
+
+Player1 is Hero
+Flop: 4♦  2♠  A♠
+Table Pot: $0.05
+River: 7♠  4♦  2♠  A♠  Q♦
+
+
+Player1 is Hero
+Player5: Inactive
+Table Pot: $0.03
+Player1: Inactive
+Table Pot: $0.04
+Player3(SB): Call $0.01  [Pot: $0.01]
+Flop: 5♣  9♦  Q♣
+Table Pot: $0.06
+Player5: Inactive
+Player1: Inactive
+Table Pot: $0.08
+River: 5♣  9♦  Q♣  8♣  A♥
+
+
+Player1 is Hero
+Player5: Inactive
+Turn: K♣  7♣  A♥  6♥
+Table Pot: $0.05
+Player6(UTG): Check in 0 seconds
+Table Pot: $0.07
+Player5: Inactive
+Table Pot: $0.05
+
+
+Player1 is Hero
+Table Pot: $0.11
+Turn: 10♥  5♥  6♥  10♣
+Player5: Inactive
+Table Pot: $0.17
+Player3(SB): Bet $0.06  [Pot: $0.06]
+Table Pot: $0.11
+
+
+Player1 is Hero
+Table Pot: $0.08
+Player3(BB): Call $0.02  [Pot: $0.02]
+
+
+Player1 is Hero
+River: 2♣  9♠  Q♠  A♠  8♦
+Table Pot: $0.27
+Table Pot: $0.16
+Table Pot: $0.03
+
+
+Player1 is Hero
+Table Pot: $0.07
+Flop: Q♥  K♥  A♥
+Player3: Inactive
+Table Pot: $0.09
+Player5: Won $2.0, Total Wins: 1
+Flop: Q♥  K♥  A♥
+Player3: Inactive
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BB): $2.17
+Player4(HJ) Stack: $2.23
+Player5(BTN) Stack: $2.02
+Player6(SB) Stack: $2.2
+Player2(UTG) Stack: $2.39
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.07
+Table Pot: $0.03
+Table Pot: $0.04
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(SB): $2.17
+Player4(UTG) Stack: $2.23
+Player5(HJ) Stack: $2.02
+Player6(BTN) Stack: $2.2
+Player2(BB) Stack: $2.39
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.08
+Table Pot: $0.05
+
+
+Player1 is Hero
+Table Pot: $0.08
+Table Pot: $0.05
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(HJ): $2.04
+Player6(UTG) Stack: $1.79
+Player3(BTN) Stack: $2.54
+Player2(MP) Stack: $1.6
+Player5(BB) Stack: $2.31
+Player4(SB) Stack: $2.54
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.08
+
+
+Player1 is Hero
+Table Pot: $1.19
+Flop: 7♦  10♥  A♦
+Table Pot: $0.5
+Table Pot: $0.01
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $2.06
+Player3(BB) Stack: $2.54
+Player2(SB) Stack: $1.6
+Player6(MP) Stack: $145.0
+Player4(UTG) Stack: $2.53
+Player5(HJ) Stack: $2.33
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.05
+Table Pot: $0.03
+
+
+Player1 is Hero
+Table Pot: $0.03
+Table Pot: $0.05
+Flop: 3♠  7♠  Q♦
+Table Pot: $0.07
+Turn: 3♠  7♠  Q♦  4♠
+Player5: Won $2.0, Total Wins: 1
+Player3: Won $0.71, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $0.03
+Player1: Inactive
+Player2: Inactive
+
+
+Player1 is Hero
+Table Pot: $0.72
+River: 9♠  Q♦  4♥  Q♠  6♦
+Table Pot: $0.03
+
+
+Player1 is Hero
+Player5: Won $2.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $145.0
+Player2(SB) Stack: $1.6
+Player5(HJ) Stack: $4.03
+Player3(BB) Stack: $2.31
+Player4(UTG) Stack: $2.02
+Player6(MP) Stack: $1.98
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.04
+Flop: 6♠  4♥  2♦
+Turn: 6♠  4♥  2♦  10♣
+River: 6♠  4♥  2♦  10♣  K♦
+Table Pot: $0.08
+Table Pot: $0.04
+Table Pot: $0.03
+
+
+Player1 is Hero
+Table Pot: $0.03
+Table Pot: $0.06
+Flop: 6♦  A♥  7♠
+Table Pot: $0.08
+Table Pot: $0.12
+Table Pot: $0.08
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(MP): $1.34
+Player2(BTN) Stack: $1.28
+Player4(BB) Stack: $1.6
+Player5(UTG) Stack: $4.8
+Player3(SB) Stack: $0.0
+Player6(HJ) Stack: $1.94
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.05
+Table Pot: $0.06
+Flop: 4♠  A♥  8♥
+Player3: Inactive
+Player5: Won $2.0, Total Wins: 1
+Turn: 4♠  A♥  8♥  4♣
+Table Pot: $0.12
+Table Pot: $0.06
+Table Pot: $0.03
+
+
+Player1 is Hero
+River: 6♠  4♣  3♣  A♦  Q♥
+Table Pot: $0.05
+
+
+Player1 is Hero
+Player4(UTG): Call  [Pot: $0.0]
+Player5: Won $2.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $2.0
+Player3(BB) Stack: $2.3
+Player5(HJ) Stack: $6.27
+Player2(SB) Stack: $1.08
+Player6(MP) Stack: $1.72
+Player4(UTG) Stack: $2.73
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: K♦  9♠  6♣
+Table Pot: $0.14
+Player4(UTG): Bet $0.07  [Pot: $0.07]
+Table Pot: $0.21
+Table Pot: $0.27
+Turn: K♦  9♠  6♣  A♥
+Player5(HJ): Call  [Pot: $0.0]
+Player4(UTG): Check in 0 seconds
+Player5: Won $2.0, Total Wins: 2
+Table Pot: $0.36
+Player4(UTG): Fold in 0 seconds
+Table Pot: $0.27
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(MP): $2.0
+Player3(SB) Stack: $2.3
+Player5(UTG) Stack: $6.27
+Player2(BTN) Stack: $1.08
+Player6(HJ) Stack: $1.72
+Player4(BB) Stack: $2.66
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player5: Won $0.27, Total Wins: 3
+Player6(HJ): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Player5: Won $2.0, Total Wins: 4
+Hero(MP): Fold in 0 seconds
+Table Pot: $0.07
+Player2(BTN): Raise  [Pot: $0.0]
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Table Pot: $0.05
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Player2: Won $0.05, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $0.05
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Check in 0 seconds
+Table Pot: $0.08
+Flop: 9♠  J♥  8♦
+Hero(BB): Check in 0 seconds
+Player5: Won $2.0, Total Wins: 1
+Player3(HJ): Check in 0 seconds
+Turn: 9♠  J♥  8♦  K♠
+Player4(MP): Check in 0 seconds
+Player3(HJ): Check in 0 seconds
+Hero(BB): Check in 0 seconds
+Player3(HJ): Check in 0 seconds
+Player4(MP): Check in 0 seconds
+River: 9♠  J♥  8♦  K♠  3♥
+Player6(SB): Check in 0 seconds
+Hero(BB): Check in 0 seconds
+Player4(MP): Check in 0 seconds
+
+
+Player1 is Hero
+Player5(None): Fold in 0 seconds
+Table Pot: $0.05
+Player4(None): Call  [Pot: $0.0]
+Player5: Won $2.0, Total Wins: 1
+Table Pot: $0.16
+Player3(BB): Call  [Pot: $0.0]
+Player4(UTG): Fold in 0 seconds
+Table Pot: $0.07
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(MP): $2.08
+Player4(BB) Stack: $2.6
+Player3(SB) Stack: $2.29
+Player6(HJ) Stack: $1.76
+Player2(BTN) Stack: $1.27
+Player5(UTG) Stack: $6.22
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Hero: Won $0.0, Total Wins: 1
+Player5(UTG): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Player5: Won $2.0, Total Wins: 2
+Player2(BTN): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Table Pot: $0.04
+Player2(BTN): Fold in 0 seconds
+Player3(SB): Call  [Pot: $0.0]
+Player4(BB): Check in 0 seconds
+Flop: K♣  2♣  J♦
+Player3(SB): Check in 0 seconds
+Turn: K♣  2♣  J♦  7♣
+Player4(BB): Check in 0 seconds
+Player3(SB): Check in 0 seconds
+Player4(BB): Check in 0 seconds
+River: K♣  2♣  J♦  7♣  K♥
+Player3(SB): Check in 0 seconds
+Player4(BB): Check in 0 seconds
+
+
+Player1 is Hero
+Hero(None): Bet  [Pot: $0.0]
+Table Pot: $0.17
+Turn: 5♣  5♠  K♥  9♣
+Player2(BB): Fold in 0 seconds
+Table Pot: $0.11
+Hero: Won $0.1, Total Wins: 1
+Player2(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $2.19
+Player2(SB) Stack: $1.21
+Player3(BB) Stack: $2.13
+Player4(UTG) Stack: $2.59
+Player5(HJ) Stack: $6.31
+Player6(MP) Stack: $1.73
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player4(UTG): Call  [Pot: $0.0]
+Table Pot: $0.05
+Player6(MP): Fold in 0 seconds
+Player5: Won $2.0, Total Wins: 1
+Player6(MP): Fold in 0 seconds
+Player3(BB): Check in 0 seconds
+Player5: Won $2.0, Total Wins: 2
+Table Pot: $0.32
+Flop: 4♥  9♦  7♣
+Player4(UTG): Check in 0 seconds
+Table Pot: $0.5
+Hero(BTN): Bet  [Pot: $0.0]
+Player4(UTG): Fold in 0 seconds
+Table Pot: $0.32
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(MP): $2.08
+Player2(BTN) Stack: $1.2
+Player3(SB) Stack: $1.0
+Player4(BB) Stack: $2.48
+Player5(UTG) Stack: $6.31
+Player6(HJ) Stack: $1.73
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Hero: Won $0.3, Total Wins: 2
+Table Pot: $0.08
+Player5(UTG): Raise $0.05  [Pot: $0.05]
+Player6(HJ): Fold in 0 seconds
+Hero(MP): Raise  [Pot: $0.0]
+Table Pot: $0.23
+Player5: Won $2.0, Total Wins: 3
+Player2(BTN): Fold in 0 seconds
+Table Pot: $0.36
+Player4(BB): Call  [Pot: $0.0]
+Table Pot: $0.43
+Flop: 7♥  K♣  2♣
+Player5(UTG): Call  [Pot: $0.05]
+Player4(BB): Check in 0 seconds
+Player5(UTG): Check in 0 seconds
+Hero(MP): Bet  [Pot: $0.0]
+Table Pot: $0.75
+Hero(MP): Bet  [Pot: $0.0]
+Player4(BB): Fold in 0 seconds
+Player5: Won $2.0, Total Wins: 4
+Player4(BB): Fold in 0 seconds
+Player5(UTG): Fold in 0 seconds
+Table Pot: $0.43
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(HJ): $2.08
+Player2(MP) Stack: $1.2
+Player3(BTN) Stack: $1.0
+Player4(SB) Stack: $2.48
+Player5(BB) Stack: $6.26
+Player6(UTG) Stack: $1.73
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.01
+Table Pot: $0.03
+Hero: Won $0.4, Total Wins: 3
+Player5: Won $2.0, Total Wins: 5
+Player6(UTG): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Table Pot: $0.07
+Player4(SB): Call  [Pot: $0.0]
+Table Pot: $0.1
+Table Pot: $0.11
+Flop: J♦  2♣  6♦
+Player5(BB): Call  [Pot: $0.0]
+Player4(SB): Check in 0 seconds
+Player5(BB): Check in 0 seconds
+Table Pot: $0.15
+Player4(SB): Fold in 0 seconds
+Player5(BB): Call $0.06  [Pot: $0.06]
+Turn: J♦  2♣  6♦  6♠
+Table Pot: $0.19
+Table Pot: $0.23
+Player3(BTN): Bet  [Pot: $0.0]
+Player5: Won $2.0, Total Wins: 6
+River: J♦  2♣  6♦  6♠  Q♣
+Table Pot: $0.26
+Player3(BTN): Check in 0 seconds
+Table Pot: $0.01
+
+
+Player1 is Hero
+Player4(None): Check in 0 seconds
+Table Pot: $0.05
+Player5: Won $2.0, Total Wins: 1
+Turn: A♠  10♥  K♦  10♦
+Player6(HJ): Check in 0 seconds
+River: A♠  10♥  K♦  10♦  9♥
+Player4(BB): Check in 0 seconds
+Player6(HJ): Check in 0 seconds
+
+
+Player1 is Hero
+Player3(SB): Check in 0 seconds
+Flop: A♣  3♦  10♣
+Table Pot: $0.11
+Player4(BB): Check in 0 seconds
+Turn: A♣  3♦  10♣  2♦
+Player2(BTN): Check in 0 seconds
+Player5: Won $2.0, Total Wins: 1
+Player3(SB): Check in 0 seconds
+Player4(BB): Check in 0 seconds
+Player2(BTN): Check in 0 seconds
+River: A♣  3♦  10♣  2♦  Q♠
+Player3(SB): Check in 0 seconds
+Table Pot: $0.22
+Player4(BB): Bet $0.11  [Pot: $0.11]
+Player2(BTN): Fold in 0 seconds
+Player3(SB): Fold in 0 seconds
+Table Pot: $0.11
+
+
+Player1 is Hero
+Table Pot: $0.1
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $0.05
+Player4(MP): Call  [Pot: $0.0]
+Table Pot: $0.1
+Player6(SB): Fold in 0 seconds
+Hero(BB): Fold in 0 seconds
+Table Pot: $0.12
+Flop: K♠  K♥  3♠
+Player4(MP): Call  [Pot: $0.0]
+Table Pot: $0.14
+Table Pot: $0.12
+
+
+Player1 is Hero
+Player5: Won $2.0, Total Wins: 1
+
+
+Player1 is Hero
+Player4(HJ): Check in 0 seconds
+Table Pot: $0.05
+Turn: 9♦  6♥  J♦  7♥
+Table Pot: $0.07
+Player2(BB): Bet in 1.0 seconds [Pot: $0.0]
+River: 9♦  6♥  J♦  7♥  A♦
+Table Pot: $0.09
+Player4(HJ): Call  [Pot: $0.0]
+Player2(BB): Check in 4.0 seconds
+Player4(HJ): Check in 0 seconds
+Table Pot: $0.01
+
+
+Player1 is Hero
+Hero(MP): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Table Pot: $0.03
+Player2(BTN): Fold in 0 seconds
+Player3(SB): Call  [Pot: $0.0]
+Table Pot: $0.04
+Table Pot: $0.06
+Player4(BB): Raise  [Pot: $0.0]
+Player3(SB): Fold in 0 seconds
+Table Pot: $0.04
+
+
+Player1 is Hero
+Player5(BB): Fold in 0 seconds
+Table Pot: $0.23
+Turn: Q♠  3♥  K♠  4♠
+Hero(HJ): Fold in 0 seconds
+Table Pot: $0.15
+
+
+Player1 is Hero
+Player3(UTG): Check in 0 seconds
+Player4(HJ): Bet  [Pot: $0.0]
+Player3(UTG): Fold in 0 seconds
+Turn: 6♣  10♥  J♥  K♦
+Table Pot: $0.14
+
+
+Player1 is Hero
+River: K♠  A♠  6♥  K♥  7♦
+Table Pot: $0.12
+Table Pot: $0.15
+Player5: Inactive
+Player4(BB): Call  [Pot: $0.0]
+Player5: Inactive
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $0.0
+Player2(HJ) Stack: $0.0
+Player3(BTN) Stack: $2.08
+Player4(SB) Stack: $4.41
+Player5(UTG) Stack: $0.0
+Player6(BB) Stack: $72.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player5: Inactive
+Table Pot: $0.07
+Player3(BTN): Raise  [Pot: $0.0]
+Player4(SB): Fold in 0 seconds
+Player6(BB): Fold in 0 seconds
+Table Pot: $0.05
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $4.36
+Player2(HJ) Stack: $2.03
+Player3(MP) Stack: $2.11
+Player4(BTN) Stack: $4.4
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $0.78
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player2(HJ): Fold in 0 seconds
+Player3(MP): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Player2(HJ): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Player6(BB): Fold in 0 seconds
+Table Pot: $0.02
+Hero: Won $0.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(SB): $4.36
+Player2(BB) Stack: $2.03
+Player3(UTG) Stack: $2.11
+Player4(HJ) Stack: $4.4
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.78
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player4(HJ): Fold in 0 seconds
+Table Pot: $0.07
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Table Pot: $0.09
+Flop: 2♠  9♦  J♠
+Player2(BB): Call $0.02  [Pot: $0.02]
+Table Pot: $0.13
+Player3(UTG): Bet  [Pot: $0.0]
+Player2(BB): Fold in 0 seconds
+Table Pot: $0.09
+Table Pot: $0.03
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $4.36
+Player2(SB) Stack: $1.99
+Player3(BB) Stack: $2.16
+Player4(UTG) Stack: $4.4
+Player5(HJ) Stack: $0.0
+Player6(MP) Stack: $0.78
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player4(UTG): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Player4(UTG): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $4.36
+Player2(SB) Stack: $1.99
+Player3(BB) Stack: $2.16
+Player4(UTG) Stack: $4.4
+Player5(HJ) Stack: $0.0
+Player6(MP) Stack: $0.78
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Table Pot: $0.08
+Player2(SB): Fold in 0 seconds
+Hero(BTN): Raise $0.05  [Pot: $0.05]
+Table Pot: $0.1
+Flop: Q♠  J♦  6♠
+Player3(BB): Call $0.05  [Pot: $0.05]
+Table Pot: $0.35
+Hero(BTN): Bet $0.25  [Pot: $0.3]
+Player3(BB): Fold in 0 seconds
+Table Pot: $0.1
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $0.09
+Turn: 9♥  9♠  J♦  3♥
+Player2(UTG): Bet  [Pot: $0.0]
+Player4(UTG): Call  [Pot: $0.0]
+Player5(HJ): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $1.0
+Player3(BB): Bet  [Pot: $0.0]
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $4.4
+Player5(HJ) Stack: $0.98
+Player3(BB) Stack: $2.15
+Player4(UTG) Stack: $3.31
+Player2(SB) Stack: $2.4
+Player6(MP) Stack: $2.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+River: A♥  10♥  A♦  4♦  9♣
+Table Pot: $0.19
+Table Pot: $1.0
+Player4(UTG): Raise $3.31  [Pot: $3.31]
+
+
+Player1 is Hero
+Table Pot: $0.12
+Turn: A♥  8♦  2♣  8♣
+River: A♥  8♦  2♣  8♣  K♠
+Table Pot: $0.18
+Player5(UTG): Bet  [Pot: $0.0]
+Player4(BB): Fold in 0 seconds
+Table Pot: $0.12
+Table Pot: $0.01
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(HJ): $4.4
+Player2(MP) Stack: $2.4
+Player4(SB) Stack: $3.47
+Player3(BTN) Stack: $2.1
+Player5(BB) Stack: $1.04
+Player6(UTG) Stack: $2.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player5: Won $0.12, Total Wins: 1
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Table Pot: $0.07
+Player3(BTN): Raise  [Pot: $0.0]
+Table Pot: $0.1
+Player5(BB): Fold in 0 seconds
+Table Pot: $0.26
+River: 3♦  6♠  9♦  5♦  2♦
+Player3(BTN): Call $0.13  [Pot: $0.13]
+Player4(SB): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $4.4
+Player2(HJ) Stack: $2.4
+Player4(BTN) Stack: $3.34
+Player3(MP) Stack: $1.97
+Player5(SB) Stack: $1.04
+Player6(BB) Stack: $2.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Hero(UTG): Fold in 0 seconds
+Table Pot: $0.07
+Player4(BTN): Fold in 0 seconds
+Player5(SB): Fold in 0 seconds
+Player5(SB): Fold in 0 seconds
+Flop: Q♦  5♣  3♦
+Table Pot: $0.09
+Player6(BB): Call  [Pot: $0.0]
+Turn: Q♦  5♣  3♦  A♠
+River: Q♦  5♣  3♦  A♠  6♠
+Table Pot: $0.25
+Table Pot: $0.09
+Table Pot: $0.03
+
+
+Player1 is Hero
+Table Pot: $0.06
+Player4(None): Check in 0 seconds
+Flop: 4♣  6♣  8♣
+Turn: 4♣  6♣  8♣  3♦
+Table Pot: $0.12
+
+
+Player1 is Hero
+Turn: 2♥  K♠  Q♣  6♥
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BB): $4.43
+Player2(UTG) Stack: $2.1
+Player3(HJ) Stack: $1.35
+Player5(BTN) Stack: $1.12
+Player4(MP) Stack: $3.04
+Player6(SB) Stack: $1.88
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Turn: Q♥  2♠  4♣  7♦
+Table Pot: $1.05
+Player6(SB): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+Table Pot: $0.7
+Player4: Won $0.7, Total Wins: 1
+Table Pot: $0.03
+Table Pot: $0.05
+Player4(HJ): Fold in 0 seconds
+Player3(UTG): Call  [Pot: $0.0]
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Player2(BB): Check in 0 seconds
+Flop: A♥  8♠  Q♦
+Player2(BB): Check in 0 seconds
+Player3(UTG): Check in 0 seconds
+Turn: A♥  8♠  Q♦  K♦
+Player3(UTG): Check in 0 seconds
+Player2(BB): Check in 0 seconds
+River: A♥  8♠  Q♦  K♦  8♣
+Player3(UTG): Fold in 0 seconds
+Player2(BB): Bet  [Pot: $0.0]
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $0.26
+Player3: Inactive
+Turn: K♥  K♣  2♥  9♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $4.58
+Player2(HJ) Stack: $2.03
+Player6(BB) Stack: $1.91
+Player4(BTN) Stack: $3.92
+Player5(SB) Stack: $1.14
+Player3(MP) Stack: $1234655.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.26
+Player6(BB): Check in 0 seconds
+River: K♥  K♣  2♥  9♦  5♣
+Player4(BTN): Check in 0 seconds
+Table Pot: $0.66
+Player4(BTN): Fold in 0 seconds
+Table Pot: $0.26
+
+
+Player1 is Hero
+Player3: Inactive
+Flop: 7♥  J♣  9♦
+Table Pot: $0.08
+Player5(UTG): Fold in 0 seconds
+Table Pot: $0.04
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $4.55
+Player2(HJ) Stack: $2.03
+Player4(BTN) Stack: $3.85
+Player3(MP) Stack: $1.19
+Player5(SB) Stack: $1.2
+Player6(BB) Stack: $2.16
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player4: Won $0.04, Total Wins: 1
+Table Pot: $0.06
+Hero(UTG): Fold in 0 seconds
+Player2(HJ): Fold in 0 seconds
+Player3(MP): Check in 0 seconds
+Table Pot: $0.08
+Player5(SB): Fold in 0 seconds
+Player4(BTN): Call $0.02  [Pot: $0.02]
+Player6(BB): Check in 0 seconds
+Flop: Q♣  3♦  7♦
+Player3(MP): Check in 0 seconds
+Player4(BTN): Check in 0 seconds
+Turn: Q♣  3♦  7♦  A♠
+Player6(BB): Check in 0 seconds
+Player3(MP): Check in 0 seconds
+Player1: Inactive
+Player4(BTN): Check in 0 seconds
+River: Q♣  3♦  7♦  A♠  Q♦
+Player6(BB): Check in 0 seconds
+Table Pot: $0.1
+Player3(MP): Bet  [Pot: $0.0]
+Table Pot: $0.12
+Player4(BTN): Call  [Pot: $0.02]
+Player1: Inactive
+Player6(BB): Fold in 0 seconds
+Table Pot: $0.11
+
+
+Player1 is Hero
+Table Pot: $3.0
+Player6(UTG): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Table Pot: $8.0
+Player2(MP): Raise  [Pot: $0.0]
+Table Pot: $0.0
+Player4(SB): Fold in 0 seconds
+Table Pot: $8.0
+Player3(BTN): Fold in 0 seconds
+Player5(BB): Fold in 0 seconds
+Table Pot: $5.0
+
+
+Player1 is Hero
+Player5: Inactive
+Player4(HJ): Fold in 0 seconds
+Table Pot: $3.0
+Table Pot: $7.6
+Player2: Inactive
+Player5: Inactive
+Player5: Inactive
+Table Pot: $0.0
+Player2: Inactive
+Table Pot: $7.6
+Hero(SB): Fold in 0 seconds
+Player2: Inactive
+Table Pot: $5.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $365.5
+Player4(UTG) Stack: $200.0
+Player5(HJ) Stack: $0.0
+Player3(BB) Stack: $277.73
+Player2(SB) Stack: $0.0
+Player6(MP) Stack: $202.18
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player2: Inactive
+Player2: Inactive
+Player6: Won $5.0, Total Wins: 1
+Table Pot: $7.6
+Hero(BTN): Fold in 0 seconds
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Table Pot: $5.0
+Player6: Won $5.0, Total Wins: 2
+Player4(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $365.5
+Player4(SB) Stack: $200.0
+Player5(BB) Stack: $0.0
+Player3(BTN) Stack: $276.73
+Player2(MP) Stack: $0.0
+Player6(UTG) Stack: $210.78
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Hero(HJ): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Table Pot: $2.0
+Player6: Won $2.0, Total Wins: 3
+Player3(BTN): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $365.5
+Player4(BTN) Stack: $197.0
+Player5(SB) Stack: $0.0
+Player3(MP) Stack: $276.73
+Player2(HJ) Stack: $0.0
+Player6(BB) Stack: $210.78
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player2: Inactive
+Player6(BB): Fold in 0 seconds
+Table Pot: $2.0
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $365.5
+Player4(HJ) Stack: $197.0
+Player5(MP) Stack: $0.0
+Player3(UTG) Stack: $276.73
+Player2(BB) Stack: $0.0
+Player6(BTN) Stack: $210.78
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player4(HJ): Fold in 0 seconds
+Player2: Inactive
+Hero: Won $2.0, Total Wins: 1
+Table Pot: $7.6
+Player6(BTN): Raise $2.6  [Pot: $2.6]
+Hero(SB): Fold in 0 seconds
+Flop: 6♠  3♦  5♥
+Table Pot: $9.64
+Player3(UTG): Call  [Pot: $0.0]
+Player6(BTN): Check in 0 seconds
+Turn: 6♠  3♦  5♥  9♦
+Table Pot: $24.1
+Player3(UTG): Bet $19.06  [Pot: $19.06]
+Player6(BTN): Fold in 0 seconds
+Table Pot: $9.64
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $365.5
+Player4(UTG) Stack: $197.0
+Player5(HJ) Stack: $0.0
+Player3(BB) Stack: $281.77
+Player2(SB) Stack: $0.0
+Player6(MP) Stack: $208.18
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Table Pot: $7.4
+Hero(BTN): Raise  [Pot: $0.0]
+Player6: Inactive
+Player3(BB): Raise  [Pot: $0.0]
+Player4(UTG): Fold in 0 seconds
+Table Pot: $5.0
+Hero: Won $5.0, Total Wins: 2
+Table Pot: $3.0
+Player2: Inactive
+Table Pot: $2.0
+Player4(UTG): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $365.5
+Player4(BTN) Stack: $197.0
+Player5(SB) Stack: $0.0
+Player3(MP) Stack: $280.77
+Player2(HJ) Stack: $0.0
+Player6(BB) Stack: $208.18
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Hero: Won $2.0, Total Wins: 3
+Player4(BTN): Fold in 0 seconds
+Table Pot: $8.0
+Hero(UTG): Raise  [Pot: $0.0]
+Table Pot: $4.0
+Player4: Inactive
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $0.0
+Player2(BTN) Stack: $0.0
+Player3(SB) Stack: $0.0
+Player4(BB) Stack: $0.0
+Player6(HJ) Stack: $0.0
+Player5(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(BTN): Fold in 0 seconds
+Table Pot: $3.0
+Table Pot: $0.0
+Table Pot: $3.0
+Table Pot: $4.0
+Table Pot: $3.0
+Table Pot: $8.0
+Player4(BB): Fold in 0 seconds
+Player3(SB): Raise  [Pot: $0.0]
+Table Pot: $4.0
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $200.0
+Player2(MP) Stack: $196.94
+Player3(BTN) Stack: $202.0
+Player4(SB) Stack: $19.0
+Player6(UTG) Stack: $241.0
+Player5(BB) Stack: $200.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6(UTG): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Table Pot: $2.0
+Player4(SB): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Player5: Won $2.0, Total Wins: 1
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 3
+Total Players: 5
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $200.0
+Player2(MP) Stack: $196.94
+Player3(HJ) Stack: $202.0
+Player4(BTN) Stack: $199.0
+Player6(BB) Stack: $239.0
+Player5(SB) Stack: $201.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3(HJ): Raise $4.4  [Pot: $4.4]
+Table Pot: $7.4
+Player2: Inactive
+Player4(BTN): Fold in 0 seconds
+Player5(SB): Fold in 0 seconds
+Player6(BB): Fold in 0 seconds
+Table Pot: $5.0
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $200.0
+Player2(UTG) Stack: $196.94
+Player3(HJ) Stack: $200.0
+Player4(MP) Stack: $199.0
+Player6(SB) Stack: $239.0
+Player5(BTN) Stack: $200.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3: Won $5.0, Total Wins: 1
+Table Pot: $9.0
+Player4(MP): Raise  [Pot: $0.0]
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+Hero(BB): Fold in 0 seconds
+Table Pot: $5.0
+Table Pot: $1.0
+Player4: Won $5.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $198.0
+Player2(BB) Stack: $196.94
+Player3(UTG) Stack: $200.0
+Player4(HJ) Stack: $199.0
+Player6(BTN) Stack: $239.0
+Player5(MP) Stack: $200.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player5(MP): Fold in 0 seconds
+Player4(HJ): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Player3: Won $2.0, Total Wins: 2
+Player5(MP): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $198.0
+Player2(BB) Stack: $196.94
+Player3(UTG) Stack: $200.0
+Player4(HJ) Stack: $201.0
+Player6(BTN) Stack: $239.0
+Player5(MP) Stack: $200.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player6(BTN): Fold in 0 seconds
+Table Pot: $3.0
+Hero(BTN): Fold in 0 seconds
+Table Pot: $8.0
+Player3(BB): Raise  [Pot: $0.0]
+Player4(UTG): Fold in 0 seconds
+Table Pot: $4.0
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 7
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $198.0
+Player2(MP) Stack: $196.94
+Player3(BTN) Stack: $200.0
+Player4(SB) Stack: $201.0
+Player6(UTG) Stack: $239.0
+Player5(BB) Stack: $200.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3: Won $4.0, Total Wins: 3
+Table Pot: $3.0
+Player6(UTG): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Player3(BTN): Raise $3.6  [Pot: $3.6]
+Hero(HJ): Fold in 0 seconds
+Table Pot: $7.4
+Player5(BB): Call $4.4  [Pot: $4.4]
+Table Pot: $9.26
+Flop: 10♦  10♣  9♥
+Player5(BB): Check in 0 seconds
+Table Pot: $12.22
+Player3(BTN): Bet  [Pot: $3.6]
+Table Pot: $21.25
+Player5(BB): Raise $9.03  [Pot: $13.43]
+Player3(BTN): Call $9.03  [Pot: $12.63]
+Turn: 10♦  10♣  9♥  A♣
+Table Pot: $26.33
+Player5(BB): Check in 0 seconds
+Player3(BTN): Check in 0 seconds
+River: 10♦  10♣  9♥  A♣  J♥
+Table Pot: $79.83
+Player5(BB): Bet  [Pot: $13.43]
+Table Pot: $26.33
+Player3(BTN): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $3.0
+Player3(None): Fold in 0 seconds
+Player2: Inactive
+Player4(HJ): Fold in 0 seconds
+Table Pot: $8.0
+Player5(BTN): Raise $5.0  [Pot: $5.0]
+Player6(SB): Fold in 0 seconds
+Table Pot: $5.0
+Player2: Inactive
+Hero(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $195.0
+Player4(HJ) Stack: $350.0
+Player3(UTG) Stack: $203.0
+Player6(BTN) Stack: $235.0
+Player2(BB) Stack: $0.0
+Player5(MP) Stack: $214.9
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5: Won $5.0, Total Wins: 1
+Player6(BTN): Fold in 0 seconds
+Table Pot: $3.0
+Table Pot: $2.0
+Hero(SB): Fold in 0 seconds
+Player3: Won $2.0, Total Wins: 1
+Hero(SB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $195.0
+Player4(BB) Stack: $198.0
+Player3(SB) Stack: $202.0
+Player6(HJ) Stack: $235.0
+Player2(BB) Stack: $0.0
+Player5(UTG) Stack: $214.9
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player2: Inactive
+Player5(UTG): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Table Pot: $8.0
+Player4(BB): Fold in 0 seconds
+Table Pot: $4.0
+Player3(SB): Raise $4.0  [Pot: $4.0]
+Player4(BB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $195.0
+Player4(SB) Stack: $198.0
+Player3(BTN) Stack: $198.0
+Player6(UTG) Stack: $235.0
+Player2(MP) Stack: $0.0
+Player5(BB) Stack: $214.9
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6(UTG): Fold in 0 seconds
+Table Pot: $8.0
+Hero(HJ): Raise  [Pot: $0.0]
+Player3(BTN): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Player5(BB): Fold in 0 seconds
+Table Pot: $5.0
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $195.0
+Player4(BTN) Stack: $198.0
+Player3(MP) Stack: $198.0
+Player6(BB) Stack: $235.0
+Player2(HJ) Stack: $0.0
+Player5(SB) Stack: $214.9
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Hero: Won $5.0, Total Wins: 1
+Table Pot: $3.0
+Table Pot: $8.0
+Player3(MP): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Player5(SB): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Player5(SB): Fold in 0 seconds
+Player6(BB): Fold in 0 seconds
+Table Pot: $5.0
+Hero: Won $5.0, Total Wins: 2
+Player6(BB): Fold in 0 seconds
+Table Pot: $1.0
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $200.0
+Player4(MP) Stack: $198.0
+Player3(HJ) Stack: $198.0
+Player6(SB) Stack: $235.0
+Player2(UTG) Stack: $0.0
+Player5(BTN) Stack: $214.9
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player4(MP): Fold in 0 seconds
+Table Pot: $8.0
+Player5(BTN): Raise $8.0  [Pot: $8.0]
+Table Pot: $29.0
+Player6(SB): Raise  [Pot: $0.0]
+Hero(BB): Fold in 0 seconds
+Table Pot: $46.0
+Flop: 7♠  10♥  Q♦
+Table Pot: $43.47
+Player5(BTN): Call $17.0  [Pot: $25.0]
+Player6(SB): Check in 0 seconds
+Player5(BTN): Check in 0 seconds
+Turn: 7♠  10♥  Q♦  8♥
+Turn: 7♠  10♥  Q♦  8♥
+Player2: Inactive
+Table Pot: $74.07
+Player6(SB): Bet  [Pot: $0.0]
+River: 7♠  10♥  Q♦  8♥  10♣
+Table Pot: $103.7
+Player5(BTN): Call  [Pot: $25.0]
+Table Pot: $137.92
+Player6(SB): Bet  [Pot: $0.0]
+Table Pot: $103.7
+Player5(BTN): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $198.0
+Player4(HJ) Stack: $200.0
+Player3(UTG) Stack: $206.0
+Player6(BTN) Stack: $284.1
+Player2(BB) Stack: $0.0
+Player5(MP) Stack: $200.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player4(HJ): Fold in 0 seconds
+Player5(MP): Raise $4.6  [Pot: $4.6]
+Table Pot: $7.6
+Hero(SB): Fold in 0 seconds
+Player6: Won $103.7, Total Wins: 1
+Hero(SB): Fold in 0 seconds
+Player3(UTG): Fold in 0 seconds
+Table Pot: $5.0
+Player5: Won $5.0, Total Wins: 2
+Table Pot: $1.0
+
+
+----------------------------------
+ROUND: 7
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $198.0
+Player4(UTG) Stack: $200.0
+Player3(BB) Stack: $206.0
+Player6(MP) Stack: $284.1
+Player2(SB) Stack: $0.0
+Player5(HJ) Stack: $198.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player3(BB): Fold in 0 seconds
+Table Pot: $2.0
+Table Pot: $1.0
+
+
+Player1 is Hero
+Table Pot: $3.0
+Player6(UTG): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Table Pot: $8.0
+Player4(SB): Raise  [Pot: $0.0]
+Table Pot: $11.34
+Flop: 3♥  10♦  3♦
+Player5(BB): Call $4.0  [Pot: $4.0]
+Table Pot: $19.85
+Player4(SB): Bet $13.51  [Pot: $13.51]
+Table Pot: $27.42
+Turn: 3♥  10♦  3♦  8♣
+Player5(BB): Call $8.51  [Pot: $12.51]
+Table Pot: $48.42
+Player4(SB): Bet  [Pot: $13.51]
+Player5(BB): Fold in 0 seconds
+Table Pot: $27.42
+Table Pot: $3.0
+
+
+Player1 is Hero
+Table Pot: $9.0
+Player2(BB): Call  [Pot: $0.0]
+Flop: 9♠  2♦  2♠
+Table Pot: $12.28
+Flop: 9♠  2♦  2♠
+Table Pot: $18.28
+Table Pot: $23.62
+Turn: 9♠  2♦  2♠  4♣
+Player4(HJ): Check in 0 seconds
+River: 9♠  2♦  2♠  4♣  Q♣
+Table Pot: $41.34
+Player2(BB): Bet  [Pot: $0.0]
+Player4(HJ): Fold in 0 seconds
+Table Pot: $23.62
+Table Pot: $1.0
+
+
+Player1 is Hero
+Table Pot: $115.42
+Turn: 2♣  9♣  J♠  2♥
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $268.19
+Player5(HJ) Stack: $142.04
+Player2(SB) Stack: $210.62
+Player4(UTG) Stack: $200.91
+Player3(BB) Stack: $0.0
+Player6(MP) Stack: $287.14
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $115.42
+Table Pot: $143.51
+Player6(MP): Bet  [Pot: $0.0]
+Player5(HJ): Fold in 0 seconds
+Table Pot: $115.42
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $268.19
+Player5(UTG) Stack: $200.0
+Player2(BTN) Stack: $210.62
+Player4(BB) Stack: $200.91
+Player3(SB) Stack: $200.0
+Player6(HJ) Stack: $402.56
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6: Won $115.4, Total Wins: 1
+Table Pot: $7.0
+Player5(UTG): Raise  [Pot: $0.0]
+Player6(HJ): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Table Pot: $11.0
+Hero(MP): Call  [Pot: $0.0]
+Player3(SB): Fold in 0 seconds
+Table Pot: $10.4
+Player4(BB): Fold in 0 seconds
+Flop: 5♥  2♠  3♦
+Player5(UTG): Check in 0 seconds
+Hero(MP): Check in 0 seconds
+Player5(UTG): Check in 0 seconds
+Turn: 5♥  2♠  3♦  3♠
+River: 5♥  2♠  3♦  3♠  5♦
+Player5(UTG): Check in 0 seconds
+Table Pot: $3.0
+
+
+Player1 is Hero
+Table Pot: $8.0
+Player6(SB): Raise  [Pot: $0.0]
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $257.19
+Player4(MP) Stack: $200.0
+Player3(HJ) Stack: $200.0
+Player5(BTN) Stack: $198.4
+Player2(UTG) Stack: $213.62
+Player6(SB) Stack: $406.96
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5(BTN): Call  [Pot: $0.0]
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $257.19
+Player4(MP) Stack: $200.0
+Player3(HJ) Stack: $200.0
+Player5(BTN) Stack: $198.4
+Player2(UTG) Stack: $213.62
+Player6(SB) Stack: $406.96
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $43.47
+Player6(SB): Check in 0 seconds
+Flop: 5♣  7♠  J♠
+Turn: 5♣  7♠  J♠  A♣
+Table Pot: $86.94
+Player5(BTN): Fold in 0 seconds
+
+
+Player1 is Hero
+Turn: 8♠  2♥  7♥  3♠
+Table Pot: $138.74
+River: Q♥  8♠  2♥  7♥  3♠
+Table Pot: $498.55
+Player6(BTN): Bet  [Pot: $0.0]
+Player5(MP): Fold in 0 seconds
+Table Pot: $138.74
+Table Pot: $3.0
+Player6: Won $138.7, Total Wins: 1
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $256.19
+Player4(UTG) Stack: $200.0
+Player2(SB) Stack: $211.62
+Player3(BB) Stack: $200.0
+Player5(HJ) Stack: $200.0
+Player6(MP) Stack: $498.55
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player4(UTG): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player4(UTG): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+
+
+Player1 is Hero
+Player4: Inactive
+Player2(UTG): Raise  [Pot: $0.0]
+Table Pot: $7.0
+Player3(HJ): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+Table Pot: $5.0
+Hero(BB): Fold in 0 seconds
+Table Pot: $1.0
+Table Pot: $3.0
+Player2: Won $5.0, Total Wins: 1
+
+
+Player1 is Hero
+Flop: Q♠  2♣  9♣
+Table Pot: $497.26
+River: 6♦  7♦  Q♠  2♣  9♣
+Table Pot: $137.42
+Player2(BB): Fold in 0 seconds
+Table Pot: $1.0
+Player6: Won $137.4, Total Wins: 1
+Player5(HJ): Fold in 0 seconds
+Player4(UTG): Raise $5.0  [Pot: $5.0]
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Player2(SB): Fold in 0 seconds
+Player3(BB): Fold in 0 seconds
+Player4: Won $5.0, Total Wins: 1
+Player3(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $339.12
+Player2(SB) Stack: $200.0
+Player3(BB) Stack: $198.0
+Player4(UTG) Stack: $202.4
+Player5(HJ) Stack: $229.21
+Player6(MP) Stack: $497.26
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player5(HJ): Fold in 0 seconds
+Table Pot: $8.0
+Table Pot: $5.0
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Player2: Won $5.0, Total Wins: 1
+Player4(BB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+Player1 is Hero
+Player1: Inactive
+Player3(HJ): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+
+
+Player1 is Hero
+Player1: Inactive
+Flop: K♠  8♥  10♣
+Player2(UTG): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $7.6
+Player2(SB): Fold in 0 seconds
+Player6(BTN): Raise  [Pot: $0.0]
+Player3(BB): Fold in 0 seconds
+Table Pot: $5.0
+Player6: Won $5.0, Total Wins: 1
+Table Pot: $3.0
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $492.84
+Player4(MP) Stack: $188.59
+Player2(UTG) Stack: $10.25
+Player5(BTN) Stack: $410.69
+Player3(HJ) Stack: $566.19
+Player6(SB) Stack: $250.93
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player2(UTG): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Table Pot: $8.0
+Player6(SB): Raise $6.0  [Pot: $6.0]
+Hero(BB): Fold in 0 seconds
+Table Pot: $4.0
+Table Pot: $3.0
+
+
+Player1 is Hero
+Player2(SB): Check in 0 seconds
+Flop: J♦  3♥  Q♣
+Table Pot: $34.02
+Player6(MP): Check in 0 seconds
+Turn: J♦  3♥  Q♣  7♥
+Player2(SB): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+River: J♦  3♥  Q♣  7♥  6♣
+Player2(SB): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $499.74
+Player2(BTN) Stack: $217.27
+Player4(BB) Stack: $188.59
+Player3(SB) Stack: $564.19
+Player6(HJ) Stack: $235.93
+Player5(UTG) Stack: $410.69
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Table Pot: $3.0
+Player5(UTG): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $9.0
+Player3(SB): Fold in 0 seconds
+Table Pot: $12.28
+Flop: J♠  7♣  3♠
+Player4(BB): Call  [Pot: $0.0]
+Player2(BTN): Check in 0 seconds
+Turn: J♠  7♣  3♠  10♠
+Player4(BB): Check in 0 seconds
+Player2(BTN): Check in 0 seconds
+River: J♠  7♣  3♠  10♠  K♣
+Player3(SB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+Player1 is Hero
+Turn: 10♣  8♣  4♦  3♦
+Table Pot: $21.79
+Player4: Inactive
+Table Pot: $35.79
+Player5(UTG): Bet $14.0  [Pot: $14.0]
+Table Pot: $49.79
+Table Pot: $48.25
+River: 10♣  8♣  4♦  3♦  J♣
+Player2(BTN): Call  [Pot: $0.0]
+Table Pot: $62.25
+Player5(UTG): Bet  [Pot: $14.0]
+Table Pot: $48.25
+Player2(BTN): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $232.94
+Player4(SB) Stack: $0.0
+Player6(UTG) Stack: $229.99
+Player2(MP) Stack: $200.0
+Player5(BB) Stack: $290.88
+Player3(BTN) Stack: $523.59
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player5: Won $48.25, Total Wins: 1
+Hero(HJ): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Player5(BB): Fold in 0 seconds
+Table Pot: $2.0
+Player6: Won $2.0, Total Wins: 1
+Player5(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $232.94
+Player4(MP) Stack: $0.0
+Player6(SB) Stack: $229.99
+Player2(UTG) Stack: $200.0
+Player5(BTN) Stack: $290.88
+Player3(HJ) Stack: $523.59
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Table Pot: $3.0
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+Table Pot: $2.0
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $232.94
+Player4(HJ) Stack: $0.0
+Player6(BTN) Stack: $229.99
+Player2(BB) Stack: $200.0
+Player5(MP) Stack: $290.88
+Player3(UTG) Stack: $523.59
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3(UTG): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Hero: Won $2.0, Total Wins: 1
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Raise  [Pot: $0.0]
+Table Pot: $8.0
+Hero(SB): Fold in 0 seconds
+Player6(BTN): Raise  [Pot: $0.0]
+Hero(SB): Fold in 0 seconds
+Table Pot: $5.0
+Player6: Won $5.0, Total Wins: 2
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $232.94
+Player4(UTG) Stack: $0.0
+Player6(MP) Stack: $229.99
+Player2(SB) Stack: $200.0
+Player5(HJ) Stack: $290.88
+Player3(BB) Stack: $523.59
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Table Pot: $8.0
+Table Pot: $11.34
+Flop: 2♣  J♦  K♣
+Player3(BB): Call  [Pot: $0.0]
+Turn: 2♣  J♦  K♣  3♦
+Table Pot: $26.08
+Table Pot: $11.34
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $232.94
+Player4(BB) Stack: $379.05
+Player6(HJ) Stack: $229.99
+Player2(BTN) Stack: $200.0
+Player5(UTG) Stack: $290.88
+Player3(SB) Stack: $523.59
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Hero(MP): Fold in 0 seconds
+Table Pot: $8.0
+Player6(HJ): Raise  [Pot: $0.0]
+Player3(SB): Fold in 0 seconds
+Table Pot: $5.0
+Player4(BB): Fold in 0 seconds
+Table Pot: $1.0
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $232.94
+Player4(SB) Stack: $377.05
+Player6(UTG) Stack: $229.99
+Player2(MP) Stack: $200.0
+Player5(BB) Stack: $290.88
+Player3(BTN) Stack: $523.59
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6: Won $5.0, Total Wins: 3
+Hero(HJ): Fold in 0 seconds
+Table Pot: $9.0
+Player3(BTN): Raise  [Pot: $0.0]
+Table Pot: $28.0
+Player4(SB): Raise  [Pot: $0.0]
+Player5(BB): Fold in 0 seconds
+Table Pot: $39.69
+Flop: 5♣  A♥  4♥
+Player3(BTN): Call $15.66  [Pot: $15.66]
+Table Pot: $51.6
+Player4(SB): Bet  [Pot: $0.0]
+Table Pot: $62.32
+Turn: 5♣  A♥  4♥  10♣
+Player3(BTN): Call $11.91  [Pot: $27.57]
+Player4(SB): Check in 0 seconds
+Table Pot: $104.06
+Player3(BTN): Bet  [Pot: $27.57]
+Table Pot: $62.32
+Player4(SB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 7
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $232.94
+Player4(BTN) Stack: $345.14
+Player6(BB) Stack: $229.99
+Player2(HJ) Stack: $200.0
+Player5(SB) Stack: $290.88
+Player3(MP) Stack: $558.34
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Hero(UTG): Fold in 0 seconds
+Table Pot: $9.0
+Player4(BTN): Fold in 0 seconds
+Player3(MP): Raise  [Pot: $0.0]
+Player5(SB): Fold in 0 seconds
+Table Pot: $5.0
+Player6(BB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 8
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $232.94
+Player4(MP) Stack: $345.14
+Player6(SB) Stack: $229.99
+Player2(UTG) Stack: $200.0
+Player5(BTN) Stack: $290.88
+Player3(HJ) Stack: $558.34
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3: Won $5.0, Total Wins: 1
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Table Pot: $8.0
+Player6(SB): Raise  [Pot: $0.0]
+Table Pot: $11.34
+Flop: A♦  A♥  10♥
+Hero(BB): Call  [Pot: $0.0]
+Player6(SB): Check in 0 seconds
+Table Pot: $15.34
+Hero(BB): Bet  [Pot: $0.0]
+Player6(SB): Fold in 0 seconds
+Table Pot: $11.34
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 9
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $238.28
+Player4(HJ) Stack: $345.14
+Player6(BTN) Stack: $229.99
+Player2(BB) Stack: $198.0
+Player5(MP) Stack: $290.88
+Player3(UTG) Stack: $558.34
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Hero: Won $11.3, Total Wins: 2
+Player3(UTG): Fold in 0 seconds
+Player4(HJ): Fold in 0 seconds
+Table Pot: $8.0
+Player5(MP): Raise  [Pot: $0.0]
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Table Pot: $5.0
+Table Pot: $3.0
+Player5: Won $5.0, Total Wins: 2
+
+
+----------------------------------
+ROUND: 10
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $238.28
+Player4(UTG) Stack: $345.14
+Player6(MP) Stack: $229.99
+Player2(SB) Stack: $199.0
+Player5(HJ) Stack: $290.88
+Player3(BB) Stack: $558.34
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player4(UTG): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Table Pot: $2.0
+Table Pot: $1.0
+
+
+----------------------------------
+ROUND: 11
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $238.28
+Player4(BB) Stack: $345.14
+Player6(HJ) Stack: $229.99
+Player2(BTN) Stack: $200.0
+Player5(UTG) Stack: $290.88
+Player3(SB) Stack: $558.34
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3: Won $2.0, Total Wins: 2
+Player5(UTG): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Player5(UTG): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Table Pot: $8.0
+Player3(SB): Raise  [Pot: $0.0]
+Table Pot: $11.34
+Flop: 2♠  3♣  Q♦
+Player4(BB): Call  [Pot: $0.0]
+Player3(SB): Check in 0 seconds
+Player4(BB): Check in 0 seconds
+Turn: 2♠  3♣  Q♦  5♦
+Table Pot: $31.18
+Player3(SB): Bet  [Pot: $0.0]
+Table Pot: $11.34
+Player4(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 12
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $238.28
+Player4(SB) Stack: $345.14
+Player6(UTG) Stack: $229.99
+Player2(MP) Stack: $200.0
+Player5(BB) Stack: $290.88
+Player3(BTN) Stack: $567.68
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Table Pot: $8.0
+Player6(UTG): Raise  [Pot: $0.0]
+Hero(HJ): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Player5(BB): Fold in 0 seconds
+Table Pot: $5.0
+
+
+----------------------------------
+ROUND: 13
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $238.28
+Player4(BTN) Stack: $345.14
+Player6(BB) Stack: $229.99
+Player2(HJ) Stack: $200.0
+Player5(SB) Stack: $290.88
+Player3(MP) Stack: $567.68
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6: Won $5.0, Total Wins: 4
+Hero(UTG): Fold in 0 seconds
+Player3(MP): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Table Pot: $2.0
+Player5(SB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+Player1 is Hero
+Player3(HJ): Bet  [Pot: $0.0]
+Table Pot: $16.02
+Flop: 3♦  4♦  3♥
+Table Pot: $21.64
+Player6(SB): Call $5.62  [Pot: $5.62]
+Turn: 3♦  4♦  3♥  7♠
+Table Pot: $21.02
+Player3(HJ): Check in 0 seconds
+River: 3♦  4♦  3♥  7♠  Q♣
+Player6(SB): Check in 0 seconds
+Player3(HJ): Check in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $3.0
+Player4(UTG): Fold in 0 seconds
+Table Pot: $8.0
+Player5(HJ): Raise  [Pot: $0.0]
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player5(HJ): Raise  [Pot: $0.0]
+Hero(BTN): Fold in 0 seconds
+Player3(BB): Fold in 0 seconds
+Table Pot: $5.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $238.84
+Player3(SB) Stack: $555.56
+Player4(BB) Stack: $338.14
+Player2(BTN) Stack: $200.0
+Player5(UTG) Stack: $286.88
+Player6(HJ) Stack: $242.89
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $5.0
+Table Pot: $3.0
+Player5: Won $5.0, Total Wins: 1
+Table Pot: $9.0
+Table Pot: $29.0
+Hero(MP): Fold in 0 seconds
+Player6(HJ): Raise  [Pot: $0.0]
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Table Pot: $43.0
+Player5(UTG): Call  [Pot: $0.0]
+Flop: 10♦  4♥  Q♦
+Table Pot: $54.05
+Player6(HJ): Bet  [Pot: $0.0]
+Table Pot: $66.32
+Player5(UTG): Call  [Pot: $0.0]
+Turn: 10♦  4♥  Q♦  3♦
+Table Pot: $3.0
+Turn: 4♥  Q♦  3♦  J♣
+Table Pot: $66.32
+River: 10♦  4♥  Q♦  3♦  J♣
+Table Pot: $96.32
+Player6(HJ): Fold in 0 seconds
+Table Pot: $66.32
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $0.0
+Player3(MP) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player4(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $9.0
+Player4(BTN): Fold in 0 seconds
+Table Pot: $14.0
+Player5(SB): Call  [Pot: $0.0]
+Player6(BB): Fold in 0 seconds
+Table Pot: $13.23
+Flop: 6♠  5♠  K♦
+Table Pot: $19.23
+Player5(SB): Bet  [Pot: $0.0]
+Table Pot: $25.23
+Table Pot: $24.57
+Turn: 6♠  5♠  K♦  2♥
+Player3(MP): Call  [Pot: $0.0]
+Table Pot: $42.86
+Player5(SB): Bet  [Pot: $0.0]
+Player3(MP): Fold in 0 seconds
+Table Pot: $24.57
+Table Pot: $1.0
+
+
+Player1 is Hero
+Table Pot: $7.0
+Player5(None): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+Hero(BB): Call  [Pot: $0.0]
+Table Pot: $8.5
+Player6(SB): Fold in 0 seconds
+Flop: 8♥  5♥  Q♣
+Hero(BB): Call  [Pot: $0.0]
+Table Pot: $13.18
+Table Pot: $17.35
+Turn: 8♥  5♥  Q♣  6♦
+Hero(BB): Call $6.68  [Pot: $6.68]
+Player4(MP): Bet $4.68  [Pot: $4.68]
+Hero(BB): Check in 0 seconds
+Player4(MP): Check in 0 seconds
+Table Pot: $3.0
+Hero(BB): Check in 0 seconds
+Turn: 5♥  Q♣  6♦  A♣
+Table Pot: $17.35
+River: 8♥  5♥  Q♣  6♦  A♣
+Table Pot: $26.89
+Player4(MP): Bet $9.54  [Pot: $14.22]
+Table Pot: $17.35
+Hero(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $230.16
+Player3(UTG) Stack: $542.56
+Player4(HJ) Stack: $343.81
+Player2(BB) Stack: $201.0
+Player5(MP) Stack: $333.36
+Player6(BTN) Stack: $206.48
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Table Pot: $3.0
+Player3(UTG): Fold in 0 seconds
+Player4(HJ): Fold in 0 seconds
+Table Pot: $7.0
+Player5(MP): Raise  [Pot: $0.0]
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Table Pot: $5.0
+Player2(BB): Fold in 0 seconds
+Player5: Won $5.0, Total Wins: 1
+Player2(BB): Fold in 0 seconds
+Table Pot: $1.0
+
+
+Player1 is Hero
+Flop: 3♣  4♦  10♦
+Table Pot: $20.19
+
+
+Player1 is Hero
+Table Pot: $8.0
+Player4(BB): Fold in 0 seconds
+Table Pot: $5.0
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $0.0
+Player5(BB) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player6: Won $5.0, Total Wins: 1
+Table Pot: $3.0
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Player6(UTG): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Table Pot: $2.0
+Player5: Won $2.0, Total Wins: 1
+Player4(SB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $0.0
+Player5(SB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player4(BTN) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Hero(UTG): Fold in 0 seconds
+Player3(MP): Fold in 0 seconds
+Table Pot: $7.0
+Player4(BTN): Raise  [Pot: $0.0]
+Player5(SB): Fold in 0 seconds
+Player6(BB): Fold in 0 seconds
+Table Pot: $5.0
+Table Pot: $1.0
+Table Pot: $3.0
+Player4: Won $5.0, Total Wins: 1
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $172.54
+River: 5♦  7♣  3♠  J♦  K♣
+Table Pot: $634.59
+Player3(MP): Bet  [Pot: $0.0]
+Table Pot: $399.5
+Player2(HJ): Call  [Pot: $0.0]
+
+
+Player1 is Hero
+Table Pot: $3.0
+Hero(MP): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Player5(UTG): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Player5(UTG): Fold in 0 seconds
+Table Pot: $7.4
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Table Pot: $5.0
+Player4(BB): Fold in 0 seconds
+Player2: Won $5.0, Total Wins: 1
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $214.11
+Player3(BTN) Stack: $333.57
+Player2(MP) Stack: $402.5
+Player4(SB) Stack: $339.58
+Player5(BB) Stack: $344.14
+Player6(UTG) Stack: $232.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6(UTG): Fold in 0 seconds
+Table Pot: $7.0
+Hero(HJ): Raise  [Pot: $0.0]
+Player2(MP): Fold in 0 seconds
+Table Pot: $23.4
+Player5(BB): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Player5(BB): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Player3(BTN): Raise $16.4  [Pot: $16.4]
+Table Pot: $11.0
+Hero(HJ): Fold in 0 seconds
+Table Pot: $3.0
+
+
+Player1 is Hero
+Table Pot: $12.28
+Flop: Q♠  10♠  9♠
+Hero(UTG): Check in 0 seconds
+Table Pot: $16.46
+Player3(MP): Bet  [Pot: $0.0]
+Hero(UTG): Fold in 0 seconds
+Table Pot: $12.28
+Table Pot: $1.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $0.0
+Player2(BB) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player3(UTG) Stack: $346.85
+Player4(HJ) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3(UTG): Fold in 0 seconds
+Player4(HJ): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Call  [Pot: $0.0]
+Table Pot: $4.0
+Player6(BTN): Fold in 0 seconds
+Player2(BB): Check in 0 seconds
+Table Pot: $3.78
+Flop: K♦  8♠  9♥
+Hero(SB): Check in 0 seconds
+Player2(BB): Check in 0 seconds
+Turn: K♦  8♠  9♥  5♦
+Hero(SB): Check in 0 seconds
+Table Pot: $6.65
+Player2(BB): Bet  [Pot: $0.0]
+Table Pot: $3.78
+Hero(SB): Fold in 0 seconds
+Table Pot: $1.0
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $0.0
+Player2(SB) Stack: $400.5
+Player5(HJ) Stack: $0.0
+Player3(BB) Stack: $346.85
+Player4(UTG) Stack: $0.0
+Player6(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player2: Won $3.78, Total Wins: 1
+Player4(UTG): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Player2(SB): Fold in 0 seconds
+Table Pot: $2.0
+
+
+Player1 is Hero
+Table Pot: $5.67
+Flop: 7♠  J♣  A♥
+Player5(BB): Check in 0 seconds
+Hero(HJ): Check in 0 seconds
+Turn: 7♠  J♣  A♥  J♠
+Player4(SB): Check in 0 seconds
+Player5(BB): Check in 0 seconds
+Hero(HJ): Check in 0 seconds
+River: 7♠  J♣  A♥  J♠  9♥
+Player4(SB): Check in 0 seconds
+Player5(BB): Check in 0 seconds
+Hero(HJ): Check in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $0.0
+Player2(HJ) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $229.0
+Player3(MP) Stack: $0.0
+Player4(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player2(HJ): Fold in 0 seconds
+Table Pot: $7.5
+Player3(MP): Raise  [Pot: $0.0]
+Player4(BTN): Fold in 0 seconds
+Player5(SB): Fold in 0 seconds
+Table Pot: $5.0
+Player6(BB): Fold in 0 seconds
+Player3: Won $5.0, Total Wins: 1
+Player6(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $208.78
+Player2(UTG) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $229.0
+Player3(HJ) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player2(UTG): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+Table Pot: $2.0
+Hero: Won $2.0, Total Wins: 1
+Player6(SB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $208.78
+Player2(BB) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $229.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3(UTG): Fold in 0 seconds
+Player4(HJ): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Table Pot: $2.0
+Hero(SB): Fold in 0 seconds
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $208.78
+Player2(SB) Stack: $403.28
+Player5(HJ) Stack: $200.0
+Player6(MP) Stack: $228.0
+Player3(BB) Stack: $347.85
+Player4(UTG) Stack: $334.58
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.0
+Table Pot: $5.0
+Table Pot: $7.4
+
+
+Player1 is Hero
+Table Pot: $8.0
+Player2(BB): Fold in 0 seconds
+Table Pot: $5.0
+
+
+Player1 is Hero
+Table Pot: $22.5
+Player4(BB): Fold in 0 seconds
+Table Pot: $12.5
+Player3(SB): Fold in 0 seconds
+Table Pot: $2.5
+Table Pot: $7.5
+
+
+Player1 is Hero
+Table Pot: $21.26
+Flop: 4♦  2♥  7♣
+Hero(BB): Check in 0 seconds
+Table Pot: $26.26
+Player4(MP): Bet  [Pot: $0.0]
+Hero(BB): Fold in 0 seconds
+Table Pot: $21.26
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(SB): $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $296.16
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Table Pot: $20.0
+Player3(UTG): Raise  [Pot: $0.0]
+Table Pot: $32.5
+Player5(MP): Fold in 0 seconds
+Player4(HJ): Call $12.5  [Pot: $12.5]
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Player2(BB): Fold in 0 seconds
+Table Pot: $30.71
+Flop: 2♥  4♦  Q♣
+Player3(UTG): Bet $10.13  [Pot: $10.13]
+Table Pot: $49.86
+Turn: 2♥  4♦  Q♣  J♠
+Player4(HJ): Call $10.13  [Pot: $22.63]
+Table Pot: $85.25
+Player3(UTG): Bet  [Pot: $10.13]
+Table Pot: $156.03
+Player4(HJ): Raise  [Pot: $22.63]
+Table Pot: $190.32
+River: 2♥  4♦  Q♣  J♠  10♠
+Player3(UTG): Call  [Pot: $10.13]
+Table Pot: $639.99
+Player4(HJ): Fold in 0 seconds
+Table Pot: $190.32
+Table Pot: $2.5
+Table Pot: $7.5
+
+
+Player1 is Hero
+Table Pot: $17.5
+Player4(SB): Fold in 0 seconds
+Player5(BB): Fold in 0 seconds
+Table Pot: $12.5
+Table Pot: $2.5
+Table Pot: $7.5
+Player6: Won $12.51, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $30.71
+Player2(HJ): Check in 0 seconds
+Turn: 4♠  Q♥  J♥  2♣
+River: 4♠  Q♥  J♥  2♣  9♦
+Player6(BB): Check in 0 seconds
+Player2(HJ): Check in 0 seconds
+Player6: Won $15.3, Total Wins: 1
+River: 4♠  Q♥  J♥  2♣  9♦
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BB): $560.35
+Player2(UTG) Stack: $749.99
+Player5(BTN) Stack: $510.58
+Player3(HJ) Stack: $653.61
+Player4(MP) Stack: $195.25
+Player6(SB) Stack: $500.36
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(UTG): Raise $15.0  [Pot: $15.0]
+Player3(HJ): Fold in 0 seconds
+Table Pot: $22.5
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Hero(BB): Fold in 0 seconds
+Table Pot: $12.5
+Player6(SB): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Hero(BB): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(SB): $560.35
+Player2(BB) Stack: $757.49
+Player5(MP) Stack: $510.58
+Player3(UTG) Stack: $653.61
+Player4(HJ) Stack: $195.25
+Player6(BTN) Stack: $500.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player3(UTG): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player3(UTG): Fold in 0 seconds
+Table Pot: $5.0
+Hero(SB): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Player2: Won $5.0, Total Wins: 1
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BTN): $560.35
+Player2(SB) Stack: $754.99
+Player5(HJ) Stack: $510.58
+Player3(BB) Stack: $653.61
+Player4(UTG) Stack: $195.25
+Player6(MP) Stack: $500.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Hero(BTN): Raise  [Pot: $0.0]
+Table Pot: $20.0
+Player2(SB): Fold in 0 seconds
+Player3(BB): Fold in 0 seconds
+Table Pot: $12.5
+Hero: Won $12.5, Total Wins: 1
+Player3(BB): Fold in 0 seconds
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(MP): $560.35
+Player2(BTN) Stack: $757.49
+Player5(UTG) Stack: $510.58
+Player3(SB) Stack: $653.61
+Player4(BB) Stack: $195.25
+Player6(HJ) Stack: $500.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player5(UTG): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Player5(UTG): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Player6(HJ): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Player2(BTN): Raise  [Pot: $0.0]
+Table Pot: $22.5
+Player3(SB): Fold in 0 seconds
+Player2(BTN): Raise  [Pot: $0.0]
+Player3(SB): Fold in 0 seconds
+Table Pot: $12.5
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(HJ): $560.35
+Player2(MP) Stack: $764.99
+Player5(BB) Stack: $510.58
+Player3(BTN) Stack: $646.11
+Player4(SB) Stack: $195.25
+Player6(UTG) Stack: $500.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player6(UTG): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Table Pot: $5.0
+Player2(MP): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Player5: Won $5.0, Total Wins: 1
+
+
+Player1 is Hero
+Hero(None): Fold in 0 seconds
+Table Pot: $7.5
+Player2(HJ): Fold in 0 seconds
+Player3(MP): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Table Pot: $20.0
+Player5(SB): Raise $12.5  [Pot: $12.5]
+Table Pot: $10.0
+Player6(BB): Fold in 0 seconds
+Player5: Won $10.0, Total Wins: 1
+Player6(BB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BB): $507.5
+Player2(UTG) Stack: $1374.14
+Player4(MP) Stack: $162.12
+Player3(HJ) Stack: $649.6
+Player5(BTN) Stack: $485.0
+Player6(SB) Stack: $500.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player2(UTG): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+Player2(UTG): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+Player2(UTG): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Table Pot: $5.0
+Player6(SB): Fold in 0 seconds
+Hero: Won $5.0, Total Wins: 1
+Player6(SB): Fold in 0 seconds
+Table Pot: $2.5
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(SB): $507.5
+Player2(BB) Stack: $1369.14
+Player4(HJ) Stack: $162.12
+Player3(UTG) Stack: $649.6
+Player5(MP) Stack: $485.0
+Player6(BTN) Stack: $500.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player3(UTG): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player3(UTG): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Table Pot: $5.0
+Player2: Won $5.0, Total Wins: 1
+Hero(SB): Fold in 0 seconds
+Table Pot: $7.5
+
+
+Player1 is Hero
+Table Pot: $301.35
+River: 6♠  3♠  4♣  3♣  7♠
+Player2(UTG): Fold in 1 seconds
+Table Pot: $120.6
+
+
+Player1 is Hero
+Flop: 9♠  4♣  10♣
+Table Pot: $25.99
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BTN): $544.55
+Player2(SB) Stack: $1448.35
+Player3(BB) Stack: $648.09
+Player5(HJ) Stack: $502.5
+Player4(UTG) Stack: $500.0
+Player6(MP) Stack: $522.43
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $25.99
+Hero(BTN): Check in 1.0 seconds
+Turn: 9♠  4♣  10♣  6♣
+Table Pot: $43.24
+Player3(BB): Bet $17.25  [Pot: $17.25]
+Table Pot: $58.59
+River: 9♠  4♣  10♣  6♣  4♥
+Hero(BTN): Call $17.25 in 1.0 seconds [Pot: $17.25]
+Table Pot: $87.92
+Player3(BB): Bet in 12.0 seconds [Pot: $17.25]
+Table Pot: $116.66
+Hero(BTN): Call in 5.0 seconds [Pot: $17.25]
+Table Pot: $7.5
+
+
+Player1 is Hero
+Hero(BB): Fold in 0 seconds
+Table Pot: $73.5
+Table Pot: $30.0
+Player5(BTN): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BTN): $573.38
+Player3(BB) Stack: $594.01
+Player2(SB) Stack: $1511.73
+Player4(UTG) Stack: $500.0
+Player5(HJ) Stack: $500.0
+Player6(MP) Stack: $520.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player4(UTG): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player2(SB): Fold in 0 seconds
+Table Pot: $20.0
+Hero(BTN): Raise $12.5  [Pot: $12.5]
+Table Pot: $12.5
+Player3(BB): Fold in 0 seconds
+Hero: Won $12.5, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $83.5
+Flop: 5♥  10♥  7♣
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(SB): $580.88
+Player2(BB) Stack: $1514.23
+Player4(HJ) Stack: $543.5
+Player3(UTG) Stack: $551.51
+Player5(MP) Stack: $500.0
+Player6(BTN) Stack: $512.5
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player4(HJ): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Table Pot: $7.5
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Table Pot: $5.0
+Hero(SB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BTN): $580.88
+Player2(SB) Stack: $521.73
+Player4(UTG) Stack: $543.5
+Player3(BB) Stack: $551.51
+Player5(HJ) Stack: $500.0
+Player6(MP) Stack: $512.5
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player4(UTG): Fold in 0 seconds
+Player4(UTG): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 1.0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 1.0 seconds
+Table Pot: $20.0
+Player2(SB): Raise  [Pot: $0.0]
+Table Pot: $60.0
+Player3(BB): Raise  [Pot: $0.0]
+Player2(SB): Fold in 0 seconds
+Table Pot: $30.0
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(MP): $580.88
+Player2(BTN) Stack: $1506.73
+Player4(BB) Stack: $543.5
+Player3(SB) Stack: $546.51
+Player5(UTG) Stack: $500.0
+Player6(HJ) Stack: $512.5
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3: Won $30.0, Total Wins: 1
+Table Pot: $7.5
+Player5(UTG): Fold in 0 seconds
+Table Pot: $18.5
+Player2(BTN): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Player3(SB): Fold in 1.0 seconds
+Player6(HJ): Raise $11.0  [Pot: $11.0]
+Player4(BB): Fold in 0 seconds
+Table Pot: $12.5
+Table Pot: $7.5
+
+
+Player1 is Hero
+Table Pot: $27.88
+Flop: J♣  Q♣  5♠
+Player3(BTN): Check in 0 seconds
+Turn: J♣  Q♣  5♠  A♥
+Table Pot: $35.69
+Player6(UTG): Bet $7.81 in 5.0 seconds [Pot: $7.81]
+Player3(BTN): Call $7.81  [Pot: $7.81]
+River: J♣  Q♣  5♠  A♥  3♠
+Table Pot: $42.64
+Table Pot: $70.78
+Player6(UTG): Bet in 27.0 seconds [Pot: $7.81]
+Table Pot: $97.4
+Player3(BTN): Call  [Pot: $7.81]
+
+
+Player1 is Hero
+Table Pot: $185.0
+Player3(MP): Fold in 0 seconds
+Table Pot: $97.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BB): $580.88
+Player3(HJ) Stack: $472.06
+Player2(UTG) Stack: $1559.23
+Player5(BTN) Stack: $500.0
+Player6(SB) Stack: $562.95
+Player4(MP) Stack: $536.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player2(UTG): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Table Pot: $5.0
+Player6(SB): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+Hero: Won $5.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(SB): $578.38
+Player3(UTG) Stack: $500.0
+Player2(BB) Stack: $1559.23
+Player5(MP) Stack: $500.0
+Player6(BTN) Stack: $562.95
+Player4(HJ) Stack: $536.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.5
+Table Pot: $7.5
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Table Pot: $5.0
+Table Pot: $2.5
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BTN): $580.88
+Player3(BB) Stack: $500.0
+Player2(SB) Stack: $1559.23
+Player5(HJ) Stack: $500.0
+Player6(MP) Stack: $562.95
+Player4(UTG) Stack: $536.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Table Pot: $20.0
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 0 seconds
+Player6(MP): Fold in 0 seconds
+Table Pot: $12.5
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(MP): $580.88
+Player3(SB) Stack: $500.0
+Player2(BTN) Stack: $1559.23
+Player5(UTG) Stack: $500.0
+Player6(HJ) Stack: $562.95
+Player4(BB) Stack: $538.5
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player6(HJ): Fold in 0 seconds
+Hero(MP): Fold in 0 seconds
+Table Pot: $22.5
+Table Pot: $12.5
+Player4(BB): Fold in 0 seconds
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(HJ): $580.88
+Player3(BTN) Stack: $500.0
+Player2(MP) Stack: $1554.23
+Player5(BB) Stack: $495.0
+Player6(UTG) Stack: $562.95
+Player4(SB) Stack: $538.5
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player6(UTG): Fold in 0 seconds
+Hero(HJ): Fold in 0 seconds
+Table Pot: $22.5
+Player2(MP): Raise  [Pot: $0.0]
+Player4(SB): Fold in 0 seconds
+Table Pot: $12.5
+Player5(BB): Fold in 0 seconds
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(UTG): $580.88
+Player3(MP) Stack: $500.0
+Player2(HJ) Stack: $1574.23
+Player5(SB) Stack: $500.0
+Player6(BB) Stack: $562.95
+Player4(BTN) Stack: $536.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Hero(UTG): Fold in 0 seconds
+Table Pot: $22.5
+Player2(HJ): Raise $15.0  [Pot: $15.0]
+Player4(BTN): Fold in 0 seconds
+Player6(BB): Fold in 0 seconds
+Player5(SB): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $74.56
+River: 7♣  2♣  Q♣  9♠  4♥
+Table Pot: $130.48
+Player4(UTG): Bet  [Pot: $0.0]
+Table Pot: $186.4
+Player6(MP): Call  [Pot: $0.0]
+Table Pot: $7.5
+
+
+Player1 is Hero
+Table Pot: $2.5
+Table Pot: $7.5
+Player3(UTG): Fold in 0 seconds
+Player4(HJ): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+Table Pot: $20.0
+Hero(SB): Raise  [Pot: $0.0]
+Player2(BB): Fold in 0 seconds
+Table Pot: $10.0
+Table Pot: $2.5
+Table Pot: $7.5
+Hero: Won $10.0, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $7.5
+Table Pot: $18.5
+Hero(MP): Raise  [Pot: $0.0]
+Player3(SB): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Table Pot: $23.15
+Flop: 7♥  9♣  Q♠
+Player4(BB): Call $6.0  [Pot: $6.0]
+Hero(MP): Check in 0 seconds
+Turn: 7♥  9♣  Q♠  K♥
+Player4(BB): Check in 0 seconds
+Hero(MP): Check in 0 seconds
+River: 7♥  9♣  Q♠  K♥  10♦
+Table Pot: $40.51
+Player4(BB): Bet $17.36  [Pot: $23.36]
+Table Pot: $55.96
+Hero(MP): Call  [Pot: $0.0]
+Table Pot: $7.5
+
+
+Player1 is Hero
+Table Pot: $18.5
+Player5(BB): Fold in 0 seconds
+Table Pot: $12.5
+Table Pot: $7.5
+Hero: Won $12.5, Total Wins: 1
+Table Pot: $20.0
+Player4(BTN): Raise $12.5  [Pot: $12.5]
+Player5(SB): Fold in 0 seconds
+Flop: K♠  Q♦  6♣
+Table Pot: $25.99
+Player6(BB): Call  [Pot: $0.0]
+Flop: K♠  Q♦  6♣
+Table Pot: $34.57
+Player4(BTN): Bet $8.58  [Pot: $21.08]
+Player6(BB): Fold in 0 seconds
+Table Pot: $25.99
+Table Pot: $7.5
+Player2(UTG): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BB): $588.48
+Player3(HJ) Stack: $500.0
+Player5(BTN) Stack: $500.0
+Player4(MP) Stack: $513.49
+Player2(UTG) Stack: $1627.73
+Player6(SB) Stack: $619.4
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player3(HJ): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+Table Pot: $20.0
+Player5(BTN): Raise  [Pot: $0.0]
+Table Pot: $73.5
+Player6(SB): Raise  [Pot: $0.0]
+Hero(BB): Fold in 0 seconds
+Table Pot: $30.0
+Player5(BTN): Fold in 0 seconds
+Player6: Won $30.0, Total Wins: 1
+Table Pot: $2.5
+
+
+Player1 is Hero
+Table Pot: $18.5
+Hero(MP): Fold in 1.0 seconds
+Player3(SB): Fold in 1.0 seconds
+Player2(BTN): Call in 1.0 seconds [Pot: $0.0]
+Table Pot: $29.5
+Player3(SB): Fold in 2.0 seconds
+Player4(BB): Fold in 1.0 seconds
+Table Pot: $27.88
+Player3(SB): Fold in 2.0 seconds
+Player4(BB): Fold in 1.0 seconds
+Flop: 6♥  5♥  A♠
+Table Pot: $35.69
+Player6(HJ): Raise in 6.0 seconds [Pot: $0.0]
+Player2(BTN): Fold in 4.0 seconds
+Table Pot: $27.88
+
+
+Player1 is Hero
+Player2(None): Fold in 0 seconds
+Table Pot: $12.5
+
+
+Player1 is Hero
+Table Pot: $28.35
+Flop: 3♠  Q♦  10♠
+Player3(SB): Check in 4.0 seconds
+Player4(BB): Check in 19.0 seconds
+Player5(UTG): Check in 6.0 seconds
+Turn: 3♠  Q♦  10♠  4♦
+Player3(SB): Check in 7.0 seconds
+Player4(BB): Check in 9.0 seconds
+Player5(UTG): Check in 3.0 seconds
+River: 3♠  Q♦  10♠  4♦  8♥
+Player3(SB): Check in 5.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(HJ): $569.62
+Player4(SB) Stack: $490.0
+Player6(UTG) Stack: $649.78
+Player5(BB) Stack: $495.0
+Player2(MP) Stack: $165.0
+Player3(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $664544545211.0
+Player6(UTG): Fold in 0 seconds
+Table Pot: $7.5
+Hero(HJ): Fold in 7.0 seconds
+Table Pot: $22.5
+Player2(MP): Raise in 6.0 seconds [Pot: $0.0]
+Player3(BTN): Fold in 9.0 seconds
+Player5(BB): Fold in 0 seconds
+Table Pot: $12.5
+Player4(SB): Fold in 2.0 seconds
+Table Pot: $2.5
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(UTG): $569.62
+Player4(BTN) Stack: $500.0
+Player6(BB) Stack: $649.78
+Player5(SB) Stack: $518.35
+Player2(HJ) Stack: $1650.72
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Hero(UTG): Fold in 3.0 seconds
+Player2(HJ): Fold in 1.0 seconds
+Player3(MP): Fold in 1.0 seconds
+Player4(BTN): Fold in 1.0 seconds
+Player5(SB): Fold in 1.0 seconds
+Table Pot: $5.0
+Table Pot: $2.5
+Table Pot: $7.5
+
+
+Player1 is Hero
+Table Pot: $100.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(UTG): $524.47
+Player5(SB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player4(BTN) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $100.0
+Table Pot: $0.0
+Table Pot: $7.5
+Player3(MP): Fold in 1.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(SB): $524.47
+Player5(MP) Stack: $400.0
+Player2(BB) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player4(HJ): Fold in 1.0 seconds
+Player6(BTN): Raise in 2.0 seconds [Pot: $0.0]
+Table Pot: $21.5
+Hero(SB): Fold in 1 seconds
+Table Pot: $28.82
+Flop: 8♠  2♣  3♦
+Player2(BB): Call $9.0 in 5.0 seconds [Pot: $9.0]
+Player6(BTN): Bet in 3.0 seconds [Pot: $0.0]
+Table Pot: $64.77
+Turn: 8♠  2♣  3♦  9♦
+Player2(BB): Call $19.02 in 4.0 seconds [Pot: $28.02]
+Player6(BTN): Check in 1.0 seconds
+River: 8♠  2♣  3♦  9♦  10♠
+Player2(BB): Check in 2.0 seconds
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(BTN): $621.97
+Player5(HJ) Stack: $400.0
+Player2(SB) Stack: $1649.69
+Player4(UTG) Stack: $500.0
+Player6(MP) Stack: $629.26
+Player3(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Table Pot: $20.0
+Hero(BTN): Raise $12.5 in 5.0 seconds [Pot: $12.5]
+Player3(BB): Fold in 1.0 seconds
+Table Pot: $12.5
+
+
+Player1 is Hero
+Table Pot: $7.5
+Hero(HJ): Fold in 6.0 seconds
+Table Pot: $0.0
+Table Pot: $22.5
+Table Pot: $32.5
+Player5(BB): Fold in 4.0 seconds
+Table Pot: $82.5
+Player2(MP): Fold in 10.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(UTG): $0.0
+Player3(MP) Stack: $0.0
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $35.0
+Table Pot: $7.5
+Hero(UTG): Fold in 3.0 seconds
+Player2(HJ): Fold in 4.0 seconds
+Player3(MP): Fold in 14.0 seconds
+Player4(BTN): Fold in 4.0 seconds
+Player5(SB): Fold in 8.0 seconds
+Table Pot: $5.0
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $7.5
+Player3(HJ): Fold in 5.0 seconds
+Table Pot: $19.0
+Table Pot: $59.0
+Player6(SB): Fold in 1.0 seconds
+Player5(BTN): Raise in 6.0 seconds [Pot: $0.0]
+Hero(BB): Fold in 7.0 seconds
+Table Pot: $30.5
+
+
+Player1 is Hero
+Table Pot: $41.82
+Hero(MP): Fold in 3.0 seconds
+Table Pot: $27.88
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.5
+Flop: 8♠  A♦  5♦
+Table Pot: $7.5
+Player2(MP): Fold in 3.0 seconds
+Table Pot: $5.0
+Player6(UTG): Fold in 1 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $2.5 , Big Blind(BB): $5.0
+Hero Stack(SB): $798.77
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Table Pot: $28.35
+Table Pot: $36.3
+Table Pot: $43.9
+Turn: Q♠  J♦  K♦  4♠
+Hero(SB): Check in 1 seconds
+Table Pot: $65.85
+Table Pot: $43.9
+
+
+
+
+Table Pot: $7.5
+Player6(HJ): Fold in 3.0 seconds
+Player1(MP): Fold in 1 seconds
+Player3(SB): Fold in 5.0 seconds
+Table Pot: $5.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player1(HJ) Stack: $780.82
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.5
+Table Pot: $7.5
+Player6(UTG): Fold in 2.0 seconds
+Player1(HJ): Fold in 1 seconds
+Table Pot: $20.0
+Player4(SB): Raise in 7.0 seconds [Pot: $0.0]
+Player5(BB): Fold in 6.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player1(UTG) Stack: $780.82
+Player6(BB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player4(BTN) Stack: $487.5
+Player5(SB) Stack: $0.0
+----------------------------------
+Pre-Flop: 
+Table Pot: $10.0
+Table Pot: $7.5
+Player1(UTG): Fold in 13.0 seconds
+Table Pot: $20.0
+Table Pot: $12.5
+Player6(BB): Fold in 1.0 seconds
+
+
+Table Pot: $7.5
+Table Pot: $20.0
+Player6(SB): Fold in 8.0 seconds
+Table Pot: $12.5
+Player1(BB): Fold in 2.0 seconds
+
+
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(SB): $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.5
+
+
+Player1 is Hero
+Flop: 10♣  J♣  K♠
+Table Pot: $2.36
+Table Pot: $0.0
+Table Pot: $2.36
+River: 10♣  J♣  K♠  5♠  2♦
+Hero(BTN): Check in 1 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(MP): $96.5
+Player2(BTN) Stack: $0.0
+Player3(SB) Stack: $0.0
+Player4(BB) Stack: $0.0
+Player5(UTG) Stack: $0.0
+Player6(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Player6(HJ): Fold in 1.0 seconds
+Hero(MP): Fold in 6.0 seconds
+Player5(UTG): Check in 1 seconds
+Table Pot: $1.89
+Flop: A♦  K♣  A♥
+Player4(BB): Call in 2.0 seconds [Pot: $0.0]
+Table Pot: $2.89
+Player5(UTG): Fold in 1.0 seconds
+Table Pot: $1.89
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(UTG): $96.5
+Player2(HJ) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player4(BTN) Stack: $76.83
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Table Pot: $2.5
+Hero(UTG): Call in 4.0 seconds [Pot: $0.0]
+Table Pot: $6.5
+Player2(HJ): Raise in 4.0 seconds [Pot: $0.0]
+Table Pot: $10.0
+Player5(SB): Call in 3.0 seconds [Pot: $0.0]
+Flop: J♥  9♦  K♥
+Table Pot: $12.28
+Hero(UTG): Call in 4.0 seconds [Pot: $0.0]
+Table Pot: $15.28
+Player2(HJ): Fold in 6.0 seconds
+Table Pot: $17.96
+Turn: J♥  9♦  K♥  J♠
+Player5(SB): Call in 4.0 seconds [Pot: $0.0]
+Table Pot: $22.96
+Hero(UTG): Bet in 5.0 seconds [Pot: $0.0]
+Player5(SB): Fold in 1.0 seconds
+Table Pot: $17.96
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(BB): $107.46
+Player2(UTG) Stack: $234.39
+Player3(HJ) Stack: $0.0
+Player4(MP) Stack: $76.83
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Hero: Won $17.9, Total Wins: 1
+Player4(MP): Fold in 2.0 seconds
+Player6(SB): Fold in 2.0 seconds
+Table Pot: $1.0
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(SB): $106.96
+Player2(BB) Stack: $234.39
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $76.83
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Player4(HJ): Fold in 2.0 seconds
+Hero: Won $1.0, Total Wins: 2
+Table Pot: $2.0
+Player2(BB): Check in 2.0 seconds
+Flop: A♣  9♥  7♠
+Table Pot: $1.89
+Hero(SB): Check in 4.0 seconds
+Player2(BB): Check in 2.0 seconds
+Turn: A♣  9♥  7♠  3♥
+Hero(SB): Check in 3.0 seconds
+Player2(BB): Check in 30.0 seconds
+River: A♣  9♥  7♠  3♥  10♣
+Hero(SB): Check in 3.0 seconds
+Player2(BB): Check in 17.0 seconds
+
+
+Player1 is Hero
+Table Pot: $1.5
+Player6(MP): Fold in 7.0 seconds
+Hero(BTN): Call in 1.0 seconds [Pot: $0.0]
+Player2(SB): Fold in 0 seconds
+Table Pot: $2.5
+Player3(BB): Check in 16.0 seconds
+Flop: 10♣  Q♠  2♦
+Table Pot: $2.36
+Hero(BTN): Check in 1.0 seconds
+Turn: 10♣  Q♠  2♦  3♠
+Player3(BB): Check in 3.0 seconds
+River: 10♣  Q♠  2♦  3♠  8♣
+Hero(BTN): Check in 3.0 seconds
+Player3(BB): Check in 4.0 seconds
+Table Pot: $1.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(MP): $112.05
+Player2(BTN) Stack: $232.56
+Player3(SB) Stack: $145.68
+Player4(BB) Stack: $182.16
+Player5(UTG) Stack: $129.25
+Player6(HJ) Stack: $99.5
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Table Pot: $3.5
+Player5(UTG): Raise in 3.0 seconds [Pot: $0.0]
+Table Pot: $9.63
+Hero(MP): Fold in 1 seconds
+Player2(BTN): Fold in 0 seconds
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Hero(MP): Fold in 1.0 seconds
+Player3(SB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Hero(MP): Fold in 2.0 seconds
+Table Pot: $13.76
+Player5(UTG): Call $6.13 in 1.0 seconds [Pot: $6.13]
+Flop: 8♠  9♥  6♠
+Table Pot: $13.0
+Turn: 8♠  9♥  6♠  A♠
+Player6(HJ): Raise $6.13 in 5.0 seconds [Pot: $6.13]
+Player5(UTG): Check in 2.0 seconds
+Table Pot: $18.46
+Player6(HJ): Bet $5.46 in 11.0 seconds [Pot: $11.59]
+Player5(UTG): Call $5.46 in 2.0 seconds [Pot: $11.59]
+River: 8♠  9♥  6♠  A♠  K♦
+Table Pot: $23.32
+Player6(HJ): Check in 9.0 seconds
+Table Pot: $1.5
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(HJ): $112.05
+Player2(MP) Stack: $232.56
+Player3(BTN) Stack: $147.54
+Player4(SB) Stack: $182.16
+Player5(BB) Stack: $117.66
+Player6(UTG) Stack: $87.91
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Hero(HJ): Fold in 1.0 seconds
+Player2(MP): Fold in 1.0 seconds
+Player4(SB): Fold in 0 seconds
+Table Pot: $3.5
+Table Pot: $4.25
+Player5(BB): Call in 1.0 seconds [Pot: $0.0]
+Flop: 8♣  3♥  8♠
+Player4(SB): Fold in 0 seconds
+Player5(BB): Call in 3.0 seconds [Pot: $0.0]
+Player3(BTN): Raise in 2.0 seconds [Pot: $0.0]
+Table Pot: $6.59
+Player5(BB): Fold in 1.0 seconds
+Table Pot: $4.25
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(UTG): $112.05
+Player2(HJ) Stack: $232.56
+Player3(MP) Stack: $149.79
+Player4(BTN) Stack: $182.16
+Player5(SB) Stack: $117.66
+Player6(BB) Stack: $111.23
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Hero(UTG): Fold in 6.0 seconds
+Player2(HJ): Fold in 0 seconds
+Player3(MP): Fold in 2.0 seconds
+Player3(MP): Fold in 3.0 seconds
+Player5(SB): Fold in 0 seconds
+Player4(BTN): Raise $4.5 in 5.0 seconds [Pot: $4.5]
+Table Pot: $4.5
+Player6(BB): Fold in 3.0 seconds
+Table Pot: $2.5
+Table Pot: $1.5
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(BB): $112.05
+Player2(UTG) Stack: $232.56
+Player3(HJ) Stack: $149.79
+Player4(MP) Stack: $182.16
+Player5(BTN) Stack: $115.16
+Player6(SB) Stack: $111.23
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Player4: Won $2.5, Total Wins: 1
+Player2(UTG): Fold in 7.0 seconds
+Player3(HJ): Fold in 2.0 seconds
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Raise $2.29 in 2.0 seconds [Pot: $2.29]
+Table Pot: $3.79
+Table Pot: $5.58
+Flop: 9♦  K♣  3♠
+Table Pot: $5.27
+Hero(BB): Call $3.79 in 6.0 seconds [Pot: $3.79]
+Table Pot: $6.85
+Player6(SB): Bet $1.58 in 5.0 seconds [Pot: $3.87]
+Hero(BB): Call in 2.0 seconds [Pot: $3.79]
+Turn: 9♦  K♣  3♠  5♦
+Table Pot: $8.26
+Player6(SB): Check in 2.0 seconds
+Hero(BB): Check in 2.0 seconds
+River: 9♦  K♣  3♠  5♦  8♦
+Table Pot: $14.46
+Player6(SB): Bet $6.2 in 3.0 seconds [Pot: $10.07]
+Table Pot: $8.26
+Hero(BB): Fold in 2.0 seconds
+Table Pot: $1.5
+
+
+Player1 is Hero
+Player2(SB): Fold in 0 seconds
+Table Pot: $2.5
+Table Pot: $2.36
+Player3(BB): Check in 1 seconds
+Flop: K♥  5♦  5♠
+Flop: K♥  5♦  5♠
+Hero(BTN): Check in 2.0 seconds
+Turn: K♥  5♦  5♠  4♥
+Player3(BB): Check in 3.0 seconds
+River: K♥  5♦  5♠  4♥  6♥
+Table Pot: $6.36
+Hero(BTN): Bet in 5.0 seconds [Pot: $0.0]
+Player3(BB): Fold in 6.0 seconds
+Table Pot: $2.36
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Hero(BB): Call  [Pot: $0.0]
+Flop: 4♦  5♠  3♠
+Table Pot: $9.21
+Table Pot: $11.94
+Hero(BB): Check in 1.0 seconds
+Player5(BTN): Check in 0 seconds
+Player5: Won $11.94, Total Wins: 1
+Table Pot: $0.5
+
+
+Player1 is Hero
+Table Pot: $3.5
+Player6(BTN): Fold in 3.0 seconds
+Player6(BTN): Fold in 4.0 seconds
+Hero(SB): Fold in 9.0 seconds
+Table Pot: $2.5
+Player2(BB): Fold in 9.0 seconds
+Player2(BB): Fold in 10.0 seconds
+Player2(BB): Fold in 10.0 seconds
+Player4: Won $2.5, Total Wins: 1
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(MP): $0.0
+Player2(BTN) Stack: $0.0
+Player4(BB) Stack: $0.0
+Player3(SB) Stack: $113.9
+Player5(UTG) Stack: $0.0
+Player6(HJ) Stack: $95.71
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $15.5
+Player3(SB): Fold in 1.0 seconds
+Player4(BB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Player4(BB): Fold in 0 seconds
+Player5(UTG): Call $8.0 in 1.0 seconds [Pot: $8.0]
+Table Pot: $23.5
+Hero(MP): Fold in 5.0 seconds
+Table Pot: $22.21
+Flop: 7♦  3♣  Q♣
+Player5(UTG): Check in 2.0 seconds
+Table Pot: $29.32
+Player2(BTN): Bet $7.11 in 6.0 seconds [Pot: $7.11]
+Table Pot: $22.21
+Player5(UTG): Fold in 4.0 seconds
+Player5(UTG): Fold in 6.0 seconds
+
+
+Player1 is Hero
+Table Pot: $16.06
+Turn: 10♠  4♣  8♦  9♦
+Table Pot: $26.06
+Player5(SB): Fold in 2.0 seconds
+Turn: 10♠  4♣  8♦  9♦
+Table Pot: $16.06
+Player5(SB): Fold in 2.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(BB): $3.0
+Player5(BTN) Stack: $132.0
+Player2(UTG) Stack: $249.8
+Player6(SB) Stack: $91.21
+Player3(HJ) Stack: $110.9
+Player4(MP) Stack: $218.04
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.5
+Table Pot: $1.5
+Player3(HJ): Fold in 0 seconds
+Player2(UTG): Fold in 6.0 seconds
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player2(UTG): Fold in 7.0 seconds
+Player2(UTG): Fold in 7.0 seconds
+Player4(MP): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Table Pot: $1.0
+Player4(MP): Fold in 0 seconds
+Player6(SB): Fold in 1.0 seconds
+Player6(SB): Fold in 2.0 seconds
+Player6(SB): Fold in 2.0 seconds
+Hero: Won $1.0, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $4.63
+River: A♥  8♥  3♦  7♦  A♦
+Player2(HJ): Check in 1.0 seconds
+River: A♥  8♥  3♦  7♦  A♦
+Table Pot: $1.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.5 , Big Blind(BB): $1.0
+Hero Stack(BB): $116.68
+Player2(UTG) Stack: $250.73
+Player3(HJ) Stack: $117.49
+Player4(MP) Stack: $218.04
+Player5(BTN) Stack: $125.5
+Player6(SB) Stack: $88.51
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.5
+Player2: Won $4.63, Total Wins: 1
+Player3(HJ): Fold in 2.0 seconds
+Player3(HJ): Fold in 3.0 seconds
+Player4(MP): Fold in 2.0 seconds
+Player5(BTN): Fold in 0 seconds
+Player4(MP): Fold in 3.0 seconds
+Player5(BTN): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Table Pot: $1.0
+Player6(SB): Fold in 3.0 seconds
+Player6(SB): Fold in 3.0 seconds
+Hero: Won $1.0, Total Wins: 1
+Table Pot: $1.5
+
+
+Player1 is Hero
+Player4(UTG): Fold in 2.0 seconds
+Player5(HJ): Raise in 1.0 seconds [Pot: $0.0]
+
+
+Table Pot: $21.26
+Flop: K♥  4♥  Q♥
+Table Pot: $27.85
+Player1(BB): Fold in 1.0 seconds
+Table Pot: $21.26
+Player1(BB): Fold in 1.0 seconds
+Player1(BB): Fold in 1 seconds
+Table Pot: $7.5
+
+
+Table Pot: $50.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player4(BB) Stack: $0.0
+Player1(MP) Stack: $0.0
+Player5(UTG) Stack: $0.0
+Player2(BTN) Stack: $0.0
+Player3(SB) Stack: $0.0
+Player6(HJ) Stack: $0.0
+----------------------------------
+Pre-Flop: 
+Player1(MP): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Table Pot: $7.5
+Player1(MP): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Player2(BTN): Fold in 0 seconds
+Player3(SB): Raise $11.0 in 4.0 seconds [Pot: $11.0]
+Table Pot: $18.5
+Player4: Inactive
+Table Pot: $27.0
+Player5(BB): Call $8.5 in 10.0 seconds [Pot: $8.5]
+Flop: 6♦  6♠  4♣
+Table Pot: $25.52
+Table Pot: $33.43
+Player3(SB): Bet $7.91 in 7.0 seconds [Pot: $18.91]
+Player3(SB): Bet in 8.0 seconds [Pot: $18.91]
+Player5(BB): Fold in 9.0 seconds
+Table Pot: $25.52
+Player5(BB): Fold in 11.0 seconds
+
+
+Table Pot: $12.5
+Table Pot: $7.5
+Player5(HJ): Fold in 3.0 seconds
+Player6(MP): Fold in 2.0 seconds
+Player1(BTN): Fold in 4.0 seconds
+Table Pot: $5.0
+Table Pot: $7.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player2(BTN) Stack: $861.47
+Player1(MP) Stack: $0.0
+Player3(SB) Stack: $0.0
+Player4(BB) Stack: $0.0
+Player5(UTG) Stack: $0.0
+Player6(HJ) Stack: $0.0
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Table Pot: $5.0
+Table Pot: $7.5
+
+
+Table Pot: $17.5
+Player5(BTN): Fold in 2.0 seconds
+Table Pot: $70.0
+Player1(BB): Fold in 1 seconds
+Player1(BB): Fold in 1.0 seconds
+Player3(HJ): Fold in 2.0 seconds
+Table Pot: $25.0
+Player3(HJ): Fold in 3.0 seconds
+Table Pot: $7.5
+
+
+Table Pot: $7.5
+Table Pot: $19.0
+Player2(SB): Raise in 4.0 seconds [Pot: $0.0]
+Table Pot: $10.0
+Player3(BB): Fold in 3.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player1(MP) Stack: $0.0
+Player4(BB) Stack: $0.0
+Player3(SB) Stack: $0.0
+Player6(HJ) Stack: $0.0
+Player5(UTG) Stack: $0.0
+Player2(BTN) Stack: $842.47
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player6(HJ): Fold in 3.0 seconds
+Player1(MP): Fold in 4.0 seconds
+Player2(BTN): Fold in 0 seconds
+Table Pot: $5.0
+Player3(SB): Fold in 0 seconds
+Player5: Won $5.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player1(HJ) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player3(BTN) Stack: $500.0
+Player6(UTG) Stack: $0.0
+Player5(BB) Stack: $1688.71
+Player2(MP) Stack: $842.47
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player4: Inactive
+Player2(MP): Fold in 0 seconds
+Player1(HJ): Fold in 6.0 seconds
+Player5(BB): Fold in 0 seconds
+Table Pot: $17.5
+Flop: 8♥  7♣  3♦
+Player6(UTG): Call in 2.0 seconds [Pot: $0.0]
+Table Pot: $21.26
+Player3(BTN): Raise in 6.0 seconds [Pot: $0.0]
+Player6(UTG): Check in 10.0 seconds
+Table Pot: $27.85
+Player6(UTG): Fold in 5.0 seconds
+Table Pot: $21.26
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player1(BB) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player3(HJ) Stack: $511.26
+Player6(SB) Stack: $969.44
+Player5(BTN) Stack: $1691.21
+Player2(UTG) Stack: $842.47
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player2(UTG): Fold in 7.0 seconds
+Player3(HJ): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Fold in 9.0 seconds
+Table Pot: $5.0
+Player1: Won $5.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player1(SB) Stack: $467.5
+Player4(HJ) Stack: $0.0
+Player3(UTG) Stack: $511.26
+Player6(BTN) Stack: $961.94
+Player5(MP) Stack: $1691.21
+Player2(BB) Stack: $842.47
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player3(UTG): Fold in 3.0 seconds
+Player5(MP): Fold in 10.0 seconds
+Player1(SB): Fold in 1 seconds
+Player6(BTN): Fold in 0 seconds
+Table Pot: $5.0
+Player2: Won $5.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Player1(BTN) Stack: $470.0
+Player4(UTG) Stack: $0.0
+Player3(BB) Stack: $511.26
+Player6(MP) Stack: $961.94
+Player5(HJ) Stack: $1691.21
+Player2(SB) Stack: $863.97
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.5
+Player6(MP): Fold in 1.0 seconds
+Player1(BTN): Fold in 1 seconds
+Table Pot: $5.0
+Player2(SB): Fold in 0 seconds
+Player3: Won $5.0, Total Wins: 1
+
+
+Player1 is Hero
+River: 2♣  2♣  2♣  2♣  2♣
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $0.0
+Player6(HJ) Stack: $158.1
+Player4(BB) Stack: $535.43
+Player5(UTG) Stack: $141.62
+Player2(BTN) Stack: $0.0
+Player3(SB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $29.0
+River: 2♣  2♣  2♣  2♣  2♣
+Table Pot: $12.0
+
+
+Player1 is Hero
+River: 2♣  2♣  2♣  2♣  2♣
+
+
+Player1 is Hero
+River: 2♣  2♣  2♣  2♣  2♣
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $3.31
+River: Q♥  K♣  Q♣  6♠  5♠
+Table Pot: $17.7
+Table Pot: $3.31
+
+
+Player1 is Hero
+Table Pot: $3.39
+Turn: K♦  J♣  J♥  Q♦
+Table Pot: $1.89
+
+
+Player1 is Hero
+Turn: 4♠  3♠  4♣  10♦
+Table Pot: $2.76
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BB): $45.5
+Player6(SB) Stack: $36.07
+Player3(HJ) Stack: $0.0
+Player4(MP) Stack: $76.84
+Player5(BTN) Stack: $25.82
+Player2(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Table Pot: $2.25
+Table Pot: $3.75
+Flop: 4♣  K♣  8♥
+Table Pot: $3.54
+Table Pot: $5.54
+Table Pot: $3.54
+Table Pot: $0.75
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $45.5
+Player6(BTN) Stack: $36.07
+Player3(UTG) Stack: $54.53
+Player4(HJ) Stack: $76.84
+Player5(MP) Stack: $25.82
+Player2(BB) Stack: $96.17
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Table Pot: $1.0
+Hero(SB): Call $0.5 in 5.0 seconds [Pot: $0.5]
+Flop: Q♦  3♥  7♣
+Table Pot: $0.94
+Turn: Q♦  3♥  7♣  8♠
+Table Pot: $1.44
+Hero(SB): Bet $0.5 in 1.0 seconds [Pot: $1.0]
+Table Pot: $0.94
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BTN): $45.94
+Player6(MP) Stack: $36.07
+Player3(BB) Stack: $54.53
+Player4(UTG) Stack: $76.84
+Player5(HJ) Stack: $25.82
+Player2(SB) Stack: $96.17
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Hero: Won $0.94, Total Wins: 1
+Table Pot: $2.25
+Table Pot: $7.5
+Table Pot: $3.75
+Table Pot: $0.75
+
+
+Player1 is Hero
+Table Pot: $0.75
+Player6: Inactive
+
+
+Player1 is Hero
+Table Pot: $0.75
+Table Pot: $1.75
+
+
+Player1 is Hero
+Table Pot: $0.75
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(HJ): $0.0
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.25
+Flop: K♣  Q♠  5♥
+
+
+Player1 is Hero
+River: 3♦  4♠  3♥  2♥  8♠
+Table Pot: $28.17
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(UTG): $38.9
+Player6(BB) Stack: $0.0
+Player2(HJ) Stack: $72.12
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player3(MP) Stack: $62.18
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $28.17
+Player6: Inactive
+Table Pot: $18.78
+Player2(HJ): Fold in 4.0 seconds
+Hero: Won $18.7, Total Wins: 1
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $66.82
+Player6(BB) Stack: $0.0
+Player2(BB) Stack: $71.62
+Player4(HJ) Stack: $88.89
+Player5(BTN) Stack: $34.54
+Player3(UTG) Stack: $62.18
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(UTG): Fold in 0 seconds
+Table Pot: $0.75
+Player4(HJ): Fold in 1.0 seconds
+Player6: Inactive
+Table Pot: $2.25
+Table Pot: $3.5
+Player6: Inactive
+Table Pot: $3.31
+Flop: 6♦  K♦  2♦
+Hero(SB): Call in 1.0 seconds [Pot: $0.0]
+Player2(BB): Fold in 3.0 seconds
+Table Pot: $4.97
+Turn: 6♦  K♦  2♦  A♥
+Table Pot: $6.44
+Hero(SB): Bet $2.91 in 1.0 seconds [Pot: $2.91]
+Player5(BTN): Call $3.16 in 4.0 seconds [Pot: $3.16]
+Table Pot: $9.66
+Table Pot: $12.53
+Hero(SB): Bet $3.22 in 1.0 seconds [Pot: $6.13]
+River: 6♦  K♦  2♦  A♥  9♦
+Player5(BTN): Call $3.22 in 4.0 seconds [Pot: $6.38]
+Table Pot: $18.8
+Hero(SB): Bet $6.27 in 5.0 seconds [Pot: $12.4]
+Table Pot: $12.53
+Player5(BTN): Fold in 12.0 seconds
+Table Pot: $0.75
+
+
+----------------------------------
+ROUND: 3
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BTN): $73.22
+Player6(BB) Stack: $4.0
+Player2(SB) Stack: $71.62
+Player4(UTG) Stack: $88.89
+Player5(HJ) Stack: $28.16
+Player3(BB) Stack: $62.18
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Hero: Won $12.5, Total Wins: 2
+Player4(UTG): Fold in 4.0 seconds
+Hero(BTN): Fold in 3.0 seconds
+Player2(SB): Fold in 5.0 seconds
+Table Pot: $0.5
+
+
+Player1 is Hero
+Table Pot: $15.72
+Turn: K♦  8♣  Q♠  4♠
+Player6: Inactive
+Table Pot: $26.72
+Player2(BTN): Bet in 16.0 seconds [Pot: $0.0]
+River: K♦  8♣  Q♠  4♠  A♦
+Table Pot: $36.51
+Player4(BB): Call in 1.0 seconds [Pot: $0.0]
+Player4(BB): Bet in 8.0 seconds [Pot: $0.0]
+Player2(BTN): Fold in 18.0 seconds
+
+
+Player1 is Hero
+Table Pot: $0.75
+Table Pot: $2.0
+Player6: Inactive
+Player5(SB): Fold in 9.0 seconds
+Table Pot: $2.6
+Hero(UTG): Call $0.75 in 4.0 seconds [Pot: $0.75]
+Hero(UTG): Call in 6.0 seconds [Pot: $0.75]
+Flop: J♥  5♦  4♦
+Table Pot: $3.9
+Hero(UTG): Bet $1.3 in 10.0 seconds [Pot: $2.05]
+Table Pot: $5.06
+Turn: J♥  5♦  4♦  J♦
+Player4(BTN): Call in 4.0 seconds [Pot: $0.0]
+Hero(UTG): Check in 4.0 seconds
+Table Pot: $8.86
+Player4(BTN): Bet $6.35 in 4.0 seconds [Pot: $6.35]
+Table Pot: $12.24
+River: J♥  5♦  4♦  J♦  Q♣
+Hero(UTG): Call $3.8 in 4.0 seconds [Pot: $5.85]
+Hero(UTG): Check in 5.0 seconds
+Table Pot: $0.75
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $79.11
+Player2(BB) Stack: $52.18
+Player4(HJ) Stack: $96.73
+Player5(BTN) Stack: $30.7
+Player6(BB) Stack: $0.0
+Player3(UTG) Stack: $62.18
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Hero: Won $12.2, Total Wins: 1
+Player2: Inactive
+Player5(BTN): Fold in 4.0 seconds
+Table Pot: $0.5
+Hero(SB): Fold in 6.0 seconds
+
+
+Player1 is Hero
+Table Pot: $1.25
+Player6: Inactive
+Player4(SB): Fold in 2.0 seconds
+Table Pot: $1.18
+Flop: 6♣  4♣  2♦
+Player5(BB): Check in 3.0 seconds
+Table Pot: $2.36
+Player5(BB): Bet $1.18 in 6.0 seconds [Pot: $1.18]
+Table Pot: $1.18
+Hero(HJ): Fold in 1 seconds
+Table Pot: $0.75
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BB): $74.61
+Player6(UTG) Stack: $0.0
+Player4(BTN) Stack: $94.98
+Player3(HJ) Stack: $62.18
+Player5(SB) Stack: $36.37
+Player2(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player5: Won $1.18, Total Wins: 1
+Player3(HJ): Fold in 4.0 seconds
+Player4(BTN): Fold in 3.0 seconds
+Table Pot: $1.0
+Player5(SB): Call in 3.0 seconds [Pot: $0.0]
+Table Pot: $0.94
+Hero(BB): Check in 2.0 seconds
+Flop: J♣  4♦  J♦
+Player5(SB): Check in 3.0 seconds
+Table Pot: $1.44
+Hero(BB): Bet in 4.0 seconds [Pot: $0.0]
+Table Pot: $0.94
+Player5(SB): Fold in 2.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $75.05
+Player6(UTG) Stack: $0.0
+Player4(HJ) Stack: $94.98
+Player3(UTG) Stack: $62.18
+Player5(BTN) Stack: $36.37
+Player2(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Table Pot: $2.0
+Hero: Won $0.94, Total Wins: 1
+Table Pot: $3.75
+Hero(SB): Raise $1.75 in 6.0 seconds [Pot: $1.75]
+Player3(UTG): Fold in 6.0 seconds
+Table Pot: $4.25
+Player4(HJ): Call $0.75 in 4.0 seconds [Pot: $0.75]
+Player4(HJ): Call in 5.0 seconds [Pot: $0.75]
+Flop: K♠  3♣  7♣
+Table Pot: $6.38
+Turn: K♠  3♣  7♣  10♦
+Table Pot: $8.28
+Hero(SB): Bet $2.13 in 1.0 seconds [Pot: $3.88]
+Player4(HJ): Call in 4.0 seconds [Pot: $0.75]
+Table Pot: $12.42
+Hero(SB): Bet $4.14 in 6.0 seconds [Pot: $8.02]
+River: K♠  3♣  7♣  10♦  8♥
+Table Pot: $16.1
+Player4(HJ): Call $6.27 in 5.0 seconds [Pot: $7.02]
+Table Pot: $24.15
+Hero(SB): Bet in 5.0 seconds [Pot: $8.02]
+Table Pot: $31.32
+Player4(HJ): Call $8.05 in 5.0 seconds [Pot: $15.07]
+
+
+Player1 is Hero
+Table Pot: $0.75
+Table Pot: $2.0
+Player4(MP): Raise in 3.0 seconds [Pot: $0.0]
+Hero(BB): Fold in 2.0 seconds
+Player3(HJ): Fold in 2.0 seconds
+Table Pot: $1.25
+
+
+Player1 is Hero
+Table Pot: $9.43
+Flop: 2♣  10♦  8♥
+Table Pot: $5.98
+Hero(UTG): Fold in 1.0 seconds
+
+
+Player1 is Hero
+Table Pot: $0.75
+Player2(HJ): Fold in 4.0 seconds
+Table Pot: $1.25
+Player5: Inactive
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $58.74
+Player6(BTN) Stack: $45.58
+Player2(BB) Stack: $52.55
+Player4(HJ) Stack: $55.37
+Player5(SB) Stack: $0.0
+Player3(UTG) Stack: $175.84
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player3(UTG): Fold in 3.0 seconds
+Table Pot: $2.25
+Player4(HJ): Raise in 4.0 seconds [Pot: $0.0]
+Player6(BTN): Fold in 2.0 seconds
+Table Pot: $3.5
+Hero(SB): Call $1.25 in 5.0 seconds [Pot: $1.25]
+Player2(BB): Fold in 3.0 seconds
+Table Pot: $3.31
+Flop: J♥  9♥  K♠
+Hero(SB): Check in 4.0 seconds
+Table Pot: $6.09
+Player4(HJ): Bet $4.28 in 6.0 seconds [Pot: $4.28]
+Hero(SB): Fold in 3.0 seconds
+Table Pot: $3.31
+
+
+Player1 is Hero
+Table Pot: $1.25
+Table Pot: $2.75
+Player3(UTG): Raise $1.5 in 5.0 seconds [Pot: $1.5]
+Player5(MP): Fold in 3.0 seconds
+Player6(BTN): Fold in 4.0 seconds
+Table Pot: $9.25
+Player2(BB): Raise $6.5 in 9.0 seconds [Pot: $6.5]
+Table Pot: $3.75
+Player3(UTG): Fold in 3.0 seconds
+
+
+Player1 is Hero
+Table Pot: $3.5
+Table Pot: $5.0
+Player3(HJ): Call in 3.0 seconds [Pot: $0.0]
+Table Pot: $6.5
+Player5(BTN): Call $1.5 in 3.0 seconds [Pot: $1.5]
+Table Pot: $6.14
+Player6(SB): Fold in 9.0 seconds
+Flop: 8♦  4♣  4♦
+Table Pot: $9.21
+Table Pot: $6.14
+Hero(BB): Bet in 1.0 seconds [Pot: $0.0]
+Player3(HJ): Fold in 2.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $53.49
+Player6(BTN) Stack: $45.64
+Player2(BB) Stack: $54.55
+Player3(UTG) Stack: $170.23
+Player5(MP) Stack: $49.41
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Hero: Won $6.14, Total Wins: 1
+Player3(UTG): Fold in 4.0 seconds
+Player5(MP): Fold in 3.0 seconds
+Table Pot: $2.0
+Table Pot: $1.25
+Player6(BTN): Raise $1.25 in 4.0 seconds [Pot: $1.25]
+Player2(BB): Fold in 2.0 seconds
+Table Pot: $0.75
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BTN): $53.49
+Player6(MP) Stack: $44.39
+Player2(SB) Stack: $53.8
+Player3(BB) Stack: $169.73
+Player5(HJ) Stack: $49.41
+Player4(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player5(HJ): Fold in 3.0 seconds
+Player6(MP): Fold in 3.0 seconds
+Table Pot: $0.5
+Hero(BTN): Fold in 2.0 seconds
+Table Pot: $0.25
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(MP): $53.49
+Player6(HJ) Stack: $44.39
+Player2(BTN) Stack: $53.8
+Player3(SB) Stack: $170.23
+Player5(UTG) Stack: $49.41
+Player4(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Table Pot: $2.0
+Hero(MP): Fold in 1 seconds
+Player2(BTN): Fold in 0 seconds
+Table Pot: $3.0
+Player3(SB): Call in 5.0 seconds [Pot: $0.0]
+Flop: J♦  2♠  10♦
+Table Pot: $3.54
+Player5(UTG): Call $1.25 in 4.0 seconds [Pot: $1.25]
+Player3(SB): Check in 3.0 seconds
+Player5(UTG): Check in 2.0 seconds
+Table Pot: $5.71
+Player6(HJ): Bet $2.17 in 8.0 seconds [Pot: $2.17]
+Player3(SB): Fold in 3.0 seconds
+Table Pot: $3.54
+Player5(UTG): Fold in 6.0 seconds
+
+
+Player1 is Hero
+Turn: Q♠  Q♣  9♦  9♠
+Table Pot: $8.06
+Player4: Inactive
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $57.13
+Player6(BTN) Stack: $44.79
+Player3(UTG) Stack: $168.48
+Player2(BB) Stack: $55.34
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $4.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $12.85
+Player6(BTN): Bet $4.79 in 2.0 seconds [Pot: $4.79]
+Player5(HJ): Call in 2.0 seconds [Pot: $0.0]
+Player5(HJ): Call in 3.0 seconds [Pot: $0.0]
+Player5(HJ): Check in 4.0 seconds
+Player5(HJ): Check in 6.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $57.13
+Player6(BTN) Stack: $40.0
+Player3(UTG) Stack: $168.48
+Player2(BB) Stack: $55.34
+Player4(HJ) Stack: $0.0
+Player5(HJ) Stack: $39.98
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $17.64
+Table Pot: $17.11
+River: Q♠  Q♣  9♦  9♠  4♥
+Table Pot: $0.75
+
+
+Player1 is Hero
+Player3(BB): Check in 0 seconds
+Player3(BB): Check in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $19.91
+River: 10♦  6♠  8♣  10♥  J♠
+Table Pot: $0.75
+Player6(UTG): Fold in 3.0 seconds
+Table Pot: $1.85
+Player2(MP): Fold in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Hero(HJ): Raise in 1.0 seconds [Pot: $0.0]
+Player4(SB): Call in 3.0 seconds [Pot: $0.0]
+Table Pot: $2.7
+Table Pot: $2.55
+Player5(BB): Fold in 4.0 seconds
+Flop: 2♥  9♠  A♦
+Player4(SB): Check in 3.0 seconds
+Table Pot: $3.55
+Hero(HJ): Bet in 3.0 seconds [Pot: $0.0]
+Table Pot: $2.55
+Player4(SB): Fold in 2.0 seconds
+Table Pot: $0.75
+
+
+Player1 is Hero
+Player6(None): Fold in 4.0 seconds
+Flop: 10♠  K♦  5♣
+Table Pot: $1.65
+Table Pot: $0.75
+
+
+Player1 is Hero
+Table Pot: $3.5
+Table Pot: $0.75
+Player3(UTG): Fold in 6.0 seconds
+Table Pot: $2.25
+Player4(HJ): Raise in 4.0 seconds [Pot: $0.0]
+Player5(MP): Fold in 7.0 seconds
+Table Pot: $1.25
+Player6(BTN): Fold in 3.0 seconds
+Hero(SB): Fold in 2.0 seconds
+Player2(BB): Fold in 20.0 seconds
+
+
+Player1 is Hero
+Table Pot: $0.75
+Table Pot: $2.0
+Player6(HJ): Raise $1.25 in 6.0 seconds [Pot: $1.25]
+Hero(MP): Fold in 2.0 seconds
+Player2(BTN): Fold in 4.0 seconds
+Player3(SB): Fold in 3.0 seconds
+Table Pot: $1.25
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(HJ): $76.7
+Player6(UTG) Stack: $27.85
+Player2(MP) Stack: $28.75
+Player3(BTN) Stack: $30.7
+Player4(SB) Stack: $28.56
+Player5(BB) Stack: $50.98
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player6: Won $1.25, Total Wins: 1
+Player6(UTG): Fold in 3.0 seconds
+Hero(HJ): Fold in 1 seconds
+Table Pot: $1.25
+Player3(BTN): Fold in 0 seconds
+Player2(MP): Call in 2.0 seconds [Pot: $0.0]
+Table Pot: $1.5
+Flop: J♣  J♥  8♣
+Table Pot: $1.42
+Player4(SB): Call $0.25 in 1.0 seconds [Pot: $0.25]
+Player5(BB): Check in 4.0 seconds
+Player4(SB): Check in 4.0 seconds
+Player5(BB): Check in 3.0 seconds
+Turn: J♣  J♥  8♣  Q♣
+Player4(SB): Check in 2.0 seconds
+Player2(MP): Check in 3.0 seconds
+Player5(BB): Check in 6.0 seconds
+Table Pot: $2.84
+Player2(MP): Bet $1.92 in 3.0 seconds [Pot: $1.92]
+Table Pot: $1.42
+Player4(SB): Fold in 2.0 seconds
+Player5(BB): Fold in 12.0 seconds
+Player2: Won $1.42, Total Wins: 1
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(UTG): $76.7
+Player6(BB) Stack: $27.85
+Player2(HJ) Stack: $29.67
+Player3(MP) Stack: $30.7
+Player4(BTN) Stack: $28.06
+Player5(SB) Stack: $50.98
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Hero(UTG): Fold in 3.0 seconds
+Table Pot: $2.25
+Player3(MP): Fold in 0 seconds
+Player2(HJ): Raise in 5.0 seconds [Pot: $0.0]
+Player4(BTN): Fold in 4.0 seconds
+Player5(SB): Fold in 6.0 seconds
+Player6(BB): Fold in 4.0 seconds
+Table Pot: $1.25
+
+
+Player1 is Hero
+Player4(MP): Fold in 0 seconds
+Table Pot: $0.75
+Table Pot: $2.25
+Table Pot: $3.07
+Hero(BB): Call in 2.0 seconds [Pot: $0.0]
+Flop: 5♥  10♥  2♥
+Hero(BB): Check in 4.0 seconds
+Player5(BTN): Check in 2.0 seconds
+Turn: 5♥  10♥  2♥  A♣
+Table Pot: $4.61
+Hero(BB): Bet in 4.0 seconds [Pot: $0.0]
+Table Pot: $3.07
+Player5(BTN): Fold in 4.0 seconds
+Hero: Won $3.0, Total Wins: 1
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $7977.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $59.35
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player4(HJ): Fold in 5.0 seconds
+Player5(MP): Fold in 3.0 seconds
+Table Pot: $2.0
+Hero(SB): Fold in 2.0 seconds
+
+
+Player1 is Hero
+Table Pot: $14.65
+River: J♠  3♦  3♣  K♣  9♠
+Table Pot: $21.98
+Player3(BB): Bet in 4.0 seconds [Pot: $0.0]
+Player5(HJ): Fold in 3.0 seconds
+Table Pot: $14.65
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(HJ): $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $68.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player6(UTG): Fold in 3.0 seconds
+Table Pot: $1.75
+Hero(HJ): Raise in 4.0 seconds [Pot: $0.0]
+Table Pot: $2.75
+Player6: Inactive
+Player4(SB): Fold in 2.0 seconds
+Table Pot: $3.07
+Player5(BB): Call $0.5 in 3.0 seconds [Pot: $0.5]
+Flop: 6♣  9♥  4♣
+Table Pot: $4.07
+Hero(HJ): Bet in 5.0 seconds [Pot: $0.0]
+Player3(BTN): Fold in 3.0 seconds
+Table Pot: $4.96
+Turn: 6♣  9♥  4♣  10♦
+Player5(BB): Call in 4.0 seconds [Pot: $0.5]
+Table Pot: $7.44
+Player6: Inactive
+Player5(BB): Call $3.48 in 2.0 seconds [Pot: $3.98]
+Table Pot: $9.65
+Hero(HJ): Bet in 1.0 seconds [Pot: $0.0]
+River: 6♣  9♥  4♣  10♦  6♥
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BB): $73.54
+Player2(UTG) Stack: $0.0
+Player3(HJ) Stack: $68.0
+Player4(BTN) Stack: $44.31
+Player5(SB) Stack: $54.92
+Player6(UTG) Stack: $4.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player3(HJ): Fold in 3.0 seconds
+Table Pot: $2.25
+Table Pot: $1.25
+Player4(BTN): Raise in 6.0 seconds [Pot: $0.0]
+Player5(SB): Fold in 3.0 seconds
+Player4: Won $1.25, Total Wins: 1
+Hero(BB): Fold in 2.0 seconds
+
+
+Player1 is Hero
+Table Pot: $0.25
+Table Pot: $5.0
+Table Pot: $0.25
+Table Pot: $1.28
+Player6(HJ): Check in 4.0 seconds
+Flop: 3♣  8♦  J♣
+Hero(MP): Check in 10.0 seconds
+Flop: 3♣  8♦  J♣
+Table Pot: $2.08
+Player2(BTN): Bet $0.8 in 12.0 seconds [Pot: $0.8]
+Player6(HJ): Fold in 9.0 seconds
+Hero(MP): Fold in 2.0 seconds
+Table Pot: $1.28
+
+
+Player1 is Hero
+Hero(BTN): Fold in 0 seconds
+Table Pot: $0.12
+Table Pot: $0.06
+Player3(BB): Fold in 0 seconds
+Player2(SB): Fold in 2.0 seconds
+
+
+Player1 is Hero
+Table Pot: $0.06
+Player2: Inactive
+Player5(SB): Check in 2.0 seconds
+Turn: 3♠  4♠  A♠  6♦
+Player6(BB): Check in 3.0 seconds
+River: 3♠  4♠  A♠  6♦  J♦
+Player4(BTN): Check in 3.0 seconds
+Player5(SB): Check in 7.0 seconds
+Player6(BB): Check in 3.0 seconds
+Player4(BTN): Check in 3.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BB): $144.0
+Player4(HJ) Stack: $1.79
+Player2(None) Stack: $0.0
+Player5(BTN) Stack: $1.57
+Player6(SB) Stack: $1.27
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player6: Won $0.06, Total Wins: 1
+Table Pot: $0.05
+Player5(BTN): Call in 7.0 seconds [Pot: $0.0]
+Table Pot: $0.06
+Player6(SB): Call $0.04 in 6.0 seconds [Pot: $0.04]
+Table Pot: $0.12
+Hero(BB): Raise in 6.0 seconds [Pot: $0.0]
+Table Pot: $0.18
+Player5(BTN): Call in 6.0 seconds [Pot: $0.0]
+Table Pot: $0.23
+Flop: 9♦  4♥  J♦
+Player6(SB): Check in 5.0 seconds
+Table Pot: $0.31
+Hero(BB): Bet in 5.0 seconds [Pot: $0.0]
+Table Pot: $0.39
+Player5(BTN): Call $8.0 in 9.0 seconds [Pot: $8.0]
+Table Pot: $0.45
+Player6(SB): Call in 6.0 seconds [Pot: $0.04]
+Turn: 9♦  4♥  J♦  Q♠
+Player6(SB): Check in 9.0 seconds
+Table Pot: $0.53
+Hero(BB): Bet in 4.0 seconds [Pot: $0.0]
+Table Pot: $0.61
+Player5(BTN): Call in 5.0 seconds [Pot: $8.0]
+Table Pot: $0.68
+Player6(SB): Call in 4.0 seconds [Pot: $0.04]
+River: 9♦  4♥  J♦  Q♠  8♥
+Player6(SB): Check in 1 seconds
+Hero(BB): Check in 3.0 seconds
+Table Pot: $1.36
+Player5(BTN): Bet $0.68 in 5.0 seconds [Pot: $8.68]
+Hero(BB): Fold in 1.0 seconds
+Table Pot: $0.68
+Player6(SB): Fold in 1.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(SB): $1.2
+Player4(UTG) Stack: $1.79
+Player2(None) Stack: $0.0
+Player5(HJ) Stack: $2.01
+Player6(BTN) Stack: $1.25
+Player3(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.01
+Table Pot: $0.03
+Player5(HJ): Fold in 4.0 seconds
+Table Pot: $0.05
+Player6(BTN): Call in 4.0 seconds [Pot: $0.0]
+Table Pot: $0.14
+Hero(SB): Raise in 1.0 seconds [Pot: $0.0]
+Player4(UTG): Fold in 3.0 seconds
+Player6(BTN): Fold in 4.0 seconds
+Table Pot: $0.06
+Player3: Inactive
+
+
+----------------------------------
+ROUND: 3
+Total Players: 4
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $1.2
+Player4(SB) Stack: $1.79
+Player2(None) Stack: $0.0
+Player5(BB) Stack: $2.01
+Player6(UTG) Stack: $1.25
+Player3(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.01
+Table Pot: $0.03
+Player6(UTG): Fold in 5.0 seconds
+Table Pot: $0.05
+Hero(BTN): Call in 1.0 seconds [Pot: $0.0]
+Table Pot: $0.06
+Player5(BB): Check in 1.0 seconds
+Flop: 10♠  3♣  2♣
+Player4(SB): Call in 3.0 seconds [Pot: $0.0]
+Player5(BB): Check in 11.0 seconds
+Player4(SB): Check in 11.0 seconds
+Hero(BTN): Check in 4.0 seconds
+Turn: 10♠  3♣  2♣  A♠
+Player4(SB): Check in 5.0 seconds
+Player5(BB): Check in 4.0 seconds
+Table Pot: $0.12
+Player4(SB): Fold in 3.0 seconds
+Table Pot: $0.06
+Hero(BTN): Bet in 1.0 seconds [Pot: $0.0]
+Player5(BB): Fold in 3.0 seconds
+
+
+----------------------------------
+ROUND: 4
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(UTG): $1.2
+Player4(BTN) Stack: $1.79
+Player2(None) Stack: $0.0
+Player5(SB) Stack: $1.99
+Player6(BB) Stack: $1.25
+Player3(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Hero(UTG): Fold in 4.0 seconds
+Table Pot: $0.1
+Table Pot: $0.16
+Player4(BTN): Raise in 13.0 seconds [Pot: $0.0]
+Table Pot: $0.15
+Player6(BB): Fold in 2.0 seconds
+Flop: J♦  Q♠  3♠
+Player5(SB): Call in 3.0 seconds [Pot: $0.0]
+Table Pot: $0.23
+Player5(SB): Bet in 8.0 seconds [Pot: $0.0]
+Table Pot: $0.47
+Player4(BTN): Raise $0.35 in 11.0 seconds [Pot: $0.35]
+Table Pot: $0.6
+Turn: J♦  Q♠  3♠  J♣
+Player5(SB): Call in 5.0 seconds [Pot: $0.0]
+Player5(SB): Check in 8.0 seconds
+Table Pot: $0.9
+Player4(BTN): Bet in 9.0 seconds [Pot: $0.35]
+Table Pot: $2.4
+Player5(SB): Raise $1.81 in 10.0 seconds [Pot: $1.81]
+Player4(BTN): Fold in 7.0 seconds
+Table Pot: $1.17
+Table Pot: $0.05
+
+
+Player1 is Hero
+Table Pot: $0.55
+Player5(BB): Fold in 0 seconds
+Turn: 10♦  A♣  3♥  A♥
+Table Pot: $0.03
+Table Pot: $0.05
+Player3(HJ): Call in 4.0 seconds [Pot: $0.0]
+Table Pot: $0.17
+Player5(BTN): Raise in 6.0 seconds [Pot: $0.0]
+Player6(SB): Fold in 2.0 seconds
+Hero(BB): Fold in 1 seconds
+Table Pot: $0.26
+Flop: Q♣  Q♥  10♥
+Player3(HJ): Check in 6.0 seconds
+Table Pot: $0.38
+Player5(BTN): Bet in 7.0 seconds [Pot: $0.0]
+Table Pot: $1.0
+Player3(HJ): Raise $0.72 in 5.0 seconds [Pot: $0.72]
+Table Pot: $2.0
+Player3(HJ): Raise in 1.0 seconds [Pot: $0.72]
+Table Pot: $2.67
+Table Pot: $2.69
+Player5(BTN): Raise in 2.0 seconds [Pot: $0.0]
+Turn: Q♣  Q♥  10♥  8♠
+River: Q♣  Q♥  10♥  8♠  7♠
+Table Pot: $0.03
+
+
+Player1 is Hero
+Table Pot: $0.3
+River: 5♠  Q♦  4♠  A♣  Q♠
+Hero(MP): Bet in 2.0 seconds [Pot: $0.0]
+Table Pot: $0.45
+Hero(MP): Bet in 2.0 seconds [Pot: $0.0]
+Hero(MP): Bet in 2.0 seconds [Pot: $0.0]
+Hero(MP): Bet in 3.0 seconds [Pot: $0.0]
+Hero(MP): Bet in 3.0 seconds [Pot: $0.0]
+Player2(BTN): Fold in 1.0 seconds
+Player2(BTN): Fold in 1.0 seconds
+Table Pot: $0.3
+Player2(BTN): Fold in 1.0 seconds
+Player2(BTN): Fold in 2.0 seconds
+Player2(BTN): Fold in 2.0 seconds
+Player2(BTN): Fold in 2.0 seconds
+Hero: Won $0.31, Total Wins: 1
+Player2(BTN): Fold in 3.0 seconds
+Hero: Won $0.31, Total Wins: 2
+Hero: Won $0.31, Total Wins: 3
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(BTN): $1.28
+Player2(SB) Stack: $4.52
+Player3(SB) Stack: $0.0
+Player4(BB) Stack: $0.0
+Player5(UTG) Stack: $0.0
+Player6(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Hero(BTN): Fold in 3.0 seconds
+Table Pot: $0.02
+Hero(BTN): Fold in 3.0 seconds
+Hero(BTN): Fold in 1 seconds
+Hero(BTN): Fold in 1 seconds
+Hero(BTN): Fold in 1.0 seconds
+Hero(BTN): Fold in 1.0 seconds
+Hero(BTN): Fold in 1.0 seconds
+Hero(BTN): Fold in 1.0 seconds
+Player2: Won $0.02, Total Wins: 1
+Player2: Won $0.02, Total Wins: 2
+Player2: Won $0.02, Total Wins: 3
+Player2: Won $0.02, Total Wins: 4
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.01 , Big Blind(BB): $0.02
+Hero Stack(HJ): $1.28
+Player2(BTN) Stack: $4.53
+Player3(SB) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.03
+Player2(BTN): Call $0.02 in 3.0 seconds [Pot: $0.02]
+Table Pot: $0.04
+Player2(BTN): Call in 3.0 seconds [Pot: $0.02]
+Player2(BTN): Call in 3.0 seconds [Pot: $0.02]
+Player2(BTN): Call in 4.0 seconds [Pot: $0.02]
+Player2(BTN): Call in 4.0 seconds [Pot: $0.02]
+Hero(HJ): Check in 1.0 seconds
+Player2(BTN): Call in 4.0 seconds [Pot: $0.02]
+Hero(HJ): Check in 2.0 seconds
+Player2(BTN): Call in 4.0 seconds [Pot: $0.02]
+Hero(HJ): Check in 2.0 seconds
+Hero(HJ): Check in 2.0 seconds
+Hero(HJ): Check in 2.0 seconds
+Hero(HJ): Check in 3.0 seconds
+Hero(HJ): Check in 3.0 seconds
+Hero(HJ): Check in 3.0 seconds
+Hero(HJ): Check in 4.0 seconds
+Flop: 8♥  K♣  2♥
+Hero(HJ): Check in 4.0 seconds
+Hero(HJ): Check in 5.0 seconds
+Hero(HJ): Check in 5.0 seconds
+Hero(HJ): Check in 5.0 seconds
+Hero(HJ): Check in 5.0 seconds
+Player2(BTN): Check in 1.0 seconds
+Hero(HJ): Check in 1 seconds
+Player2(BTN): Check in 1.0 seconds
+Player2(BTN): Check in 2.0 seconds
+Player2(BTN): Check in 2.0 seconds
+Player2(BTN): Check in 2.0 seconds
+Player2(BTN): Check in 3.0 seconds
+Player2(BTN): Check in 3.0 seconds
+Turn: 8♥  K♣  2♥  4♦
+Hero(HJ): Bet in 2.0 seconds [Pot: $0.0]
+Hero(HJ): Bet in 2.0 seconds [Pot: $0.0]
+Table Pot: $0.06
+Hero(HJ): Bet in 3.0 seconds [Pot: $0.0]
+Hero(HJ): Bet in 3.0 seconds [Pot: $0.0]
+Hero(HJ): Bet in 3.0 seconds [Pot: $0.0]
+Table Pot: $0.04
+Hero(HJ): Bet in 1.0 seconds [Pot: $0.0]
+Player2(BTN): Fold in 1.0 seconds
+Hero(HJ): Bet in 1.0 seconds [Pot: $0.0]
+Player2(BTN): Fold in 1.0 seconds
+Player2(BTN): Fold in 2.0 seconds
+Player2(BTN): Fold in 2.0 seconds
+Player2(BTN): Fold in 2.0 seconds
+Player2(BTN): Fold in 3.0 seconds
+Hero: Won $0.0, Total Wins: 4
+Player2(BTN): Fold in 3.0 seconds
+Hero: Won $0.0, Total Wins: 5
+Player4: Inactive
+Hero: Won $0.0, Total Wins: 6
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $279.36
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $0.0
+Player6(SB) Stack: $0.0
+Player3(HJ) Stack: $117.36
+Player4(MP) Stack: $210.03
+Player2(UTG) Stack: $98.13
+Player5(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $279.36
+Turn: 7♣  J♠  4♦  6♥
+Player3(HJ): Fold in 16.0 seconds
+Table Pot: $151.5
+Player3(HJ): Fold in 17.0 seconds
+
+
+Player1 is Hero
+Table Pot: $9.0
+Table Pot: $34.39
+Table Pot: $13.0
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $0.0
+Player4(MP) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $0.0
+Player3(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+
+
+Player1 is Hero
+Table Pot: $16.56
+Turn: A♣  Q♣  3♠  6♦
+Table Pot: $27.6
+Table Pot: $21.47
+
+
+Player1 is Hero
+Table Pot: $7.0
+Player3(MP): Fold in 0 seconds
+Player2(HJ): Raise  [Pot: $0.0]
+Player4(BTN): Fold in 0 seconds
+Player2(HJ): Raise  [Pot: $0.0]
+Player4(BTN): Fold in 0 seconds
+Player2(HJ): Raise  [Pot: $0.0]
+Player4(BTN): Fold in 0 seconds
+Table Pot: $16.0
+Player5(SB): Raise $9.0 in 9.0 seconds [Pot: $9.0]
+Player5(SB): Raise in 10.0 seconds [Pot: $9.0]
+Player6(BB): Fold in 4.0 seconds
+Table Pot: $10.0
+Player2(HJ): Fold in 1.0 seconds
+Player6(BB): Fold in 5.0 seconds
+Player5: Won $10.0, Total Wins: 1
+Player5: Won $10.0, Total Wins: 2
+Player5: Won $10.0, Total Wins: 3
+
+
+Player1 is Hero
+Hero(BB): Check in 1.0 seconds
+Table Pot: $3.78
+Flop: 7♦  3♥  3♦
+Hero(BB): Check in 1.0 seconds
+Hero(BB): Check in 3.0 seconds
+Turn: 7♦  3♥  3♦  6♣
+Hero(BB): Check in 1.0 seconds
+River: 7♦  3♥  3♦  6♣  9♦
+
+
+Player1 is Hero
+Table Pot: $36.86
+Flop: 8♣  2♥  6♦
+Table Pot: $60.86
+Player3(BTN): Fold in 20.0 seconds
+Table Pot: $36.86
+Table Pot: $3.0
+
+
+Player1 is Hero
+Table Pot: $20.0
+Player2(HJ): Fold in 3.0 seconds
+Table Pot: $8.0
+Player2(HJ): Fold in 5.0 seconds
+Player5: Won $8.0, Total Wins: 1
+Table Pot: $3.0
+
+
+Player1 is Hero
+Turn: A♠  J♣  J♥  6♠
+Table Pot: $5.78
+Table Pot: $3.78
+Hero(BB): Fold in 6.0 seconds
+Hero(BB): Fold in 1 seconds
+Player6: Won $3.78, Total Wins: 1
+Table Pot: $3.0
+
+
+Player1 is Hero
+River: 10♦  6♥  6♠  Q♦  A♠
+Table Pot: $8.62
+Hero(MP): Fold in 3.0 seconds
+Table Pot: $6.62
+Player6: Won $6.62, Total Wins: 1
+
+
+Player1 is Hero
+River: 9♠  Q♥  2♥  Q♠  K♣
+Table Pot: $109.36
+Table Pot: $47.36
+
+
+Player1 is Hero
+Table Pot: $3.0
+
+
+Player1 is Hero
+Table Pot: $2.0
+Table Pot: $13.23
+Flop: K♥  7♠  4♥
+Hero(SB): Check in 5.0 seconds
+Player4(HJ): Check in 7.0 seconds
+Player6(BTN): Bet in 4.0 seconds [Pot: $0.0]
+Table Pot: $19.85
+Hero(SB): Fold in 6.0 seconds
+Player4(HJ): Fold in 5.0 seconds
+Table Pot: $13.23
+Player6: Won $13.2, Total Wins: 1
+
+
+Player1 is Hero
+River: 10♦  Q♠  3♦  9♠  J♦
+Table Pot: $152.72
+Player2(BTN): Check in 7.0 seconds
+
+
+Player1 is Hero
+Table Pot: $4.0
+
+
+Player1 is Hero
+Turn: A♠  A♥  2♠  K♣
+Table Pot: $16.06
+Hero(SB): Bet in 3.0 seconds [Pot: $0.0]
+Table Pot: $24.09
+Player6(BTN): Fold in 0 seconds
+Player5(MP): Fold in 9.0 seconds
+Table Pot: $16.06
+Hero: Won $16.0, Total Wins: 1
+Table Pot: $3.0
+
+
+Player1 is Hero
+River: A♠  2♦  7♥  2♥  K♣
+Table Pot: $27.58
+Player6: Won $27.5, Total Wins: 1
+Table Pot: $3.0
+Player3(HJ): Raise in 6.0 seconds [Pot: $0.0]
+Table Pot: $9.0
+Player4(MP): Raise in 6.0 seconds [Pot: $0.0]
+Table Pot: $25.0
+Player5(BTN): Fold in 2.0 seconds
+Player6(SB): Fold in 1.0 seconds
+Hero(BB): Fold in 3.0 seconds
+Table Pot: $33.08
+Flop: 6♣  8♣  6♦
+Table Pot: $49.62
+Player3(HJ): Bet $16.54 in 5.0 seconds [Pot: $16.54]
+Table Pot: $64.58
+Player4(MP): Call $16.54 in 7.0 seconds [Pot: $16.54]
+Turn: 6♣  8♣  6♦  6♠
+Table Pot: $96.87
+Player3(HJ): Bet in 9.0 seconds [Pot: $16.54]
+Player4(MP): Call in 6.0 seconds [Pot: $16.54]
+Table Pot: $129.16
+River: 6♣  8♣  6♦  6♠  8♦
+Player3(HJ): Bet in 6.0 seconds [Pot: $16.54]
+Table Pot: $228.66
+Player4(MP): Fold in 28.0 seconds
+Table Pot: $129.16
+Table Pot: $3.0
+
+
+Player1 is Hero
+River: 6♣  6♠  A♣  2♦  6♥
+Table Pot: $53.64
+Player3(UTG): Bet in 4.0 seconds [Pot: $0.0]
+Table Pot: $107.28
+Player6(BTN): Call in 3.0 seconds [Pot: $0.0]
+Table Pot: $160.54
+Player6: Won $160.5, Total Wins: 1
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $0.0
+Player3(BB) Stack: $147.14
+Player6(MP) Stack: $309.4
+Player2(SB) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player5(HJ): Fold in 2.0 seconds
+Player6(MP): Fold in 1.0 seconds
+Hero(BTN): Fold in 1 seconds
+Table Pot: $149.14
+Player3(BB): Raise in 6.0 seconds [Pot: $0.0]
+Player4(UTG): Fold in 3.0 seconds
+Table Pot: $4.0
+Player3: Won $4.0, Total Wins: 1
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(HJ): $0.0
+Player3(BTN) Stack: $149.14
+Player6(UTG) Stack: $309.4
+Player2(MP) Stack: $0.0
+Player4(SB) Stack: $200.0
+Player5(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player6(UTG): Fold in 3.0 seconds
+Hero(HJ): Fold in 4.0 seconds
+Player3(BTN): Call in 3.0 seconds [Pot: $0.0]
+Table Pot: $5.0
+Player4(SB): Fold in 1.0 seconds
+Table Pot: $4.72
+Player5(BB): Check in 2.0 seconds
+Flop: K♦  10♦  3♠
+Player5(BB): Check in 6.0 seconds
+Player3(BTN): Bet in 2.0 seconds [Pot: $0.0]
+Table Pot: $151.86
+Table Pot: $4.72
+Player5(BB): Fold in 11.0 seconds
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(UTG): $0.0
+Player3(MP) Stack: $151.86
+Player6(BB) Stack: $307.4
+Player2(HJ) Stack: $0.0
+Player4(BTN) Stack: $200.0
+Player5(SB) Stack: $321.4
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Hero(UTG): Fold in 3.0 seconds
+Player3(MP): Fold in 0 seconds
+Player4(BTN): Fold in 8.0 seconds
+Player5(SB): Raise in 3.0 seconds [Pot: $0.0]
+Table Pot: $8.0
+Player6(BB): Fold in 12.0 seconds
+Table Pot: $4.0
+Player6: Inactive
+
+
+----------------------------------
+ROUND: 4
+Total Players: 5
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(SB): $184.66
+Player3(UTG) Stack: $151.86
+Player6(BB) Stack: $307.4
+Player2(BB) Stack: $162.88
+Player4(HJ) Stack: $200.0
+Player5(BTN) Stack: $324.4
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player3(HJ): Raise in 4.0 seconds [Pot: $0.0]
+Table Pot: $154.86
+Player4(MP): Fold in 2.0 seconds
+Player5(BTN): Fold in 2.0 seconds
+Hero(BB): Fold in 1 seconds
+Player2(UTG): Fold in 3.0 seconds
+Table Pot: $5.0
+Player3: Won $5.0, Total Wins: 2
+Table Pot: $3.0
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BTN): $184.66
+Player3(BB) Stack: $154.86
+Player6(MP) Stack: $307.4
+Player2(SB) Stack: $162.88
+Player4(UTG) Stack: $200.0
+Player5(HJ) Stack: $324.4
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player4(UTG): Fold in 6.0 seconds
+Player5(HJ): Fold in 0 seconds
+Player2(SB): Fold in 0 seconds
+Hero(BTN): Fold in 1.0 seconds
+Table Pot: $2.0
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(MP): $184.66
+Player3(SB) Stack: $155.86
+Player6(HJ) Stack: $307.4
+Player2(BTN) Stack: $161.88
+Player4(BB) Stack: $200.0
+Player5(UTG) Stack: $324.4
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $3.0
+Player5(UTG): Fold in 3.0 seconds
+Hero(MP): Fold in 4.0 seconds
+Player2(BTN): Raise $6.0 in 3.0 seconds [Pot: $6.0]
+Player3(SB): Fold in 0 seconds
+Table Pot: $9.0
+Player4(BB): Fold in 1 seconds
+Table Pot: $5.0
+Player2: Won $5.0, Total Wins: 1
+
+
+Player1 is Hero
+Table Pot: $0.07
+Hero(BB): Fold in 3.0 seconds
+Table Pot: $0.05
+Player2: Won $5.0, Total Wins: 1
+Table Pot: $0.03
+
+
+Player1 is Hero
+River: 3♥  6♣  9♦  2♥  3♣
+Table Pot: $56.84
+Player4(BTN): Fold in 1.0 seconds
+Table Pot: $36.94
+
+
+Player1 is Hero
+River: 10♠  7♥  5♣  K♥  A♥
+Table Pot: $54.8
+Player2(BTN): Fold in 4.0 seconds
+Table Pot: $27.4
+
+
+Player1 is Hero
+Table Pot: $0.08
+Table Pot: $0.05
+Player5(BB): Fold in 2.0 seconds
+Table Pot: $0.01
+Table Pot: $0.03
+Hero(UTG): Fold in 4.0 seconds
+Player2(HJ): Fold in 1 seconds
+Table Pot: $0.08
+Player4(BTN): Fold in 2.0 seconds
+Player5(SB): Call $4.0 in 9.0 seconds [Pot: $4.0]
+Table Pot: $0.12
+Player6(BB): Fold in 2.0 seconds
+Table Pot: $11.34
+Flop: A♥  3♠  7♣
+Player5(SB): Check in 6.0 seconds
+Player3(MP): Check in 2.0 seconds
+Turn: A♥  3♠  7♣  Q♥
+Table Pot: $0.07
+Table Pot: $15.34
+Turn: A♥  3♠  7♣  Q♥
+Player3(MP): Raise $13.67 in 5.0 seconds [Pot: $13.67]
+Table Pot: $29.01
+Player5(SB): Fold in 8.0 seconds
+Table Pot: $18.9
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $1.0 , Big Blind(BB): $2.0
+Hero Stack(BB): $107.94
+Player3(HJ) Stack: $158.18
+Player4(MP) Stack: $207.01
+Player5(BTN) Stack: $359.86
+Player6(SB) Stack: $203.75
+Player2(UTG) Stack: $236.68
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.01
+Table Pot: $0.03
+Player2(UTG): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+Player4(MP): Fold in 1 seconds
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Raise $5.0 in 2.0 seconds [Pot: $5.0]
+Hero(BB): Fold in 1.0 seconds
+Table Pot: $0.04
+Table Pot: $0.03
+
+
+Player1 is Hero
+Flop: K♠  10♣  9♦
+Table Pot: $2.41
+Player3(BB): Check in 4.0 seconds
+Table Pot: $3.71
+Player4(UTG): Bet $1.3 in 5.0 seconds [Pot: $1.3]
+Table Pot: $2.41
+Player3(BB): Fold in 4.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(MP): $49.54
+Player2(BTN) Stack: $39.88
+Player3(SB) Stack: $37.74
+Player4(BB) Stack: $77.75
+Player5(UTG) Stack: $50.75
+Player6(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player5(UTG): Fold in 3.0 seconds
+Table Pot: $2.25
+Hero(MP): Fold in 1 seconds
+Player2(BTN): Fold in 1.0 seconds
+Player3(SB): Fold in 12.0 seconds
+Player4(BB): Fold in 2.0 seconds
+Table Pot: $1.25
+Table Pot: $0.25
+
+
+Player1 is Hero
+Table Pot: $2.25
+Player5(SB): Fold in 1.0 seconds
+Table Pot: $3.07
+Flop: 8♥  5♦  J♣
+Player6(BB): Check in 5.0 seconds
+Player2(HJ): Bet $1.0 in 3.0 seconds [Pot: $1.0]
+Table Pot: $4.07
+Player6(BB): Call $1.0 in 3.0 seconds [Pot: $1.0]
+Table Pot: $4.96
+Turn: 8♥  5♦  J♣  10♠
+Player6(BB): Check in 8.0 seconds
+Player2(HJ): Bet $2.0 in 3.0 seconds [Pot: $3.0]
+Table Pot: $6.96
+Table Pot: $8.74
+Player6(BB): Call $2.0 in 7.0 seconds [Pot: $3.0]
+River: 8♥  5♦  J♣  10♠  8♦
+Table Pot: $13.74
+Player6(BB): Bet $5.0 in 14.0 seconds [Pot: $8.0]
+Player2(HJ): Call $5.0 in 2.0 seconds [Pot: $8.0]
+Table Pot: $18.19
+Table Pot: $0.75
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BB): $48.83
+Player4(MP) Stack: $77.05
+Player5(BTN) Stack: $50.3
+Player6(SB) Stack: $51.09
+Player2(UTG) Stack: $48.57
+Player3(HJ) Stack: $37.49
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player2(UTG): Fold in 2.0 seconds
+Player3(HJ): Fold in 1 seconds
+Player5(BTN): Fold in 0 seconds
+Player4(MP): Fold in 13.0 seconds
+Player6(SB): Raise $1.25 in 5.0 seconds [Pot: $1.25]
+Table Pot: $0.02
+Hero(BB): Fold in 2.0 seconds
+Table Pot: $0.01
+
+
+Player1 is Hero
+Turn: A♠  3♥  A♣  9♦
+Table Pot: $1.44
+Table Pot: $0.94
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(MP): $54.33
+Player2(BTN) Stack: $47.51
+Player3(SB) Stack: $36.74
+Player4(BB) Stack: $74.05
+Player5(UTG) Stack: $50.3
+Player6(HJ) Stack: $50.34
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player5(UTG): Fold in 4.0 seconds
+Player6(HJ): Fold in 7.0 seconds
+Table Pot: $0.02
+Hero(MP): Raise $1.25 in 5.0 seconds [Pot: $1.25]
+Player2(BTN): Fold in 0 seconds
+Player3(SB): Call $1.0 in 2.0 seconds [Pot: $1.0]
+Table Pot: $0.03
+Player4(BB): Fold in 0 seconds
+Table Pot: $2.84
+Flop: K♠  5♥  10♠
+Player3(SB): Check in 3.0 seconds
+Hero(MP): Check in 2.0 seconds
+Turn: K♠  5♥  10♠  7♣
+Player3(SB): Bet $3.0 in 6.0 seconds [Pot: $4.0]
+Table Pot: $5.84
+Table Pot: $2.84
+Hero(MP): Fold in 3.0 seconds
+Player5: Inactive
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(UTG): $53.08
+Player2(HJ) Stack: $47.51
+Player3(BTN) Stack: $38.58
+Player4(SB) Stack: $73.55
+Player5(UTG) Stack: $50.3
+Player6(BB) Stack: $49.84
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Hero(UTG): Fold in 1.0 seconds
+Player2(HJ): Fold in 2.0 seconds
+Player3(BTN): Fold in 2.0 seconds
+Player4(SB): Fold in 2.0 seconds
+Table Pot: $0.5
+
+
+Player1 is Hero
+Table Pot: $0.75
+
+
+Player1 is Hero
+Table Pot: $2.39
+Flop: K♠  4♦  A♦
+Table Pot: $2.89
+Player3(BB): Call $0.5 in 10.0 seconds [Pot: $0.5]
+Table Pot: $2.84
+Turn: K♠  4♦  A♦  K♣
+Table Pot: $3.84
+Player2(SB): Bet $1.0 in 3.0 seconds [Pot: $1.0]
+Player3(BB): Call $1.0 in 9.0 seconds [Pot: $1.5]
+Table Pot: $4.72
+River: K♠  4♦  A♦  K♣  J♠
+Table Pot: $6.22
+Player2(SB): Bet $1.5 in 3.0 seconds [Pot: $2.5]
+
+
+Player1 is Hero
+Table Pot: $4.25
+Flop: 4♥  3♥  8♥
+Player3: Inactive
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(UTG): $0.0
+Player2(HJ) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player3(MP) Stack: $5.0
+Player4(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5: Inactive
+Table Pot: $0.75
+Player3(HJ): Fold in 0 seconds
+Player4(BTN): Fold in 1 seconds
+Table Pot: $2.25
+Hero(BB): Fold in 1 seconds
+Player6(SB): Fold in 1.0 seconds
+Table Pot: $1.25
+
+
+Player1 is Hero
+Flop: 4♣  Q♥  9♣
+Table Pot: $1.89
+Player2(BTN): Fold in 0 seconds
+Table Pot: $3.78
+Player3(SB): Fold in 4.0 seconds
+Player1: Inactive
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(HJ): $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $159.63
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $32.75
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player1: Inactive
+Table Pot: $0.75
+Player6(UTG): Fold in 5.0 seconds
+Player2(HJ): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+Table Pot: $1.75
+Player3(BTN): Raise $1.0 in 3.0 seconds [Pot: $1.0]
+Player5(BB): Fold in 1.0 seconds
+Table Pot: $1.25
+
+
+Player1 is Hero
+Table Pot: $0.75
+Player3(UTG): Fold in 2.0 seconds
+Player4(HJ): Fold in 2.0 seconds
+Player5(MP): Fold in 0 seconds
+Player5: Inactive
+Table Pot: $2.25
+Hero(SB): Call $1.25 in 5.0 seconds [Pot: $1.25]
+Table Pot: $3.5
+Player2(BB): Fold in 1.0 seconds
+Table Pot: $3.31
+Flop: A♣  A♦  2♥
+Hero(SB): Check in 5.0 seconds
+Table Pot: $5.31
+Player6(BTN): Bet $2.0 in 4.0 seconds [Pot: $2.0]
+Hero(SB): Fold in 10.0 seconds
+Table Pot: $3.31
+
+
+----------------------------------
+ROUND: 1
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BTN): $89.22
+Player3(BB) Stack: $50.0
+Player6(HJ) Stack: $52.1
+Player2(SB) Stack: $60.34
+Player4(UTG) Stack: $63.3
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player4(UTG): Fold in 4.0 seconds
+Player6(HJ): Fold in 0 seconds
+Table Pot: $1.75
+Hero(BTN): Raise $1.0 in 1.0 seconds [Pot: $1.0]
+Player2(SB): Fold in 1.0 seconds
+Table Pot: $1.25
+Player3(BB): Fold in 1.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(HJ): $0.0
+Player2(UTG) Stack: $36.81
+Player3(HJ) Stack: $160.38
+Player4(BTN) Stack: $92.5
+Player5(SB) Stack: $57.81
+Player6(BB) Stack: $34.64
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Table Pot: $1.25
+Player2(UTG): Call $0.5 in 4.0 seconds [Pot: $0.5]
+Player3(HJ): Fold in 14.0 seconds
+Player5(SB): Fold in 0 seconds
+Player4(BTN): Fold in 3.0 seconds
+Player6(BB): Check in 3.0 seconds
+Table Pot: $1.18
+Flop: 5♥  Q♥  8♣
+Table Pot: $1.68
+Player6(BB): Bet $0.5 in 9.0 seconds [Pot: $0.5]
+Table Pot: $2.68
+Player2(UTG): Raise $1.0 in 3.0 seconds [Pot: $1.5]
+Table Pot: $3.18
+Player6(BB): Call $0.5 in 2.0 seconds [Pot: $1.0]
+Table Pot: $3.07
+Turn: 5♥  Q♥  8♣  6♠
+Player6(BB): Check in 2.0 seconds
+Player2(UTG): Bet $1.54 in 4.0 seconds [Pot: $3.04]
+Table Pot: $4.61
+Player6(BB): Call $1.54 in 3.0 seconds [Pot: $2.54]
+Table Pot: $5.98
+Player6(BB): Check in 4.0 seconds
+River: 5♥  Q♥  8♣  6♠  Q♣
+Player2(UTG): Check in 8.0 seconds
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BB): $35.68
+Player2(UTG) Stack: $33.77
+Player3(HJ) Stack: $160.38
+Player4(MP) Stack: $92.5
+Player5(BTN) Stack: $57.56
+Player6(SB) Stack: $31.6
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player3(HJ): Fold in 0 seconds
+Table Pot: $1.75
+Player2(UTG): Raise $1.0 in 4.0 seconds [Pot: $1.0]
+Player5(BTN): Fold in 0 seconds
+Player4(MP): Fold in 2.0 seconds
+Table Pot: $2.5
+Hero(BB): Call $0.5  [Pot: $0.5]
+Table Pot: $2.84
+Flop: 4♥  5♦  6♣
+Player6(SB): Check in 9.0 seconds
+Hero(BB): Check in 1.0 seconds
+Player2(UTG): Check in 1 seconds
+Turn: 4♥  5♦  6♣  8♠
+Player6(SB): Check in 2.0 seconds
+Hero(BB): Check in 1 seconds
+Player2(UTG): Check in 1.0 seconds
+River: 4♥  5♦  6♣  8♠  J♦
+Player6(SB): Check in 2.0 seconds
+Hero(BB): Check in 2.0 seconds
+Player2(UTG): Check in 1.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(HJ): $89.97
+Player3(SB) Stack: $49.75
+Player6(UTG) Stack: $52.1
+Player2(BTN) Stack: $60.09
+Player4(BB) Stack: $63.3
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player6(UTG): Fold in 3.0 seconds
+Hero(HJ): Fold in 13.0 seconds
+Player2(BTN): Raise $1.25 in 4.0 seconds [Pot: $1.25]
+Table Pot: $0.02
+Player3(SB): Fold in 6.0 seconds
+Table Pot: $2.6
+Player4(BB): Call $0.75 in 1.0 seconds [Pot: $0.75]
+Player4(BB): Check in 2.0 seconds
+Flop: Q♣  7♣  2♣
+Turn: Q♣  7♣  2♣  6♥
+Player2(BTN): Check in 22.0 seconds
+Player4(BB): Check in 4.0 seconds
+Player2(BTN): Check in 2.0 seconds
+River: Q♣  7♣  2♣  6♥  J♠
+Table Pot: $3.9
+Player4(BB): Bet $1.3 in 5.0 seconds [Pot: $2.05]
+Table Pot: $5.06
+Player2(BTN): Call $1.3 in 3.0 seconds [Pot: $2.55]
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $34.43
+Player2(BB) Stack: $35.61
+Player3(UTG) Stack: $160.38
+Player4(HJ) Stack: $92.5
+Player5(MP) Stack: $57.56
+Player6(BTN) Stack: $36.58
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Table Pot: $1.75
+Player3(UTG): Raise $1.0 in 10.0 seconds [Pot: $1.0]
+Player4(HJ): Fold in 3.0 seconds
+Player5(MP): Fold in 2.0 seconds
+Hero(SB): Fold in 2.0 seconds
+Player6(BTN): Fold in 0 seconds
+Player2(BB): Fold in 0 seconds
+Table Pot: $1.25
+
+
+----------------------------------
+ROUND: 3
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(UTG): $89.97
+Player3(BTN) Stack: $50.0
+Player6(BB) Stack: $52.1
+Player2(HJ) Stack: $57.54
+Player4(SB) Stack: $60.75
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Hero(UTG): Fold in 7.0 seconds
+Player2(HJ): Fold in 0 seconds
+Table Pot: $2.25
+Player3(BTN): Raise $1.5 in 2.0 seconds [Pot: $1.5]
+Table Pot: $7.5
+Player4(SB): Raise $5.25 in 14.0 seconds [Pot: $5.25]
+Player6(BB): Fold in 4.0 seconds
+Table Pot: $3.5
+
+
+----------------------------------
+ROUND: 4
+Total Players: 5
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BB): $89.97
+Player3(HJ) Stack: $50.0
+Player6(SB) Stack: $51.6
+Player2(UTG) Stack: $62.6
+Player4(BTN) Stack: $62.75
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player2(UTG): Fold in 3.0 seconds
+Player3(HJ): Fold in 10.0 seconds
+Player4(BTN): Fold in 0 seconds
+Table Pot: $0.5
+Player6(SB): Fold in 4.0 seconds
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BTN): $34.43
+Player2(SB) Stack: $35.11
+Player3(BB) Stack: $161.13
+Player4(UTG) Stack: $92.5
+Player5(HJ) Stack: $57.56
+Player6(MP) Stack: $36.58
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player4(UTG): Fold in 0 seconds
+Table Pot: $0.75
+Player5(HJ): Fold in 2.0 seconds
+Player6(MP): Fold in 4.0 seconds
+Hero(BTN): Call $0.5 in 1.0 seconds [Pot: $0.5]
+Table Pot: $1.25
+Player2(SB): Fold in 0 seconds
+Player2: Inactive
+Table Pot: $1.18
+Player3(BB): Check in 9.0 seconds
+Flop: J♠  7♠  K♥
+Player3(BB): Check in 13.0 seconds
+Hero(BTN): Check in 3.0 seconds
+Turn: J♠  7♠  K♥  5♥
+Table Pot: $3.68
+Player3(BB): Bet $2.5 in 8.0 seconds [Pot: $2.5]
+Hero(BTN): Call $2.5 in 6.0 seconds [Pot: $3.0]
+River: J♠  7♠  K♥  5♥  6♥
+Table Pot: $5.91
+Player3(BB): Check in 4.0 seconds
+Hero(BTN): Check in 1 seconds
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(BB): $0.0
+Player6(SB) Stack: $45.19
+Player3(HJ) Stack: $3.0
+Player2(UTG) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $5.75
+Table Pot: $7.09
+Player6(SB): Check in 2.0 seconds
+Turn: 2♦  7♣  A♥  3♠
+Table Pot: $11.59
+Player4(MP): Bet $4.5 in 5.0 seconds [Pot: $4.5]
+Table Pot: $7.09
+Player6(SB): Fold in 2.0 seconds
+
+
+Player1 is Hero
+Table Pot: $1.25
+Player2(UTG): Fold in 3.0 seconds
+Player3(HJ): Fold in 0 seconds
+Player5(BTN): Fold in 0 seconds
+Player4(MP): Check in 2.0 seconds
+Table Pot: $1.5
+Player6(SB): Call $0.25 in 1.0 seconds [Pot: $0.25]
+Hero(BB): Check in 1.0 seconds
+Table Pot: $1.42
+Flop: J♠  10♦  J♥
+Player6(SB): Check in 4.0 seconds
+Player4(MP): Bet $1.42 in 4.0 seconds [Pot: $1.42]
+Table Pot: $2.84
+Player6(SB): Fold in 3.0 seconds
+Hero(BB): Fold in 2.0 seconds
+Table Pot: $1.42
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $19.32
+Player6(BTN) Stack: $43.69
+Player3(UTG) Stack: $163.18
+Player2(BB) Stack: $50.5
+Player4(HJ) Stack: $35.24
+Player5(MP) Stack: $50.75
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player3(UTG): Fold in 3.0 seconds
+Player4(HJ): Fold in 4.0 seconds
+Player6(BTN): Fold in 0 seconds
+Player5(MP): Fold in 5.0 seconds
+Hero(SB): Fold in 5.0 seconds
+Table Pot: $0.5
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0.25 , Big Blind(BB): $0.5
+Hero Stack(SB): $101.72
+Player6(BTN) Stack: $48.0
+Player2(BB) Stack: $58.22
+Player5(MP) Stack: $37.12
+Player3(UTG) Stack: $59.07
+Player4(HJ) Stack: $28.08
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.75
+Player3(UTG): Fold in 6.0 seconds
+Player4(HJ): Fold in 3.0 seconds
+Player5(MP): Fold in 0 seconds
+Player6(BTN): Fold in 3.0 seconds
+Hero(SB): Fold in 1 seconds
+Table Pot: $0.5
+
+
+Player1 is Hero
+Table Pot: $1.18
+
+
+Player1 is Hero
+Table Pot: $0.75
+Player4(MP): Call $0.5 in 9.0 seconds [Pot: $0.5]
+Table Pot: $1.25
+Table Pot: $3.25
+Player6(SB): Fold in 1 seconds
+Player5(BTN): Raise $2.0 in 4.0 seconds [Pot: $2.0]
+Hero(BB): Fold in 1.0 seconds
+Player4(MP): Fold in 1.0 seconds
+Table Pot: $1.75
+
+
+Player1 is Hero
+River: J♥  7♠  4♦  2♠  7♣
+Table Pot: $3.07
+Table Pot: $3.57
+Table Pot: $4.02
+
+

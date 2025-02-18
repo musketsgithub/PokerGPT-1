@@ -53,9 +53,7 @@ class ReadPokerTable:
 
         self.cards_on_table = False
 
-        self.image_dict = {}  # Dictionary to store previous hashes for each player
-
-        self.detected_text_dict = {}
+        self.previous_hashes = {}  # Dictionary to store previous hashes for each player
 
         self.photo = None
 
@@ -119,11 +117,68 @@ class ReadPokerTable:
 
         self.last_action_time = {}
 
-        self.similarities = []
+        self.update_intervals = {  # Store update intervals for each function
+            "player_actions": 100,
+            "table_cards": 700,
+            "player_cards": 1000,
+            "player_turn": 100,
+            "total_pot_size": 600,
+            "hero_action_buttons": 300,
+            "dealer_button": 300
+        }
 
-        self.pending_actions = {}  # Store actions that are waiting for stack updates
-        self.action_timeout = 2.0  # Timeout for pending actions in seconds
-        self.last_stack_updates = {}
+        self.image_processing_queue = queue.Queue()
+        self.gui_update_queue = queue.Queue()
+        self.shutdown_flag = threading.Event()
+
+        self.start_image_processing_thread()
+        self.start_gui_update_thread()
+
+    def activate_window(self):
+        """Activate the poker client window."""
+
+        if self.window:
+            try:
+                self.window.activate()
+                self.window_activation_error_reported = False  # Reset the flag if activation is successful
+            except Exception as e:
+                if not self.window_activation_error_reported:
+                    print(f"Error activating window: {e}")
+                    self.window_activation_error_reported = True
+        else:
+            if not self.window_activation_error_reported:
+                print("Window not located or cannot be activated.")
+                self.window_activation_error_reported = True
+
+    def create_overlay(self):
+        """Create an overlay window with an image on the poker client."""
+        root = tk.Tk()
+        root.withdraw()  # Hide the root window
+
+        # Create the overlay as a Toplevel window and assign it to self.overlay
+        self.overlay = tk.Toplevel(root)
+        self.overlay.title("Poker Overlay")
+        self.overlay.geometry(f'{self.window.width}x{self.window.height}+{self.window.left}+{self.window.top}')
+
+        # Load the image from the 'images/' directory
+        image_path = 'images/PokerTable.png'
+        image = Image.open(image_path)
+        self.photo = ImageTk.PhotoImage(image, master=self.overlay)
+
+        label = tk.Label(self.overlay, image=self.photo)
+        label.pack(fill=tk.BOTH, expand=True)
+
+        self.overlay.overrideredirect(True)
+        self.overlay.wm_attributes("-topmost", True)
+
+        # Schedule an update method if needed, for example, every 1000ms
+        self.overlay.after(1000, self.overlay_update_method)
+
+        root.mainloop()
+
+    def overlay_update_method(self):
+        # Update anything related to the overlay if needed
+        pass
 
     def is_pixel_white(self, pixel, min_white=230, max_white=255):
         """
@@ -306,49 +361,40 @@ class ReadPokerTable:
                                                self.game_state.current_board_stage,
                                                action_result['Action'])
 
-    # def image_hash(self, image):
-    #     """Generate a hash for an image."""
-    #
-    #     image = np.array(image)
-    #
-    #     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # Convert to grayscale
-    #
-    #     avg = gray.mean()  # Compute average pixel value
-    #
-    #     return ''.join('1' if x > avg else '0' for x in gray.flatten())  # Create a binary hash
+    def image_hash(self, image):
+        """Generate a hash for an image."""
 
-    # def has_image_changed(self, player_number, image):
-    #     """Check if the image has changed based on similarity comparison."""
-    #     current_image = cv2.cvtColor(np.array(image), cv2.COLOR_BGR2GRAY)
-    #
-    #     previous_image = self.image_dict.get(player_number)
-    #
-    #     if previous_image is not None:
-    #         try:
-    #             similarity, _ = ssim(current_image, previous_image, full=True)
-    #
-    #             # self.similarities.append(similarity)
-    #             # plt.hist(self.similarities)
-    #             # plt.show()
-    #             # print('gangbang')
-    #
-    #             # print(f"[DEBUG] Player {player_number} similarity: {similarity}")
-    #
-    #             if similarity < 0.32:
-    #                 print(f"[DEBUG] Change detected for player {player_number}, updating image dict")
-    #                 self.image_dict[player_number] = current_image.copy()  # Make sure to copy the image
-    #                 return True
-    #
-    #             print(f"[DEBUG] No change detected for player {player_number}")
-    #             return False
-    #
-    #         except Exception as e:
-    #             print(f"[DEBUG] Error comparing images for player {player_number}: {e}")
-    #             return False
-    #     else:
-    #         print(f"[DEBUG] First image for player {player_number}, storing in dict")
-    #         self.image_dict[player_number] = current_image.copy()  # Make sure to copy the image
-    #         return True
+        image = np.array(image)
+
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # Convert to grayscale
+
+        avg = gray.mean()  # Compute average pixel value
+
+        return ''.join('1' if x > avg else '0' for x in gray.flatten())  # Create a binary hash
+
+    def has_image_changed(self, unique_id, image):
+        """Check if the image has changed based on hash comparison and a threshold."""
+        current_hash = self.image_hash(image)
+        previous_hash = self.previous_hashes.get(unique_id)
+
+        def hamming_distance(hash1, hash2):
+            """Calculate the Hamming distance between two binary strings."""
+            return sum(c1 != c2 for c1, c2 in zip(hash1, hash2))
+
+        if previous_hash is not None:
+
+            difference = hamming_distance(current_hash, previous_hash)
+
+            # print(F"{Fore.RED} difference = {difference}")
+
+            if difference > 100:
+                self.previous_hashes[unique_id] = current_hash
+                return True
+        else:
+            # If no previous hash, store the current one
+            self.previous_hashes[unique_id] = current_hash
+
+        return False
 
     def detect_text(self, relative_x, relative_y, width, height):
         """
@@ -370,6 +416,28 @@ class ReadPokerTable:
         detected_text = pytesseract.image_to_string(thresh_image, config=custom_config)
 
         return detected_text.strip()
+
+    # def update_plot_impl(self, screenshot_array):
+    #     ax.clear()
+    #     ax.imshow(screenshot_array)
+    #     canvas.draw_idle()
+    # def update_plot_safely(self, screenshot_array):
+    #     if root.winfo_exists():  # Check if window still exists
+    #         root.after(0, lambda: update_plot_impl(screenshot_array))
+
+    def _detect_text_changed_impl(self, player_number, unique_id, relative_x, relative_y, width, height, typeofthing=None):
+        screenshot = self.capture_screen_area(relative_x, relative_y, width, height)
+        if screenshot is None:
+            return None
+
+        screenshot_array = np.array(screenshot)
+        if self.has_image_changed(unique_id, screenshot_array):
+            gray_image = cv2.cvtColor(screenshot_array, cv2.COLOR_BGR2GRAY)
+            _, thresh_image = cv2.threshold(gray_image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+            custom_config = r'--oem 3 --psm 6'
+            detected_text = pytesseract.image_to_string(thresh_image, config=custom_config).strip()
+            return (player_number, detected_text)  # Return player number along with the text
+        return None
 
     def detect_hero_combination_name(self):
         """Detect the card combination name of the hero player."""
@@ -395,6 +463,125 @@ class ReadPokerTable:
 
         return hero_combination_name
 
+    def _detect_player_stack_and_action_impl(self, player_number):
+        if self.last_action_player == player_number:
+            return None
+
+        player_regions = {
+            1: {'stack': (0.467, 0.732), 'action': (0.467, 0.701)},  # DONE
+            2: {'stack': (0.059, 0.560), 'action': (0.059, 0.529)},  # DONE
+            3: {'stack': (0.093, 0.265), 'action': (0.093, 0.235)},  # DONE
+            4: {'stack': (0.430, 0.173), 'action': (0.430, 0.144)},  # DONE
+            5: {'stack': (0.814, 0.265), 'action': (0.814, 0.235)},  # DONE
+            6: {'stack': (0.846, 0.560), 'action': (0.842, 0.530)}  # DONE
+        }
+        region_stack_x, region_stack_y = player_regions[player_number]['stack']
+        region_action_x, region_action_y = player_regions[player_number]['action']
+        width = 95  # ...
+        height = 24  # ...
+
+        detected_stack_text = self.detect_text_changed(player_number, player_number + 10, region_stack_x,
+                                                       region_stack_y, width, height, typeofthing='stack')
+        if detected_stack_text is None:
+            detected_stack_text = ''
+
+        self.update_player_active_state(player_number, detected_stack_text)  # This is okay here
+
+        current_stack_size, stack_size_change = self.get_player_stack_size(player_number, detected_stack_text)
+
+        detected_action_text = self.detect_text_changed(player_number, player_number + 20, region_action_x,
+                                                        region_action_y, width, height)
+        if detected_action_text is None:
+            detected_action_text = ''
+
+        detected_action = detected_action_text.lower()
+        bet_amount = 0
+
+        if current_stack_size is not None:
+            if stack_size_change < 20:
+                bet_amount = stack_size_change
+
+        if detected_action == "fold":
+            # print('nigga')
+            self.game_state.update_player(player_number, action='Fold')
+            # return
+            # print(f"Player{player_number}: {detected_action_text}")
+
+        elif detected_action == "resume":
+            self.game_state.update_player(player_number, action='Resume')
+            # return
+            # print(f"Player{player_number}: {detected_action_text}")
+
+        elif detected_action == "check":
+            self.game_state.update_player(player_number, action='Check')
+            # return
+            # print(f"Player{player_number}: {detected_action_text}")
+        elif detected_action == "call":
+            self.game_state.update_player(player_number, stack_size=current_stack_size, amount=bet_amount,
+                                          action='Call')
+            # return
+            # print(f"Player{player_number}: {detected_action_text}")
+        elif detected_action == 'raise':
+            self.game_state.update_player(player_number, stack_size=current_stack_size, amount=bet_amount,
+                                          action='Raise')
+            # return
+            # print(f"Player{player_number}: {detected_action_text}")
+        elif detected_action == "bet":
+            self.game_state.update_player(player_number, stack_size=current_stack_size, amount=bet_amount, action='Bet')
+            # return
+        elif "won" in detected_action:
+            won_amount_number = self.get_won_amount(detected_action)
+            self.game_state.update_player(player_number, stack_size=current_stack_size, won_amount=won_amount_number)
+            # return
+            # print(f"Player{player_number}: {detected_action_text}")
+
+        return (player_number, current_stack_size, stack_size_change, detected_action)  # Return the data with player number
+
+    def _detect_player_stack_and_action_gui(self, result):
+        if result is not None:
+            player_number, current_stack_size, stack_size_change, detected_action = result
+            # Update GUI elements with the received data for the correct player
+            # Example (replace with your actual GUI elements):
+            # if player_number == 1:
+            #     self.player_1_stack_label.config(text=str(current_stack_size))
+            #     self.player_1_action_label.config(text=detected_action)
+            pass  # Replace with your actual GUI update code
+
+            if current_stack_size is not None:
+                self.game_state.update_player(player_number, stack_size=current_stack_size)
+
+            if detected_action == "fold":
+                self.game_state.update_player(player_number, action='Fold')
+            elif detected_action == "resume":
+                self.game_state.update_player(player_number, action='Resume')
+            elif detected_action == "check":
+                self.game_state.update_player(player_number, action='Check')
+            elif detected_action == "call":
+                self.game_state.update_player(player_number, stack_size=current_stack_size, amount=bet_amount,
+                                              action='Call')
+            elif detected_action == 'raise':
+                self.game_state.update_player(player_number, stack_size=current_stack_size, amount=bet_amount,action="Raise")
+            elif detected_action == "bet":
+                self.game_state.update_player(player_number, stack_size=current_stack_size, amount=bet_amount,
+                                              action='Bet')
+            elif "won" in detected_action:
+                won_amount_number = self.get_won_amount(detected_action)
+                self.game_state.update_player(player_number, stack_size=current_stack_size,
+                                              won_amount=won_amount_number)
+
+
+    def update_player_active_state(self, player_number, detected_stack_text):
+
+        # Check for 'Sitting Out', 'Sitting', or 'SEAT' in the detected text
+        if re.search(r'sitting|seat|disconnect', detected_stack_text, re.IGNORECASE):
+
+            current_status = self.game_state.players.get(player_number, {}).get('status')
+
+            if current_status == 'Active':
+                # Update player status to inactive
+                self.game_state.update_player(player_number, status='Inactive')
+        else:
+            self.game_state.update_player(player_number, status='Active')
 
     def get_won_amount(self, detected_text):
         # First, remove commas from the detected text
@@ -414,9 +601,6 @@ class ReadPokerTable:
         """
         Parse the detected text for stack size and update the game state.
         """
-
-        if detected_text is None:  # Handle the None case right at the beginning
-            return None, None
 
         # First, remove commas from the detected text
         detected_text = detected_text.replace(',', '')
@@ -482,7 +666,6 @@ class ReadPokerTable:
             progress_bar_gray = cv2.cvtColor(np.array(progress_bar), cv2.COLOR_BGR2GRAY)
 
             is_turn = False
-            # print("Progress bar shape", progress_bar_gray.shape)
             similarity, _ = ssim(progress_bar_gray, self.progress_bar_template, full=True)
 
             player_similarities[player_number] = similarity
@@ -494,18 +677,44 @@ class ReadPokerTable:
         # print(player_number)
 
         with self.game_state_lock:
+
             if self.game_state.get_current_player_turn() != player_number:
                 self.game_state.update_player(player_number, turn=True)
-                self.last_active_player = player_number
 
-                # Check if it's the hero's turn
-                if player_number == self.game_state.hero_player_number:
-                    self.game_state.analyze_hand(self.poker_assistant.openai_client)  # Pass openai_client here
+                self.last_active_player = player_number
 
             return player_number
 
         # # Return the last active player if no active player is detected
         # return self.last_active_player
+
+    def is_gray_bar_present(self, x, y):
+        try:
+            # Check if the coordinates are within the screen bounds
+            screen_width, screen_height = pyautogui.size()
+            if 0 <= x < screen_width and 0 <= y < screen_height:
+                # Capture the color of the pixel at the given coordinates
+                pixel_color = pyautogui.pixel(x, y)
+            else:
+                print(f"Coordinates ({x}, {y}) are out of screen bounds.")
+                return False
+
+            # 858789 = gray bar
+            # 133 = R
+            # 135 = G
+            # 137 = B
+
+            # Define the color range that indicates a gray bar
+            gray_lower = np.array([130, 130, 130], dtype="uint8")
+            gray_upper = np.array([140, 140, 140], dtype="uint8")
+
+            # Check if the pixel color falls within the green range
+            in_range = all(gray_lower[i] <= pixel_color[i] <= gray_upper[i] for i in range(3))
+            return in_range
+
+        except Exception as e:
+            print(f"Error in gray bar at ({x}, {y}): {e}")
+            return False
 
     def detect_total_pot_size(self):
         """
@@ -518,23 +727,26 @@ class ReadPokerTable:
             return
 
         try:
-            # Remove any commas and the "Pot: $" prefix
-            cleaned_text = detected_text.replace(',', '').replace('Pot:', '').replace('$', '').replace('.', '').strip()
+            # Use regular expression to extract the numeric value from the text
+            match = re.search(r'[\d,.]+', detected_text)
+            if match:
+                # Convert the matched string to a floating point number
+                pot_size_str = match.group().replace(",", "")
+                new_pot_size = float(pot_size_str)
 
-            # Convert to float, dividing by 100 to handle cents
-            new_pot_size = float(cleaned_text) / 100
+                # Check if the detected pot size is different from the current pot size in the game state
+                if new_pot_size != self.game_state.total_pot:
+                    with self.game_state_lock:
+                        self.game_state.update_total_pot(new_pot_size)
+                        # print(f"Total Pot Size updated to: {new_pot_size}")
+                # else:
+                # print("No change in Total Pot Size.")
+            # else:
+            # print(f"No valid pot size found in detected text: '{detected_text}'")
 
-            # Check if the detected pot size is different from the current pot size in the game state
-            if new_pot_size != self.game_state.total_pot:
-                with self.game_state_lock:
-                    self.game_state.update_total_pot(new_pot_size)
-                    # print(f"Total Pot Size updated to: ${new_pot_size:.2f}")
-
-        except ValueError as e:
-            print(f"Unable to parse total pot size from detected text: '{detected_text}' (Error: {e})")
-        except Exception as e:
-            print(f"Unexpected error processing pot size: '{detected_text}' (Error: {e})")
-
+        except ValueError:
+            # Handle cases where the extracted text is not a valid number
+            print(f"Unable to parse total pot size from detected text: '{detected_text}'")
         return detected_text
 
     def is_color_active(self, x, y, tolerance=30):
@@ -651,6 +863,8 @@ class ReadPokerTable:
             # plt.imshow(screenshot_icon_gray)
             # plt.show()
 
+            print('yo')
+
             card_suit = None
 
             for suit, template in self.card_icon_templates.items():
@@ -690,7 +904,6 @@ class ReadPokerTable:
         # if valid_cards:
         # print(f"Valid cards for Player {player_number}: {valid_cards}")
 
-        # print(valid_cards)
         return valid_cards
 
     def find_cards_on_table(self):
@@ -897,119 +1110,88 @@ class ReadPokerTable:
 
         return None  # Dealer button not found
 
-    def action1(self):
-        while True:
-            player_number = 1
-            current_time = time.time()
-            # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-            self.detect_player_stack_and_action(1)
-            self.last_action_time[player_number] = current_time
-            self.last_action_player = player_number
-            time.sleep(0.01)  # Short sleep is okay here
-
-    def action2(self):
-        while True:
-            player_number = 2
-            current_time = time.time()
-            # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-            self.detect_player_stack_and_action(2)
-            self.last_action_time[player_number] = current_time
-            self.last_action_player = player_number
-            time.sleep(0.01)  # Short sleep is okay here
+    def _player_cards(self):
+        for player_number in range(1, 7):
+            if self.check_player_card_active(player_number):
+                self.image_processing_queue.put(("find_player_cards", (player_number,)))
+        time.sleep(1)
 
 
-    def action3(self):
-        while True:
-            player_number = 3
-            current_time = time.time()
-            # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-            self.detect_player_stack_and_action(3)
-            self.last_action_time[player_number] = current_time
-            self.last_action_player = player_number
-            time.sleep(0.01)  # Short sleep is okay here
+    def _table_cards(self):
+        self.image_processing_queue.put(("find_cards_on_table", ()))  # Queue the task
+        time.sleep(0.7)  # Sleep after queuing, not during processing
 
-    def action4(self):
-        while True:
-            player_number = 4
-            current_time = time.time()
-            # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-            self.detect_player_stack_and_action(4)
-            self.last_action_time[player_number] = current_time
-            self.last_action_player = player_number
-            time.sleep(0.01)  # Short sleep is okay here
+    def _player_turn(self):
+        self.image_processing_queue.put(("detect_player_turn", ()))  # Queue the task
+        time.sleep(0.1)
 
-    def action5(self):
-        while True:
-            player_number = 5
-            current_time = time.time()
-            # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-            self.detect_player_stack_and_action(5)
-            self.last_action_time[player_number] = current_time
-            self.last_action_player = player_number
-            time.sleep(0.01)  # Short sleep is okay here
+    def _dealer_button(self):
+        self.image_processing_queue.put(("find_dealer_button", (self.dealer_button_image,)))
+        time.sleep(0.8)
 
-    def action6(self):
-        marker=0
-        while True:
-            player_number = 6
-            current_time = time.time()
-            # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] >  2:
-            self.detect_player_stack_and_action(6)
-            self.last_action_time[player_number] = current_time
-            self.last_action_player = player_number
-            time.sleep(0.01)  # Short sleep is okay here
+    def _player_actions(self):
+        current_time = time.time()
+        for player_number in range(1, 7):  # Iterate through all players
+            if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 1:
+                self.image_processing_queue.put(("detect_player_stack_and_action", (player_number,)))  # Queue the task
+                self.last_action_time[player_number] = current_time
+                self.last_action_player = player_number
+        time.sleep(0.05)  # Short sleep is okay here
 
+# def continuous_detection_player_action2(self):  # Example for player 1, apply to others
 
+        current_time = time.time()
+        player_number = 2  # Define the player number here
+        if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 1:  # Adjust delay as needed
+            detected_action = self.detect_player_stack_and_action(player_number)
+            if detected_action:  # Check if an action was actually detected
+                self.last_action_time[player_number] = current_time
+                self.last_action_player = player_number  # Update last action player
+        time.sleep(0.05)
 
-    # def player_actions(self):
-    #     while True:
-    #         player_number = 1
-    #         current_time = time.time()
-    #         if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-    #             self.detect_player_stack_and_action(1)
-    #             self.last_action_time[player_number] = current_time
-    #             self.last_action_player = player_number
-    #         time.sleep(0.05)  # Short sleep is okay here
-    #
-    #         player_number = 2
-    #         current_time = time.time()
-    #         if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-    #             self.detect_player_stack_and_action(2)
-    #             self.last_action_time[player_number] = current_time
-    #             self.last_action_player = player_number
-    #         time.sleep(0.05)  # Short sleep is okay here
-    #
-    #         player_number = 3
-    #         current_time = time.time()
-    #         if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-    #             self.detect_player_stack_and_action(3)
-    #             self.last_action_time[player_number] = current_time
-    #             self.last_action_player = player_number
-    #         time.sleep(0.05)  # Short sleep is okay here
-    #
-    #         player_number = 4
-    #         current_time = time.time()
-    #         if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-    #             self.detect_player_stack_and_action(4)
-    #             self.last_action_time[player_number] = current_time
-    #             self.last_action_player = player_number
-    #         time.sleep(0.05)  # Short sleep is okay here
-    #
-    #         player_number = 5
-    #         current_time = time.time()
-    #         if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
-    #             self.detect_player_stack_and_action(5)
-    #             self.last_action_time[player_number] = current_time
-    #             self.last_action_player = player_number
-    #         time.sleep(0.05)  # Short sleep is okay here
-    #
-    #         player_number = 6
-    #         current_time = time.time()
-    #         if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] >  2:
-    #             self.detect_player_stack_and_action(6)
-    #             self.last_action_time[player_number] = current_time
-    #             self.last_action_player = player_number
-    #         time.sleep(0.05)  # Short sleep is okay here
+# def continuous_detection_player_action3(self):  # Example for player 1, apply to others
+
+        current_time = time.time()
+        player_number = 3  # Define the player number here
+        if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 1:  # Adjust delay as needed
+            detected_action = self.detect_player_stack_and_action(player_number)
+            if detected_action:  # Check if an action was actually detected
+                self.last_action_time[player_number] = current_time
+                self.last_action_player = player_number  # Update last action player
+        time.sleep(0.05)
+
+# def continuous_detection_player_action4(self):  # Example for player 1, apply to others
+
+        current_time = time.time()
+        player_number = 4  # Define the player number here
+        if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 1:  # Adjust delay as needed
+            detected_action = self.detect_player_stack_and_action(player_number)
+            if detected_action:  # Check if an action was actually detected
+                self.last_action_time[player_number] = current_time
+                self.last_action_player = player_number  # Update last action player
+        time.sleep(0.05)
+
+# def continuous_detection_player_action5(self):  # Example for player 1, apply to others
+
+        current_time = time.time()
+        player_number = 5  # Define the player number here
+        if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 1:  # Adjust delay as needed
+            detected_action = self.detect_player_stack_and_action(player_number)
+            if detected_action:  # Check if an action was actually detected
+                self.last_action_time[player_number] = current_time
+                self.last_action_player = player_number  # Update last action player
+        time.sleep(0.05)
+
+# def continuous_detection_player_action6(self):  # Example for player 1, apply to others
+
+        current_time = time.time()
+        player_number = 6  # Define the player number here
+        if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 1:  # Adjust delay as needed
+            detected_action = self.detect_player_stack_and_action(player_number)
+            if detected_action:  # Check if an action was actually detected
+                self.last_action_time[player_number] = current_time
+                self.last_action_player = player_number  # Update last action player
+        time.sleep(0.05)
 
     def _total_pot_size(self):
         self.image_processing_queue.put(("detect_total_pot_size", ()))  # Queue the task
@@ -1046,332 +1228,67 @@ class ReadPokerTable:
         print("All threads have been joined.")
         keyboard.unhook_all()
 
-    def start_continuous_detection(self):
-        """Start the continuous detection in a new thread."""
-        # #
-        action_detection_thread1 = threading.Thread(target=self.action1)
-
-        action_detection_thread2 = threading.Thread(target=self.action2)
-
-        action_detection_thread3 = threading.Thread(target=self.action3)
-
-        action_detection_thread4 = threading.Thread(target=self.action4)
-
-        action_detection_thread5 = threading.Thread(target=self.action5)
-
-        action_detection_thread6 = threading.Thread(target=self.action6)
-
-        # player_action_thread = threading.Thread(target=self.player_actions)
-
-        turn_detection_thread = threading.Thread(target=self.continuous_detection_player_turn)
-
-        dealer_detection_thread = threading.Thread(target=self.continuous_detection_dealer_button)
-
-        cards_detection_thread = threading.Thread(target=self.continuous_detection_table_cards)
-
-        player_cards_detection_thread = threading.Thread(target=self.continuous_detection_player_cards)
-
-        pot_detection_thread = threading.Thread(target=self.continuous_detection_total_pot_size)
-
-        hero_buttons_thread = threading.Thread(target=self.continuous_detection_hero_action_buttons)
-
-        action_detection_thread1.start()
-        action_detection_thread2.start()
-        action_detection_thread3.start()
-        action_detection_thread4.start()
-        action_detection_thread5.start()
-        action_detection_thread6.start()
-
-        # player_action_thread.start()
-
-        turn_detection_thread.start()
-        dealer_detection_thread.start()
-        cards_detection_thread.start()
-        player_cards_detection_thread.start()
-        pot_detection_thread.start()
-        hero_buttons_thread.start()
-
-    def detect_player_stack_and_action(self, player_number):
-        """Detect and process player stack size and actions with timing handling."""
-        current_time = time.time()
-
-        # Clean up expired pending actions
-        if player_number in self.pending_actions:
-            if current_time - self.pending_actions[player_number]['time'] > self.action_timeout:
-                del self.pending_actions[player_number]
-
-        # Define regions for all players
-        player_regions = {
-            1: {'stack': (0.467, 0.732), 'action': (0.467, 0.701)},
-            2: {'stack': (0.059, 0.560), 'action': (0.059, 0.529)},
-            3: {'stack': (0.093, 0.265), 'action': (0.093, 0.235)},
-            4: {'stack': (0.430, 0.173), 'action': (0.430, 0.144)},
-            5: {'stack': (0.814, 0.265), 'action': (0.814, 0.235)},
-            6: {'stack': (0.846, 0.560), 'action': (0.842, 0.530)}
-        }
-
-        region_stack_x, region_stack_y = player_regions[player_number]['stack']
-        region_action_x, region_action_y = player_regions[player_number]['action']
-        width = 95
-        height = 24
-
-        # Detect stack size
-        detected_stack_text = self.detect_text_changed(
-            player_number,
-            player_number + 10,
-            region_stack_x,
-            region_stack_y,
-            width,
-            height,
-            typeofthing='stack'
-        )
-
-        # if player_number==1:
-        #     print(detected_stack_text)
-
-        # Process stack update
-        if detected_stack_text is not None:
-            with self.game_state_lock:
-                self.update_player_active_state(player_number, detected_stack_text)
-                current_stack_size, stack_size_change = self.get_player_stack_size(player_number, detected_stack_text)
-
-                if current_stack_size is not None:
-                    self.game_state.update_player(player_number, stack_size=current_stack_size)
-                    self.last_stack_updates[player_number] = {
-                        'time': current_time,
-                        'change': stack_size_change
-                    }
-
-                    # Check if we have a pending action waiting for this stack update
-                    if player_number in self.pending_actions:
-                        pending = self.pending_actions[player_number]
-                        if pending['action'] in ['call', 'raise', 'bet']:
-                            self.game_state.update_player(
-                                player_number,
-                                stack_size=current_stack_size,
-                                amount=stack_size_change if stack_size_change else 0,
-                                action=pending['action'].capitalize()
-                            )
-                        del self.pending_actions[player_number]
-                        self.last_action_player = player_number
-                        return
-
-        # Detect action
-        detected_action_text = self.detect_text_changed(
-            player_number,
-            player_number + 20,
-            region_action_x,
-            region_action_y,
-            width,
-            height,
-            typeofthing='action'
-        )
-
-        if detected_action_text is not None:
-            detected_action = detected_action_text.lower()
-
-            with self.game_state_lock:
-                # For actions that don't require stack changes
-                if detected_action in ['fold', 'resume', 'check']:
-                    self.game_state.update_player(player_number, action=detected_action.capitalize())
-                    self.last_action_player = player_number
-                    return
-
-                # For betting actions, check if we recently saw a stack change
-                elif detected_action in ['call', 'raise', 'bet']:
-                    recent_stack = self.last_stack_updates.get(player_number)
-                    if recent_stack and (current_time - recent_stack['time'] < self.action_timeout):
-                        # We have a recent stack change, use it
-                        self.game_state.update_player(
-                            player_number,
-                            amount=recent_stack['change'] if recent_stack['change'] else 0,
-                            action=detected_action.capitalize()
-                        )
-                        self.last_action_player = player_number
-                    else:
-                        # Store this action as pending
-                        self.pending_actions[player_number] = {
-                            'action': detected_action,
-                            'time': current_time
-                        }
-                    return
-
-                # For winning, which might come before stack update
-                elif "won" in detected_action:
-                    won_amount = self.get_won_amount(detected_action)
-                    self.pending_actions[player_number] = {
-                        'action': 'won',
-                        'amount': won_amount,
-                        'time': current_time
-                    }
-                    return
-
-    def detect_text_changed(self, player_number, unique_id, relative_x, relative_y, width, height, typeofthing=None):
-        """Detect text from a specified region of the screen with optimizations."""
-        screenshot = self.capture_screen_area(relative_x, relative_y, width, height)
-
-        if screenshot is None:
-            return None
-
-        screenshot_array = np.array(screenshot)
-        gray_image = cv2.cvtColor(screenshot_array, cv2.COLOR_BGR2GRAY)
-        _, thresh_image = cv2.threshold(gray_image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-
-        # Custom configurations for Tesseract
-        custom_config = r'--oem 3 --psm 6'
-        detected_text = pytesseract.image_to_string(thresh_image, config=custom_config)
-
-        # Create a unique dictionary key for each type of text
-        dict_key = f"player_{player_number}_{typeofthing}"
-
-        # if player_number == 1:  # Debug logging for player 1
-        #     if dict_key in self.detected_text_dict:
-        #         print(f"Old Text ({typeofthing})", self.detected_text_dict[dict_key])
-        #     print(f"New Text ({typeofthing})", detected_text.strip())
-
-        # Check if text has changed
-        if dict_key in self.detected_text_dict:
-            if detected_text.strip() != self.detected_text_dict[dict_key]:
-                self.detected_text_dict[dict_key] = detected_text.strip()
-                return detected_text.strip()
-            return None
-        else:
-            self.detected_text_dict[dict_key] = detected_text.strip()
-            return None
-
-    def update_player_active_state(self, player_number, detected_stack_text):
-
-        if detected_stack_text is not None:  # Check if detected_stack_text is NOT None
-            if re.search(r'sitting|seat|disconnect', detected_stack_text, re.IGNORECASE):
-                current_status = self.game_state.players.get(player_number, {}).get('status')
-                if current_status == 'Active':
-                    self.game_state.update_player(player_number, status='Inactive')
-            else:
-                self.game_state.update_player(player_number, status='Active')
-        #else: if it is None, do nothing, the player is already considered inactive
-
-    def continuous_detection_player_turn(self):
-        """Continuously detect game state changes."""
-        while True:
-            # try:
-            if not self.window:
-                time.sleep(0.2)  # Adjust the sleep time as needed
-                continue  # Skip to the next iteration of the loop
-
-            # Detect active players turn
-            self.detect_player_turn()
-
-            # Sleep before the next detection cycle
-            time.sleep(0.1)  # Adjust the sleep time as needed
-
-            # except Exception as e:
-            # print(f"Error in continuous detection: {e}")
-
-    def continuous_detection_dealer_button(self):
-        """Continuously detect game state changes."""
-
-        while True:
-            if not self.window:
-                time.sleep(0.2)  # Adjust the sleep time as needed
-                continue  # Skip to the next iteration of the loop
-
-            self.find_dealer_button(self.dealer_button_image)
-
-            # Sleep before the next detection cycle
-            time.sleep(0.8)  # Adjust the sleep time as needed
-
-    def continuous_detection_table_cards(self):
-        """Continuously detect game state changes."""
-        while True:
-            if not self.window:
-                time.sleep(0.2)  # Adjust the sleep time as needed
-                continue  # Skip to the next iteration of the loop
-
-            # Detect cards on the table
-            cards_on_table = self.find_cards_on_table()
-
-            # Sleep before the next detection cycle
-            time.sleep(3)  # Adjust the sleep time as needed
-
-    def continuous_detection_player_cards(self):
-        """Continuously detect game state changes."""
-
-        while True:
-            if not self.window:
-                time.sleep(0.5)  # Adjust the sleep time as needed
-                continue  # Skip to the next iteration of the loop
-
-            for player_number in range(1, 7):  # Assuming 6 players in the game
-                # player_number = 1
-
-                if self.check_player_card_active(player_number):
-
-                    # print(f"Player {player_number} cards active: YES!")
-
-                    new_cards_detected = self.find_player_cards(player_number)
-
-                    current_cards_detected_length = len(new_cards_detected)
-
-                    if current_cards_detected_length == 2:
-
-                        with self.game_state_lock:
-
-                            current_cards_stored = self.game_state.players.get(player_number, {}).get('cards')
-
-                            if new_cards_detected != current_cards_stored:
-                                # print(f"Player{player_number} NEW card = {new_cards_detected} | current_cards_stored = {current_cards_stored}")
-
-                                # Update the game state if there's a change
-                                self.game_state.update_player(player_number, cards=new_cards_detected)
-
-                                # community_cards_count = len(self.game_state.community_cards)
-                                # if community_cards_count < 5:
-
-                                # if self.game_state.hero_player_number == 0:
-                                # self.game_state.update_player(player_number, hero=True)
-                                # print(f"Player{player_number} is HERO!")
-
-                                # print(f"Player {player_number} cards updated: {current_cards_detected}")
-
-                            # else:
-                            # print(f"No change in cards for Player {player_number}")
-                # else:
-                # print(f"Cards not active for Player {player_number}")
-
-            # Sleep before the next detection cycle
-            time.sleep(1.0)  # Adjust the sleep time as needed
-
-    def continuous_detection_total_pot_size(self):
-        """Continuously detect game state changes."""
-        while True:
-            # try:
-            if not self.window:
-                time.sleep(0.2)
-                continue
-
-                # if self.action_processed == False:
-                # Detect total pot size
-            self.detect_total_pot_size()
-
-            time.sleep(0.6)
-
-            # except Exception as e:
-            # print(f"Error in continuous detection: {e}")
-
-    def continuous_detection_hero_action_buttons(self):
-        """Continuously detect hero buttons."""
-        while True:
-            # try:
-            if not self.window:
-                time.sleep(0.2)
-                continue
-
-                # Detect hero hand combination
-            # hero_card_combinations = self.detect_hero_combination_name()
-            # Detect available buttons for the hero, when it's Heros turn
-            self.detect_hero_buttons()
-
-            time.sleep(0.3)
-
-            # except Exception as e:
-            # print(f"Error in continuous detection: {e}")
+    def start_continuous_detection(self):  # No overlay creation here
+        """Starts continuous detection of game state changes."""
+        self.root = tk.Tk()  # Create the main window
+        self.root.withdraw()  # Hide the main window
+
+        for task_name in self.update_intervals:
+            self.schedule_update(task_name)
+
+        self.root.mainloop()  # Start the Tkinter event loop
+
+    def schedule_update(self, task_name):
+        """Schedules a specific update function using after()."""
+        interval = self.update_intervals[task_name]
+        task_func = getattr(self, f"_{task_name}")  # Get function by name
+
+        def run_task_and_reschedule():
+            task_func()  # Run the task (NO WHILE LOOP INSIDE)
+            self.root.after(interval, run_task_and_reschedule)  # Reschedule
+
+        self.root.after(interval, run_task_and_reschedule)  # First call
+
+    def start_image_processing_thread(self):
+        self.image_processing_thread = threading.Thread(target=self.process_images, daemon=True)
+        self.image_processing_thread.start()
+
+    def process_images(self):
+        while not self.shutdown_flag.is_set():
+            try:
+                task = self.image_processing_queue.get(timeout=1)  # Check shutdown flag
+                if task is None:
+                    break
+
+                method_name, args = task
+                try:  # Add a try/except block here
+                    result = getattr(self, f"_{method_name}_impl")(*args)
+                    if result is not None:
+                        self.gui_update_queue.put((method_name, result))
+                except Exception as e:
+                    print(f"Error in image processing for {method_name}: {e}")
+                finally:
+                    self.image_processing_queue.task_done()
+            except queue.Empty:
+                pass
+
+    def start_gui_update_thread(self):
+        self.gui_update_thread = threading.Thread(target=self.update_gui, daemon=True)
+        self.gui_update_thread.start()
+
+    def update_gui(self):
+        while not self.shutdown_flag.is_set():
+            try:
+                update_data = self.gui_update_queue.get(timeout=1)
+                if update_data is None:
+                    break
+
+                method_name, result = update_data
+                try:  # Add a try/except block here
+                    self.root.after(0, lambda: getattr(self, f"_{method_name}_gui")(result))  # Update on main thread
+                except Exception as e:
+                    print(f"Error in GUI update for {method_name}: {e}")
+                finally:
+                    self.gui_update_queue.task_done()
+            except queue.Empty:
+                pass

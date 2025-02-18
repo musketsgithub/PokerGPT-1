@@ -13,7 +13,7 @@ class PokerAssistant:
         pygame.init()  # Initialize the pygame module for audio playback
 
 
-        self.client             = openai_client 
+        self.openai_client             = openai_client
 
         self.hero_info          = hero_info
 
@@ -365,7 +365,7 @@ class PokerAssistant:
         return formatted_output
 
 
-    # This method is called by read_poker_table.py
+    # This method is called by backup3.py
     def analyze_players_gpt4(self, historical_data):
         try:
             formatted_data = self.format_historical_data(historical_data)
