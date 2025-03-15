@@ -7897,3 +7897,2924 @@ Player5(None): Fold in 1.0 seconds
 Table Pot: $0.04
 
 
+Player1 is Hero
+Table Pot: $3.89
+Table Pot: $10.89
+Flop: 6♠  A♠  10♠
+Turn: 6♠  A♠  10♠  4♠
+Table Pot: $18.08
+River: 6♠  A♠  10♠  4♠  7♣
+
+
+Player1 is Hero
+Table Pot: $2.0
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $9500.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player6(UTG) Stack: $14275.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+River: 2♦  A♠  5♦  8♠  2♠
+
+
+Player1 is Hero
+River: 4♠  2♣  2♦  8♥  5♠
+
+
+Player1 is Hero
+Turn: 4♦  2♦  K♦  4♥
+Table Pot: $30.0
+
+
+Player1 is Hero
+Turn: 4♣  J♣  7♠  9♠
+River: Q♥  4♣  J♣  7♠  9♠
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Flop: J♥  K♥  J♠
+Player6(None): Bet $140.0  [Pot: $140.0]
+Hero(None): Fold in 0 seconds
+Player6(None): Call $6954.0  [Pot: $7094.0]
+River: J♥  K♥  J♠  8♠  5♣
+
+
+Player1 is Hero
+Flop: 10♥  J♦  7♠
+Player2(None): Check in 0 seconds
+Turn: 10♥  J♦  7♠  K♦
+Player6(None): Bet $3400.0  [Pot: $3400.0]
+River: 10♥  J♦  7♠  K♦  Q♣
+Player6(None): Call $2040.0  [Pot: $5440.0]
+
+
+Player1 is Hero
+Flop: 2♥  8♠  3♦
+Player2(None): Raise $7515.0  [Pot: $7515.0]
+Table Pot: $0.1
+Turn: 2♥  8♠  3♦  8♠
+River: 2♥  8♠  3♦  3♥  10♠
+
+
+Player1 is Hero
+Player6(None): Check in 0 seconds
+Hero(None): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $29.0
+Player3(BTN) Stack: $9410.0
+Player5(BB) Stack: $0.0
+Player2(MP) Stack: $3459.0
+Player6(UTG) Stack: $9588.0
+Player4(SB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(BTN): Fold in 0 seconds
+Player6(UTG): Fold in 0 seconds
+Hero(HJ): Call $270.0  [Pot: $270.0]
+Flop: 8♠  6♥  9♠
+River: 8♠  6♥  9♠  3♠  A♠
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $209.0
+Player3(UTG) Stack: $9410.0
+Player5(MP) Stack: $0.0
+Player2(BB) Stack: $6268.0
+Player6(BTN) Stack: $9588.0
+Player4(HJ) Stack: $1000.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(UTG): Call $400.0  [Pot: $400.0]
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Player2(BB): Check in 0 seconds
+Flop: 7♦  J♥  10♦
+Player2(BB): Bet $297.0  [Pot: $297.0]
+Player3(UTG): Call $4297.0  [Pot: $4697.0]
+Turn: 7♦  J♥  10♦  2♣
+Player2(BB): Bet $494.0  [Pot: $791.0]
+Player3(UTG): Call $494.0  [Pot: $5191.0]
+Player2(BB): Bet $2482.0  [Pot: $3273.0]
+River: 7♦  J♥  10♦  2♣  K♣
+Player3(UTG): Call $2482.0  [Pot: $7673.0]
+Table Pot: $2.0
+Player4(HJ): Fold in 0 seconds
+Player6(BTN): Call $173.0  [Pot: $173.0]
+Player2(BB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Flop: K♦  K♠  Q♣
+River: K♦  K♠  Q♣  5♥  10♠
+
+
+Player1 is Hero
+Turn: K♣  8♦  8♥  J♥
+Hero(SB): Call $3959.0  [Pot: $3959.0]
+River: K♣  8♦  8♥  J♥  2♠
+
+
+Player1 is Hero
+Player2(None): Fold in 0 seconds
+Player6(None): Fold in 0 seconds
+
+
+Player1 is Hero
+Flop: 7♦  2♣  4♣
+
+
+Player1 is Hero
+River: 9♦  3♣  8♥  K♠  Q♥
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $0.0
+Player4(MP) Stack: $5000.0
+Player3(HJ) Stack: $1781.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player3(HJ): Raise $218.0  [Pot: $218.0]
+Player4(MP): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player4(SB) Stack: $4801.0
+Player3(BTN) Stack: $2.0
+Player5(BB) Stack: $94.0
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $19801.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Player2(MP): Check in 0 seconds
+Table Pot: $1.24
+Table Pot: $4.0
+Player3(BTN): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $2.0
+Flop: 9♣  3♦  5♠
+Player3(None): Check in 0 seconds
+Turn: 9♣  3♦  5♠  K♣
+Player2(None): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player3(BTN) Stack: $2020.0
+Player4(SB) Stack: $3601.0
+Player2(MP) Stack: $1800.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Player2(MP): Fold in 0 seconds
+Player4(SB): Call $100.0  [Pot: $100.0]
+Table Pot: $2.0
+Player5(BB): Check in 0 seconds
+Flop: K♠  Q♥  10♠
+Player5(BB): Check in 0 seconds
+Turn: K♠  Q♥  10♠  K♣
+River: K♠  Q♥  10♠  K♣  5♠
+Player4(SB): Call $806.0  [Pot: $906.0]
+
+
+Player1 is Hero
+Flop: A♥  2♣  4♥
+Player4(MP): Fold in 0 seconds
+Turn: A♥  2♣  4♥  J♣
+Player3(HJ): Call $158.0  [Pot: $158.0]
+Player3(HJ): Bet $631.0  [Pot: $789.0]
+River: A♥  2♣  4♥  J♣  5♠
+Player5(BTN): Call $63.0  [Pot: $63.0]
+Table Pot: $2.0
+Player5(BTN): Fold in 0 seconds
+Hero(BB): Check in 0 seconds
+Player2(UTG): Fold in 0 seconds
+Flop: 9♦  10♣  2♠
+Hero(BB): Check in 0 seconds
+Turn: 9♦  10♣  2♠  6♦
+Player4(MP): Check in 0 seconds
+Hero(BB): Check in 0 seconds
+River: 9♦  10♣  2♠  6♦  5♣
+Hero(BB): Check in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $2.0
+Table Pot: $0.0
+Table Pot: $2.0
+Player6(None): Call $200.0  [Pot: $200.0]
+Player2(None): Fold in 0 seconds
+Player3(None): Call $100.0  [Pot: $100.0]
+Table Pot: $162.72
+Player5(None): Fold in 0 seconds
+Player3(None): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $1302.0
+Player2(MP) Stack: $5000.0
+Player4(SB) Stack: $1607.0
+Player5(BB) Stack: $23.0
+Player3(BTN) Stack: $6944.0
+Player6(UTG) Stack: $4600.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Player3(BTN): Fold in 0 seconds
+Table Pot: $170.22
+Player5(BB): Fold in 0 seconds
+
+
+Player1 is Hero
+Flop: 3♥  2♠  6♥
+Player2(MP): Call $40.0  [Pot: $40.0]
+River: 3♥  4♥  2♠  6♥  K♥
+Player2(MP): Bet $38906.0  [Pot: $38946.0]
+Player3(BTN): Raise $3701.0  [Pot: $3701.0]
+Player2(MP): Call $1100.0  [Pot: $40046.0]
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player3(BB) Stack: $1794.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $10.0
+Player6(MP) Stack: $9800.0
+Player2(SB) Stack: $4732.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5(HJ): Check in 0 seconds
+Player6(MP): Raise $200.0  [Pot: $200.0]
+Player2(SB): Call $42289.0  [Pot: $42289.0]
+Player3(BB): Call $200.0  [Pot: $200.0]
+Flop: A♣  8♦  2♠
+Player3(BB): Check in 0 seconds
+Player5(HJ): Check in 0 seconds
+Player6(MP): Bet $800.0  [Pot: $1000.0]
+Player2(SB): Fold in 0 seconds
+Player3(BB): Call $1800.0  [Pot: $2000.0]
+Player5(HJ): Call $8.0  [Pot: $8.0]
+Turn: A♣  8♦  2♠  A♦
+Player3(BB): Check in 0 seconds
+Player5(HJ): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+River: A♣  8♦  2♠  A♦  4♠
+Player3(BB): Check in 0 seconds
+Player5(HJ): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+Player6(MP): Call $200.0  [Pot: $1200.0]
+Hero(BTN): Raise $325.0  [Pot: $325.0]
+Player2(SB): Fold in 0 seconds
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Call $400.0  [Pot: $1600.0]
+Player3(BB): Check in 0 seconds
+Flop: 8♠  A♥  4♠
+Player6(MP): Bet $1000.0  [Pot: $2600.0]
+Hero(BTN): Fold in 0 seconds
+Player3(BB): Call $1000.0  [Pot: $3000.0]
+Turn: 8♠  A♥  4♠  J♦
+Player3(BB): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+River: 8♠  A♥  4♠  J♦  7♣
+Player3(BB): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+
+
+Player1 is Hero
+Flop: 10♥  5♥  10♣
+Player3(None): Check in 0 seconds
+Player5(None): Check in 0 seconds
+Turn: 10♥  5♥  10♣  9♠
+River: 10♥  5♥  10♣  9♠  2♠
+Player5(None): Check in 0 seconds
+Player3(None): Check in 0 seconds
+
+
+Player1 is Hero
+Turn: Q♥  J♥  7♥  9♣
+Hero(SB): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $2.0
+Flop: 4♠  6♣  6♦
+Player6(BB): Check in 0 seconds
+Hero(UTG): Check in 0 seconds
+Player4(BTN): Check in 0 seconds
+Turn: 4♠  6♣  6♦  9♦
+Player6(BB): Check in 0 seconds
+Hero(UTG): Check in 0 seconds
+Player4(BTN): Check in 0 seconds
+River: 4♠  6♣  6♦  9♦  A♥
+Player6(BB): Check in 0 seconds
+Hero(UTG): Check in 0 seconds
+Player4(BTN): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $162.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $2000.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player5(MP): Check in 0 seconds
+Player3(UTG): Check in 0 seconds
+Player3(UTG): Check in 0 seconds
+Flop: 4♣  5♣  A♠
+Player4(HJ): Check in 0 seconds
+Player5(MP): Check in 0 seconds
+Player6(BTN): Bet $13807.0  [Pot: $13807.0]
+Player3(UTG): Call $17889.0  [Pot: $17889.0]
+Player4(HJ): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Turn: 4♣  5♣  A♠  10♠
+River: 4♣  5♣  A♠  10♠  2♦
+Player6(BTN): Check in 0 seconds
+Player3(UTG): Check in 0 seconds
+Player6(BTN): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $161.0
+Player4(UTG) Stack: $1232.0
+Player5(HJ) Stack: $48.0
+Player6(MP) Stack: $1680.0
+Player2(SB) Stack: $0.0
+Player3(BB) Stack: $1902.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player5(HJ): Fold in 0 seconds
+Player6(MP): Call $20.0  [Pot: $20.0]
+Player3(BB): Raise $10.0  [Pot: $10.0]
+Table Pot: $6.0
+Player4(UTG): Call $40.0  [Pot: $40.0]
+Player6(MP): Call $40.0  [Pot: $60.0]
+Flop: 3♣  Q♣  J♦
+Player3(BB): Check in 0 seconds
+Player4(UTG): Bet $60.0  [Pot: $100.0]
+Table Pot: $5.94
+Player6(MP): Call $59.0  [Pot: $119.0]
+Player3(BB): Call $99.0  [Pot: $109.0]
+Turn: 3♣  Q♣  J♦  9♣
+Player3(BB): Check in 0 seconds
+Table Pot: $11.83
+Player4(UTG): Bet $118.0  [Pot: $218.0]
+Player6(MP): Call $118.0  [Pot: $237.0]
+Player3(BB): Call $119.0  [Pot: $228.0]
+River: 3♣  Q♣  J♦  9♣  6♦
+Player3(BB): Check in 0 seconds
+Table Pot: $23.54
+Player4(UTG): Bet $235.0  [Pot: $453.0]
+Player6(MP): Call $236.0  [Pot: $473.0]
+Player3(BB): Raise $8036.0  [Pot: $8264.0]
+Player4(UTG): Fold in 0 seconds
+Player6(MP): Call $6187.0  [Pot: $6660.0]
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $161.0
+Player4(SB) Stack: $749.0
+Player5(BB) Stack: $4.0
+Player6(UTG) Stack: $7394.0
+Player2(MP) Stack: $3839.0
+Player3(BTN) Stack: $3209.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Player6(UTG): Call $200.0  [Pot: $200.0]
+Player2(MP): Check in 0 seconds
+Player3(BTN): Fold in 0 seconds
+Table Pot: $2.0
+Player4(SB): Call $10.0  [Pot: $10.0]
+Player5(BB): Raise $36.0  [Pot: $36.0]
+Player6(UTG): Call $600.0  [Pot: $800.0]
+Player2(MP): Call $60.0  [Pot: $60.0]
+Flop: 4♦  7♣  6♦
+Player4(SB): Check in 0 seconds
+Player6(UTG): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+Player4(SB): Fold in 0 seconds
+
+
+Player1 is Hero
+Flop: 4♠  J♦  8♦
+Table Pot: $22.0
+Player2(None): Raise $475.0  [Pot: $475.0]
+Turn: 4♠  J♦  8♦  2♠
+River: 4♠  J♦  8♦  2♠  2♥
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $900.0
+Player3(BTN) Stack: $11351.0
+Player4(SB) Stack: $500.0
+Player2(MP) Stack: $3583.0
+Player6(UTG) Stack: $4800.0
+Player5(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Player6(UTG): Check in 0 seconds
+Player2(MP): Call $20.0  [Pot: $20.0]
+Player3(BTN): Call $10221.0  [Pot: $10221.0]
+Player4(SB): Raise $3311.0  [Pot: $3311.0]
+Player5(BB): Fold in 0 seconds
+Player6(UTG): Fold in 0 seconds
+Player3(BTN): Call $10141.0  [Pot: $20362.0]
+Flop: 9♦  9♠  7♥
+Player4(SB): Bet $3541.0  [Pot: $6852.0]
+Table Pot: $12.0
+Player2(MP): Raise $440.0  [Pot: $460.0]
+Player3(BTN): Fold in 0 seconds
+Turn: 9♦  9♠  7♥  7♣
+River: 9♦  9♠  7♥  7♣  3♥
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $900.0
+Player3(MP) Stack: $1015.0
+Player4(BTN) Stack: $551.0
+Player2(HJ) Stack: $3634.0
+Player6(BB) Stack: $4800.0
+Player5(SB) Stack: $19.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(HJ): Fold in 0 seconds
+Player3(MP): Call $9141.0  [Pot: $9141.0]
+Table Pot: $10.0
+Player4(BTN): Raise $100.0  [Pot: $100.0]
+Player6(BB): Call $800.0  [Pot: $800.0]
+Player3(MP): Fold in 0 seconds
+Flop: 6♥  5♠  7♥
+Player6(BB): Call $1600.0  [Pot: $2400.0]
+Player4(BTN): Raise $259.0  [Pot: $359.0]
+Table Pot: $38.0
+Player5(SB): Call $2.0  [Pot: $2.0]
+Turn: 6♥  5♠  7♥  K♥
+Player5(SB): Check in 0 seconds
+Table Pot: $6.0
+Player4(BTN): Bet $600.0  [Pot: $959.0]
+Player5(SB): Call $1.0  [Pot: $3.0]
+River: 6♥  5♠  7♥  K♥  5♣
+Player5(SB): Check in 0 seconds
+Table Pot: $1.1
+Table Pot: $14.2
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $900.0
+Player3(HJ) Stack: $9936.0
+Player4(MP) Stack: $134.0
+Player2(UTG) Stack: $3634.0
+Player6(SB) Stack: $13771.0
+Player5(BTN) Stack: $13.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(UTG): Raise $70.0  [Pot: $70.0]
+Player3(HJ): Call $700.0  [Pot: $700.0]
+Table Pot: $12.0
+Player4(MP): Raise $15.0  [Pot: $15.0]
+Player5(BTN): Call $1.0  [Pot: $1.0]
+Player6(SB): Fold in 0 seconds
+Hero(BB): Fold in 0 seconds
+Player2(UTG): Call $50.0  [Pot: $120.0]
+Player3(HJ): Call $40.0  [Pot: $740.0]
+Flop: J♥  3♥  J♦
+Player2(UTG): Check in 0 seconds
+Player3(HJ): Check in 0 seconds
+Table Pot: $1.49
+Player2(UTG): Call $15.0  [Pot: $135.0]
+Player3(HJ): Call $8748.0  [Pot: $9488.0]
+Turn: J♥  3♥  J♦  5♥
+Player2(UTG): Bet $569.0  [Pot: $704.0]
+Player5(BTN): Fold in 0 seconds
+Player3(HJ): Fold in 0 seconds
+River: J♥  3♥  J♦  5♥  4♦
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $400.0
+Player3(UTG) Stack: $8607.0
+Player4(HJ) Stack: $149.0
+Player2(BB) Stack: $4041.0
+Player6(BTN) Stack: $13771.0
+Player5(MP) Stack: $12.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(UTG): Raise $400.0  [Pot: $400.0]
+Player6(BTN): Call $400.0  [Pot: $400.0]
+Hero(SB): Call $436.0  [Pot: $436.0]
+Player2(BB): Call $20.0  [Pot: $20.0]
+Flop: 10♠  J♣  3♣
+Hero(SB): Check in 0 seconds
+Player2(BB): Check in 0 seconds
+Player3(UTG): Bet $260.0  [Pot: $660.0]
+Player6(BTN): Call $12034.0  [Pot: $12434.0]
+Hero(SB): Call $437.0  [Pot: $873.0]
+Player2(BB): Fold in 0 seconds
+Turn: 10♠  J♣  3♣  7♣
+Player3(UTG): Fold in 0 seconds
+Player6(BTN): Fold in 0 seconds
+River: 10♠  J♣  3♣  7♣  A♠
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $1191.0
+Player3(BB) Stack: $7947.0
+Player4(UTG) Stack: $1000.0
+Player2(SB) Stack: $4001.0
+Player6(MP) Stack: $1271.0
+Player5(HJ) Stack: $11.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player5(HJ): Call $72.0  [Pot: $72.0]
+Player6(MP): Call $20.0  [Pot: $20.0]
+Hero(BTN): Call $60.0  [Pot: $60.0]
+Player2(SB): Raise $36050.0  [Pot: $36050.0]
+Player3(BB): Fold in 0 seconds
+Player4(UTG): Fold in 0 seconds
+Player5(HJ): Call $4.0  [Pot: $76.0]
+Player6(MP): Call $120.0  [Pot: $140.0]
+
+
+Player1 is Hero
+Flop: 7♥  Q♥  8♥
+Player5(MP): Check in 0 seconds
+Player5(MP): Fold in 0 seconds
+Player2(BB): Fold in 0 seconds
+
+
+Player1 is Hero
+Turn: 4♥  6♣  10♣  J♠
+River: 4♥  6♣  10♣  J♠  K♣
+
+
+Player1 is Hero
+Turn: A♠  Q♦  5♥  J♠
+Turn: Q♦  5♥  J♠  9♦
+
+
+Player1 is Hero
+Table Pot: $4.0
+Flop: K♥  5♥  J♦
+Hero(HJ): Call $118.0  [Pot: $118.0]
+Turn: K♥  5♥  J♦  2♥
+Player4(SB): Bet $8073.0  [Pot: $8073.0]
+Table Pot: $8.77
+River: K♥  5♥  J♦  2♥  Q♠
+Hero(HJ): Call $1100.0  [Pot: $1218.0]
+Table Pot: $33.08
+Table Pot: $3.08
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $1231.0
+Player3(MP) Stack: $1260.0
+Player4(BTN) Stack: $1218.0
+Player5(SB) Stack: $84.0
+Player6(BB) Stack: $5800.0
+Player2(HJ) Stack: $2000.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Hero(UTG): Fold in 0 seconds
+Player4(BTN): Fold in 0 seconds
+Player3(MP): Fold in 0 seconds
+Player5(SB): Call $300.0  [Pot: $300.0]
+Player6(BB): Check in 0 seconds
+Flop: 7♦  K♠  2♥
+Player5(SB): Check in 0 seconds
+Player6(BB): Check in 0 seconds
+Player5(SB): Check in 0 seconds
+Turn: 7♦  K♠  2♥  K♥
+Player6(BB): Bet $200.0  [Pot: $200.0]
+Player5(SB): Call $100.0  [Pot: $400.0]
+River: 7♦  K♠  2♥  K♥  2♦
+Player5(SB): Check in 0 seconds
+Player6(BB): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $1231.0
+Player3(HJ) Stack: $1260.0
+Player4(MP) Stack: $1218.0
+Player5(BTN) Stack: $84.0
+Player6(SB) Stack: $6260.0
+Player2(UTG) Stack: $2000.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(HJ): Fold in 0 seconds
+Player4(MP): Fold in 0 seconds
+Player6(SB): Raise $700.0  [Pot: $700.0]
+Hero(BB): Fold in 0 seconds
+Player5(BTN): Call $1.0  [Pot: $1.0]
+Player6(SB): Bet $900.0  [Pot: $1600.0]
+Flop: K♥  J♣  5♣
+Player5(BTN): Fold in 0 seconds
+
+
+Player1 is Hero
+Turn: 3♥  2♠  7♥  3♣
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.04
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $2.0
+Player5(BTN): Fold in 0 seconds
+Hero(BB): Check in 0 seconds
+Player6(SB): Check in 0 seconds
+Flop: 7♣  A♠  9♦
+Hero(BB): Check in 0 seconds
+Player3(HJ): Check in 0 seconds
+Player4(MP): Check in 0 seconds
+Turn: 7♣  A♠  9♦  4♠
+Player3(HJ): Check in 0 seconds
+Player4(MP): Check in 0 seconds
+River: 7♣  A♠  9♦  4♠  10♦
+Player6(SB): Check in 0 seconds
+Hero(BB): Check in 0 seconds
+Player3(HJ): Bet $60.0  [Pot: $60.0]
+Player4(MP): Fold in 0 seconds
+Player6(SB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $2224.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $1362.0
+Player2(BB) Stack: $19401.0
+Player3(UTG) Stack: $2939.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player4(HJ): Call $20.0  [Pot: $20.0]
+Table Pot: $2.0
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Call $30.0  [Pot: $30.0]
+Player2(BB): Raise $17551.0  [Pot: $17551.0]
+Player4(HJ): Fold in 0 seconds
+Player5(MP): Fold in 0 seconds
+Hero(SB): Call $70.0  [Pot: $100.0]
+Flop: 4♥  Q♣  6♥
+Hero(SB): Check in 0 seconds
+Player2(BB): Bet $16651.0  [Pot: $34202.0]
+Hero(SB): Call $220.0  [Pot: $320.0]
+Turn: 4♥  Q♣  6♥  4♦
+Hero(SB): Check in 0 seconds
+Turn: 4♥  Q♣  6♥  4♠
+Player2(BB): Bet $4200.0  [Pot: $38402.0]
+Hero(SB): Call $20.0  [Pot: $340.0]
+River: 4♥  Q♣  6♥  4♠  6♣
+Player2(BB): Check in 0 seconds
+
+
+Player1 is Hero
+Turn: J♠  10♠  10♥  3♣
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+River: J♠  10♠  10♥  3♣  4♥
+
+
+Player1 is Hero
+River: 5♠  4♥  4♠  K♠  8♠
+
+
+Player1 is Hero
+River: 5♠  K♥  2♥  8♥  K♦
+
+
+Player1 is Hero
+Flop: J♥  3♣  9♦
+Table Pot: $25.0
+Hero(BB): Fold in 0 seconds
+Turn: J♥  3♣  4♥  9♦
+
+
+Player1 is Hero
+Table Pot: $1.0
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Turn: 2♦  2♠  9♠  A♠
+
+
+Player1 is Hero
+Turn: 4♠  6♣  7♠  Q♥
+
+
+Player1 is Hero
+River: K♣  6♦  9♠  4♣  7♥
+
+
+Player1 is Hero
+Turn: 10♦  7♣  K♦  A♠
+Player6(SB): Check in 0 seconds
+Player6(SB): Fold in 0 seconds
+River: 10♦  7♣  K♦  A♠  5♥
+Player5(BTN): Fold in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $1.0
+Player4(SB): Fold in 0 seconds
+Flop: 3♥  A♣  Q♠
+Player2(MP): Fold in 0 seconds
+Turn: 3♥  A♣  Q♠  7♠
+Player6(UTG): Call $5781.0  [Pot: $5781.0]
+River: 3♥  A♣  Q♠  7♠  6♠
+
+
+Player1 is Hero
+Table Pot: $2.0
+Player5(MP): Check in 0 seconds
+Hero(SB): Call $600.0  [Pot: $600.0]
+Player4(HJ): Check in 0 seconds
+
+
+Player1 is Hero
+Flop: 9♦  J♣  8♥
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $0.0
+Player3(HJ) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player6(SB): Fold in 0 seconds
+Flop: 2♥  6♦  J♣
+Turn: 2♥  6♦  J♣  3♣
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $900.0
+Player3(UTG) Stack: $0.0
+Player5(MP) Stack: $8.0
+Player6(BTN) Stack: $5857.0
+Player2(BB) Stack: $8598.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player6(BTN): Call $52520.0  [Pot: $52520.0]
+Player5(MP): Check in 0 seconds
+Player5(MP): Check in 0 seconds
+Player6(BTN): Check in 0 seconds
+Flop: 9♦  5♥  J♥
+Player6(BTN): Call $52600.0  [Pot: $105120.0]
+Turn: 9♦  5♥  J♥  6♣
+Player6(BTN): Raise $780.0  [Pot: $105900.0]
+Player6(BTN): Call $10.0  [Pot: $105910.0]
+Hero(SB): Check in 0 seconds
+Player6(BTN): Check in 0 seconds
+Hero(SB): Check in 0 seconds
+Player6(BTN): Check in 0 seconds
+Flop: 6♣  K♦  8♥
+Hero(SB): Bet $3690.0  [Pot: $3690.0]
+Player6(BTN): Call $30.0  [Pot: $105940.0]
+Turn: 6♣  K♦  8♥  A♦
+Player6(BTN): Bet $112.0  [Pot: $106052.0]
+Hero(SB): Call $93.0  [Pot: $3783.0]
+Player6(BTN): Call $113.0  [Pot: $106165.0]
+Player6(BTN): Fold in 0 seconds
+Hero(SB): Call $1.0  [Pot: $3784.0]
+Hero(SB): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $31.0
+Player3(BB) Stack: $0.0
+Player5(HJ) Stack: $43.0
+Player6(MP) Stack: $7012.0
+Player2(SB) Stack: $8598.0
+Player4(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Hero(BTN): Call $286.0  [Pot: $286.0]
+Player6(MP): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+Hero(BTN): Check in 0 seconds
+Flop: K♣  2♥  Q♠
+Player6(MP): Bet $30.0  [Pot: $30.0]
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Check in 0 seconds
+Hero(BTN): Check in 0 seconds
+Flop: 6♥  10♥  5♠
+Hero(BTN): Check in 0 seconds
+Turn: 6♥  10♥  5♠  2♣
+Hero(BTN): Check in 0 seconds
+
+
+Player1 is Hero
+Turn: 5♣  J♥  A♠  2♣
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $4.0
+Player3(BTN) Stack: $9125.0
+Player2(MP) Stack: $9220.0
+Player6(UTG) Stack: $5000.0
+Player5(BB) Stack: $18.0
+Player4(SB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Hero(HJ): Call $37.0  [Pot: $37.0]
+Player2(MP): Call $200.0  [Pot: $200.0]
+Player3(BTN): Raise $20.0  [Pot: $20.0]
+Player5(BB): Call $17.0  [Pot: $17.0]
+Player6(UTG): Call $600.0  [Pot: $600.0]
+Player2(MP): Call $600.0 in 14.0 seconds [Pot: $800.0]
+Flop: 5♣  3♣  8♣
+Player5(BB): Check in 0 seconds
+Player6(UTG): Check in 0 seconds
+Hero(HJ): Check in 0 seconds
+Player2(MP): Check in 29.0 seconds
+Player3(BTN): Bet $100.0  [Pot: $120.0]
+Player5(BB): Call $15.0  [Pot: $32.0]
+Player6(UTG): Call $1000.0  [Pot: $1600.0]
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Fold in 41.0 seconds
+Turn: 5♣  3♣  8♣  5♥
+Player6(UTG): Call $1000.0  [Pot: $2600.0]
+Player3(BTN): Raise $200.0  [Pot: $320.0]
+River: 5♣  3♣  8♣  5♥  5♠
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $4002.0
+Player3(HJ) Stack: $2414.0
+Player2(UTG) Stack: $8420.0
+Player6(SB) Stack: $1570.0
+Player5(BTN) Stack: $6.0
+Player4(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(UTG): Fold in 1 seconds
+Player3(HJ): Call $20.0  [Pot: $20.0]
+Player5(BTN): Call $6.0  [Pot: $6.0]
+Hero(BB): Check in 0 seconds
+Player6(SB): Check in 0 seconds
+Flop: J♠  5♣  6♣
+Player3(HJ): Check in 0 seconds
+Player6(SB): Call $41.0  [Pot: $41.0]
+Player3(HJ): Call $21537.0  [Pot: $21557.0]
+Turn: J♠  5♣  6♣  8♠
+Player6(SB): Check in 0 seconds
+Player3(HJ): Check in 0 seconds
+River: J♠  5♣  6♣  8♠  8♥
+Player6(SB): Bet $67.0  [Pot: $108.0]
+Player3(HJ): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $400.0
+Player3(UTG) Stack: $23931.0
+Player2(BB) Stack: $8320.0
+Player6(BTN) Stack: $1713.0
+Player5(MP) Stack: $4.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(UTG): Fold in 0 seconds
+Flop: 8♥  Q♣  4♠
+Player2(BB): Check in 5.0 seconds
+Player2(BB): Check in 15.0 seconds
+Turn: 8♥  Q♣  4♠  5♦
+Player6(BTN): Check in 0 seconds
+Player2(BB): Check in 19.0 seconds
+River: 8♥  Q♣  4♠  5♦  6♣
+Player6(BTN): Bet $70.0  [Pot: $70.0]
+Player2(BB): Call $700.0 in 25.0 seconds [Pot: $700.0]
+Player2(BB): Call $200.0 in 41.0 seconds [Pot: $900.0]
+Player3(UTG): Raise $20938.0  [Pot: $20938.0]
+Player6(BTN): Fold in 0 seconds
+Player2(BB): Call $600.0 in 58.0 seconds [Pot: $1500.0]
+Flop: 2♠  6♠  Q♠
+Player3(UTG): Bet $2200.0  [Pot: $23138.0]
+Player2(BB): Fold in 65.0 seconds
+
+
+Player1 is Hero
+Turn: K♠  Q♥  9♠  5♠
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $3134.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player6(MP) Stack: $0.0
+Player2(SB) Stack: $11683.0
+Player3(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player6(MP): Check in 0 seconds
+Hero(BTN): Call $80.0  [Pot: $80.0]
+Player4(UTG): Check in 0 seconds
+Player2(SB): Check in 0 seconds
+Player4(UTG): Check in 0 seconds
+Hero(BTN): Check in 0 seconds
+Player2(SB): Check in 0 seconds
+Flop: 9♣  A♠  5♦
+Player4(UTG): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+Hero(BTN): Check in 0 seconds
+Player2(SB): Check in 0 seconds
+Turn: 9♣  A♠  5♦  3♣
+Player4(UTG): Bet $80.0  [Pot: $80.0]
+Table Pot: $8.0
+Hero(BTN): Fold in 0 seconds
+Player6(MP): Call $800.0  [Pot: $800.0]
+Player2(SB): Fold in 0 seconds
+Table Pot: $1.0
+Hero(BTN): Call $3111.0  [Pot: $3191.0]
+Player4(UTG): Fold in 0 seconds
+Player6(MP): Check in 0 seconds
+Player6(MP): Check in 0 seconds
+Hero(BTN): Check in 0 seconds
+Player2(SB): Check in 0 seconds
+Flop: 3♣  Q♦  2♣
+Player6(MP): Check in 0 seconds
+Hero(BTN): Check in 0 seconds
+Player2(SB): Check in 0 seconds
+Turn: 3♣  Q♦  2♣  8♠
+Player6(MP): Check in 0 seconds
+Hero(BTN): Check in 0 seconds
+Player2(SB): Check in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $3094.0
+Player4(BTN) Stack: $8962.0
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $4465.0
+Player2(HJ) Stack: $11653.0
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $6.0
+Player4(BTN): Call $60.0  [Pot: $60.0]
+Player6(BB): Call $500.0  [Pot: $500.0]
+Hero(UTG): Call $3031.0  [Pot: $3031.0]
+Player2(HJ): Call $40.0  [Pot: $40.0]
+Player6(BB): Bet $990.0  [Pot: $1490.0]
+Hero(UTG): Fold in 0 seconds
+Player2(HJ): Raise $597.0  [Pot: $637.0]
+Player4(BTN): Fold in 0 seconds
+Turn: J♥  A♥  4♠  J♣
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $3024.0
+Player4(HJ) Stack: $8902.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $13861.0
+Player2(BB) Stack: $11234.0
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player4(HJ): Fold in 0 seconds
+Hero(SB): Raise $120.0  [Pot: $120.0]
+Player2(BB): Call $60.0  [Pot: $60.0]
+Hero(SB): Bet $70.0  [Pot: $190.0]
+Player2(BB): Fold in 0 seconds
+Player6(BTN): Raise $8160.0  [Pot: $8160.0]
+Flop: 3♦  7♥  9♣
+Turn: 3♦  7♥  9♣  7♣
+
+
+Player1 is Hero
+Hero(SB): Raise $120.0  [Pot: $120.0]
+Player2(BB): Fold in 0 seconds
+Player6(BTN): Call $23161.0  [Pot: $23161.0]
+Hero(SB): Bet $1277.0  [Pot: $1397.0]
+Player6(BTN): Call $23401.0  [Pot: $46562.0]
+Hero(SB): Bet $1162.0  [Pot: $2559.0]
+Player6(BTN): Call $16201.0  [Pot: $62763.0]
+Flop: 8♣  7♥  5♥
+Player6(BTN): Call $7570.0  [Pot: $70333.0]
+Table Pot: $2.0
+Player5(MP): Call $1.0  [Pot: $1.0]
+Player6(BTN): Call $20.0  [Pot: $70353.0]
+Player2(BB): Call $200.0  [Pot: $200.0]
+Player4(HJ): Call $20.0  [Pot: $20.0]
+Table Pot: $4.0
+Player6(BTN): Call $20.0  [Pot: $70373.0]
+Player2(BB): Call $17121.0  [Pot: $17321.0]
+Table Pot: $2.0
+Player4(HJ): Call $20.0  [Pot: $40.0]
+Player6(BTN): Call $20.0  [Pot: $70393.0]
+Player2(BB): Call $20.0  [Pot: $17341.0]
+Player4(HJ): Call $20.0  [Pot: $60.0]
+Player6(BTN): Call $20.0  [Pot: $70413.0]
+Player2(BB): Call $16741.0  [Pot: $34082.0]
+Flop: K♦  9♦  8♣
+Player4(HJ): Check in 0 seconds
+Player5(MP): Check in 0 seconds
+Player6(BTN): Bet $34005.0  [Pot: $104418.0]
+Player2(BB): Fold in 0 seconds
+Player4(HJ): Fold in 0 seconds
+Table Pot: $1.0
+
+
+Player1 is Hero
+River: 2♥  A♦  9♠  4♥  3♦
+Player2(None): Fold in 7.0 seconds
+Player5(None): Call $60.0  [Pot: $60.0]
+Player6(None): Check in 0 seconds
+
+
+Player1 is Hero
+Flop: 10♣  8♦  4♠
+Player2(SB): Fold in 1 seconds
+
+
+Player1 is Hero
+Turn: 2♠  7♠  K♥  8♠
+
+
+Player1 is Hero
+River: 5♦  4♥  A♥  3♠  10♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player6(MP) Stack: $0.0
+Player2(SB) Stack: $1500.0
+Player3(BB) Stack: $4300.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $86.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player5(HJ): Call $81.0  [Pot: $81.0]
+Player6(MP): Fold in 10.0 seconds
+Hero(BTN): Fold in 0 seconds
+Player2(SB): Fold in 0 seconds
+Player3(BB): Raise $600.0  [Pot: $600.0]
+Player4(UTG): Fold in 0 seconds
+Player5(HJ): Call $73.0  [Pot: $154.0]
+Flop: 3♥  4♠  K♣
+Player3(BB): Bet $227.0  [Pot: $827.0]
+Player5(HJ): Fold in 0 seconds
+Player5(HJ): Call $3.0  [Pot: $157.0]
+Player6(MP): Fold in 56.0 seconds
+Hero(BTN): Fold in 0 seconds
+Player2(SB): Call $20.0  [Pot: $20.0]
+Player3(BB): Raise $900.0  [Pot: $1727.0]
+Player4(UTG): Fold in 0 seconds
+Player5(HJ): Call $7.0  [Pot: $164.0]
+Player2(SB): Call $80.0  [Pot: $100.0]
+Flop: 8♠  5♦  A♥
+Player3(BB): Check in 0 seconds
+Player5(HJ): Check in 0 seconds
+Player2(SB): Check in 0 seconds
+Turn: 8♠  5♦  A♥  K♥
+Player3(BB): Bet $5056.0  [Pot: $6783.0]
+Player5(HJ): Fold in 0 seconds
+Player2(SB): Call $106.0  [Pot: $206.0]
+River: 8♠  5♦  A♥  K♥  5♠
+Player2(SB): Fold in 0 seconds
+Table Pot: $1.0
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $196.0
+Player6(UTG) Stack: $1460.0
+Player2(MP) Stack: $1294.0
+Player3(BTN) Stack: $3949.0
+Player4(SB) Stack: $2295.0
+Player5(BB) Stack: $71.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Hero(HJ): Fold in 0 seconds
+Player2(MP): Call $146.0  [Pot: $146.0]
+Player3(BTN): Call $1060.0  [Pot: $1060.0]
+Player4(SB): Fold in 0 seconds
+Player5(BB): Fold in 0 seconds
+Player2(MP): Check in 0 seconds
+Flop: 8♦  6♣  A♦
+Player3(BTN): Check in 0 seconds
+Turn: 8♦  6♣  A♦  8♠
+Player2(MP): Bet $8796.0  [Pot: $8942.0]
+Player3(BTN): Call $2055.0  [Pot: $3115.0]
+River: 8♦  6♣  A♦  8♠  5♦
+Player2(MP): Bet $7770.0  [Pot: $16712.0]
+Player3(BTN): Fold in 0 seconds
+
+
+Player1 is Hero
+Turn: K♣  K♠  8♠  7♠
+Player2(UTG): Fold in 0 seconds
+River: K♣  K♠  8♠  7♠  Q♠
+Player4(MP): Check in 0 seconds
+Player5(BTN): Check in 0 seconds
+
+
+Player1 is Hero
+Table Pot: $2.0
+Hero(SB): Call $7.0  [Pot: $7.0]
+Table Pot: $6.0
+Player6(BTN): Call $3280.0  [Pot: $3280.0]
+Hero(SB): Call $40.0  [Pot: $47.0]
+Flop: 8♥  2♥  5♥
+Hero(SB): Check in 0 seconds
+Player2(BB): Bet $79.0  [Pot: $79.0]
+Player4(HJ): Fold in 0 seconds
+Player6(BTN): Raise $169.0  [Pot: $3449.0]
+Hero(SB): Raise $47.0  [Pot: $94.0]
+Player2(BB): Call $418.0  [Pot: $497.0]
+Player6(BTN): Fold in 0 seconds
+Turn: 8♥  2♥  5♥  9♣
+Hero(SB): Check in 0 seconds
+Player2(BB): Check in 0 seconds
+River: 8♥  2♥  5♥  9♣  6♣
+Hero(SB): Check in 0 seconds
+Player2(BB): Check in 0 seconds
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $0.0
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $9.0
+Flop: 6♠  Q♠  6♥
+Player2(HJ): Check in 0 seconds
+Table Pot: $10.5
+Player2(HJ): Call $105.0  [Pot: $105.0]
+Player2(HJ): Check in 0 seconds
+Turn: 6♠  Q♠  6♥  7♥
+Player4(BTN): Bet $210.0 in 10.0 seconds [Pot: $210.0]
+Table Pot: $21.0
+River: 6♠  Q♠  6♥  7♥  A♥
+Player2(HJ): Check in 0 seconds
+Player4(BTN): Check in 15.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $111.0
+Player4(MP) Stack: $2153.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $1695.0
+Player3(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(UTG): Fold in 0 seconds
+Player4(MP): Raise $80.0 in 4.0 seconds [Pot: $80.0]
+Table Pot: $8.0
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $1092.0
+Player4(HJ) Stack: $2073.0
+Player5(MP) Stack: $6.0
+Player6(BTN) Stack: $3000.0
+Player2(BB) Stack: $2493.0
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $8.0
+Player6(BTN): Fold in 0 seconds
+Player2(BB): Fold in 0 seconds
+Player4(HJ): Bet $95.0 in 5.0 seconds [Pot: $95.0]
+Table Pot: $9.5
+Flop: 3♦  6♦  5♥
+Player5(MP): Fold in 3.0 seconds
+
+
+Player1 is Hero
+Flop: 3♣  K♣  5♣
+Player5(MP): Check in 4.0 seconds
+Player5(MP): Fold in 8.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $1.0
+Player6(MP) Stack: $2171.0
+Player2(SB) Stack: $0.0
+Player3(BB) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5(HJ): Call $1.0 in 15.0 seconds [Pot: $1.0]
+Flop: 10♥  10♣  K♠
+Player5(HJ): Fold in 28.0 seconds
+Player6(MP): Fold in 0 seconds
+Hero(BTN): Fold in 37.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $1.0
+Player6(UTG) Stack: $24171.0
+Player2(MP) Stack: $1000.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $10.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(MP): Check in 0 seconds
+Player6(UTG): Check in 0 seconds
+Flop: A♠  2♠  3♦
+Player2(MP): Check in 0 seconds
+Player6(UTG): Fold in 0 seconds
+Player2(MP): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $9000.0
+Player6(BTN) Stack: $23671.0
+Player2(BB) Stack: $9500.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $1000.0
+Player5(MP) Stack: $10.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $5.0
+Table Pot: $100.0
+Player6(BTN): Fold in 0 seconds
+Table Pot: $5.0
+Table Pot: $107.0
+Hero(SB): Fold in 23.0 seconds
+Flop: K♦  A♦  Q♥
+River: K♦  A♦  Q♥  8♣  8♠
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $49.0
+Player6(UTG) Stack: $23171.0
+Player2(MP) Stack: $1881.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $120.0
+Player5(BB) Stack: $10.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Hero(HJ): Raise $441.0 in 4.0 seconds [Pot: $441.0]
+Player2(MP): Call $150.0  [Pot: $150.0]
+Table Pot: $14.0
+Flop: 7♦  6♣  8♦
+Player6(UTG): Call $1000.0  [Pot: $1000.0]
+Hero(HJ): Bet $10.0 in 27.0 seconds [Pot: $451.0]
+Player6(UTG): Fold in 0 seconds
+River: 7♦  6♣  8♦  Q♥  9♦
+
+
+Player1 is Hero
+Table Pot: $3.0
+Turn: K♦  Q♥  Q♠  6♦
+Player6(None): Check in 0 seconds
+Player2(None): Check in 0 seconds
+Player4(None): Check in 0 seconds
+Table Pot: $0.74
+Table Pot: $7.07
+Table Pot: $9.0
+Table Pot: $76.4
+Table Pot: $9.0
+Table Pot: $0.74
+
+
+Player1 is Hero
+Hero(None): Call $40.0  [Pot: $40.0]
+Flop: 5♠  8♥  A♥
+Hero(None): Check in 0 seconds
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $2.0
+Table Pot: $5.0
+Player5(None): Check in 3.0 seconds
+Flop: 4♣  3♠  8♥
+Player4(None): Check in 1 seconds
+River: 4♣  3♠  8♥  10♠  4♠
+Player5(None): Check in 1.0 seconds
+
+
+Player1 is Hero
+Flop: Q♦  J♥  3♥
+Player4(MP): Fold in 2.0 seconds
+Turn: Q♦  J♥  3♥  Q♠
+River: Q♦  J♥  3♥  Q♠  K♦
+Player5(BTN): Check in 4.0 seconds
+
+
+Player1 is Hero
+Table Pot: $5.0
+Player4(MP): Check in 2.0 seconds
+Player4(MP): Fold in 1.0 seconds
+Flop: A♦  2♣  7♠
+Player5(BTN): Fold in 10.0 seconds
+Turn: A♦  2♣  7♠  6♥
+Hero(BB): Check in 9.0 seconds
+Hero(BB): Call $37.0 in 15.0 seconds [Pot: $37.0]
+River: A♦  2♣  7♠  6♥  2♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $4.0
+Player3(UTG) Stack: $39.0
+Player6(BTN) Stack: $74.0
+Player2(BB) Stack: $4.0
+Player4(HJ) Stack: $1.0
+Player5(MP) Stack: $1.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.74
+Table Pot: $10.0
+Table Pot: $0.3
+Table Pot: $5.0
+Table Pot: $32.5
+Table Pot: $0.0
+Table Pot: $0.74
+Table Pot: $7.07
+Table Pot: $12.0
+Table Pot: $0.74
+Table Pot: $2.0
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $290.0
+Player3(MP) Stack: $9100.0
+Player6(BB) Stack: $7.0
+Player2(HJ) Stack: $62911.0
+Player4(BTN) Stack: $3446.0
+Player5(SB) Stack: $34.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Table Pot: $0.05
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $1019.0
+Player3(BTN) Stack: $1.0
+Player6(UTG) Stack: $7.0
+Player2(MP) Stack: $271.0
+Player4(SB) Stack: $10.0
+Player5(BB) Stack: $5.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $7.0
+Player3(UTG) Stack: $1.0
+Player6(BTN) Stack: $7.0
+Player2(BB) Stack: $271.0
+Player4(HJ) Stack: $0.45
+Player5(MP) Stack: $5.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(MP): $4.0
+Player3(SB) Stack: $1.0
+Player6(HJ) Stack: $7.0
+Player2(BTN) Stack: $271.0
+Player4(BB) Stack: $0.45
+Player5(UTG) Stack: $5.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(MP): $4.0
+Player3(SB) Stack: $1.0
+Player6(HJ) Stack: $7.0
+Player2(BTN) Stack: $271.0
+Player4(BB) Stack: $0.45
+Player5(UTG) Stack: $5.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.07
+
+
+Player1 is Hero
+River: J♥  8♦  9♦  7♥  2♥
+
+
+Player1 is Hero
+Table Pot: $1.0
+Player6(None): Fold in 5.0 seconds
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player6(UTG) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player2(MP) Stack: $13221.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Table Pot: $6.0
+Flop: 8♠  2♣  6♠
+Player4(SB): Check in 9.0 seconds
+Turn: 8♠  2♣  6♠  J♣
+River: 8♠  2♣  6♠  J♣  K♥
+Player2(MP): Check in 7.0 seconds
+
+
+Player1 is Hero
+River: 9♠  5♦  3♠  6♠  K♥
+
+
+Player1 is Hero
+Turn: 6♣  7♥  10♥  5♣
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player6(UTG) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+River: 6♣  7♥  10♥  5♣  4♥
+
+
+Player1 is Hero
+Turn: 3♥  A♣  2♥  9♦
+Player5(MP): Check in 8.0 seconds
+River: 3♥  A♣  2♥  9♦  4♦
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Flop: 5♥  3♦  J♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $9365.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $6445.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(BTN): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 7
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $4.0
+Player3(UTG) Stack: $1.0
+Player6(BTN) Stack: $1.0
+Player2(BB) Stack: $1.0
+Player4(HJ) Stack: $0.45
+Player5(MP) Stack: $16.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $7.07
+Table Pot: $0.07
+Table Pot: $1.0
+Table Pot: $0.0
+Table Pot: $6.0
+Table Pot: $24.0
+Table Pot: $12.0
+Table Pot: $32.0
+Table Pot: $0.74
+Table Pot: $0.07
+Table Pot: $0.02
+Table Pot: $0.07
+
+
+Player1 is Hero
+Turn: 3♦  4♣  2♥  Q♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player5(BB) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5(BB): Fold in 0 seconds
+River: 3♦  4♣  2♥  Q♦  3♠
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Flop: A♦  J♦  4♥
+Player4(None): Check in 1.0 seconds
+Turn: A♦  J♦  4♥  3♥
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5(BB): Check in 0 seconds
+Player3(BTN): Call $130.0 in 3.0 seconds [Pot: $130.0]
+Player4(SB): Fold in 0 seconds
+River: A♦  J♦  4♥  3♥  9♠
+Player3(BTN): Fold in 3.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $0.0
+Player3(MP) Stack: $9267.0
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player2(HJ) Stack: $5000.0
+Player6(BB) Stack: $7843.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $4.0
+Player5(SB): Fold in 4.0 seconds
+Player6(BB): Call $20.0 in 3.0 seconds [Pot: $20.0]
+Hero(UTG): Fold in 27.0 seconds
+Player2(HJ): Fold in 29.0 seconds
+Player3(MP): Check in 0 seconds
+Flop: Q♣  5♥  8♥
+Player6(BB): Check in 25.0 seconds
+Player3(MP): Bet $83048.0 in 1.0 seconds [Pot: $83048.0]
+Player4(BTN): Fold in 2.0 seconds
+Player6(BB): Call $75.0 in 5.0 seconds [Pot: $95.0]
+Turn: Q♣  5♥  8♥  8♠
+Player6(BB): Bet $75.0 in 8.0 seconds [Pot: $170.0]
+River: Q♣  5♥  8♥  8♠  J♣
+Player6(BB): Check in 7.0 seconds
+
+
+Player1 is Hero
+Table Pot: $10.0
+Flop: J♠  8♥  A♥
+Turn: J♠  8♥  A♥  Q♦
+River: J♠  8♥  A♥  Q♦  9♣
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 2♥  10♣  Q♥
+Turn: 2♥  10♣  Q♥  6♥
+River: 2♥  10♣  Q♥  6♥  10♠
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $0.0
+Player2(HJ) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 5♠  6♥  Q♣
+Turn: 5♠  6♥  Q♣  3♥
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $0.0
+Player2(UTG) Stack: $0.0
+Player3(HJ) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 2♣  6♥  3♣
+Turn: 2♣  6♥  3♣  4♦
+River: 2♣  6♥  3♣  4♦  Q♠
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Flop: 4♦  9♠  Q♣
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $1.0
+Flop: 4♣  2♣  K♥
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $2.0
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+River: 7♠  K♠  K♥  10♠  Q♦
+Table Pot: $4.5
+Player2(None): Call $450.0 in 3.0 seconds [Pot: $450.0]
+
+
+----------------------------------
+ROUND: 8
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $1.0
+Player3(BTN) Stack: $419.0
+Player6(UTG) Stack: $3.0
+Player2(MP) Stack: $2.0
+Player4(SB) Stack: $1.0
+Player5(BB) Stack: $4.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $0.07
+Table Pot: $0.0
+Player1: Inactive
+Table Pot: $4.0
+Table Pot: $13.51
+Table Pot: $0.07
+Table Pot: $0.21
+Flop: 10♦  8♠  7♠
+Table Pot: $4.0
+Table Pot: $2.0
+Table Pot: $1.0
+Table Pot: $2.0
+Table Pot: $7.5
+Table Pot: $20.0
+Table Pot: $1.0
+Table Pot: $2.0
+Table Pot: $4.5
+Table Pot: $0.0
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $1.0
+Player4(MP) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $2330.0
+Player3(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(UTG): Fold in 0 seconds
+Flop: Q♥  3♦  Q♠
+Player5(BTN): Bet $1.0 in 36.0 seconds [Pot: $1.0]
+Hero(BB): Fold in 34.0 seconds
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 9♥  2♥  5♠
+Player2(BB): Check in 0 seconds
+Flop: 2♥  5♠  10♠
+Player5(MP): Call $17.0 in 14.0 seconds [Pot: $17.0]
+Turn: 2♥  5♠  10♠  6♥
+Hero(SB): Bet $1263.0 in 19.0 seconds [Pot: $1263.0]
+River: 9♥  2♥  5♠  10♠  6♥
+Player2(BB): Call $657.0 in 3.0 seconds [Pot: $657.0]
+Player5(MP): Fold in 4.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $30.0
+Player2(SB) Stack: $6852.0
+Player3(BB) Stack: $9989.0
+Player6(MP) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $19.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player2(SB): Fold in 2.0 seconds
+Flop: 7♠  6♦  10♥
+Player6(MP): Check in 1.0 seconds
+Hero(BTN): Bet $80.0 in 2.0 seconds [Pot: $80.0]
+Player3(BB): Fold in 26.0 seconds
+Turn: 7♠  6♦  10♥  K♦
+Player5(HJ): Check in 4.0 seconds
+Player6(MP): Check in 16.0 seconds
+Hero(BTN): Bet $160.0 in 3.0 seconds [Pot: $240.0]
+Player5(HJ): Fold in 3.0 seconds
+River: 7♠  6♦  10♥  K♦  5♦
+Player6(MP): Call $1708.0 in 24.0 seconds [Pot: $1708.0]
+Hero(BTN): Bet $11449.0 in 5.0 seconds [Pot: $11689.0]
+Player6(MP): Call $9487.0 in 22.0 seconds [Pot: $11195.0]
+Player2(SB): Call $200.0 in 12.0 seconds [Pot: $200.0]
+Player3(BB): Bet $300.0 in 87.0 seconds [Pot: $300.0]
+Flop: 9♣  5♠  9♦
+Hero(BTN): Fold in 7.0 seconds
+Player2(SB): Fold in 5.0 seconds
+
+
+----------------------------------
+ROUND: 9
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $6.0
+Player3(MP) Stack: $4.0
+Player6(BB) Stack: $3.0
+Player2(HJ) Stack: $2.0
+Player4(BTN) Stack: $7.0
+Player5(SB) Stack: $7.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $175.55
+Player6: Inactive
+Player1: Inactive
+Table Pot: $0.06
+Player6: Inactive
+Player6: Inactive
+Player6: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+Player1: Inactive
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player3(BTN) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player4(SB): Check in 0 seconds
+Flop: 7♠  J♥  4♦
+Player2(MP): Check in 1.0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $632.0
+Player3(BTN) Stack: $0.0
+Player2(MP) Stack: $19201.0
+Player5(BB) Stack: $0.0
+Player4(SB) Stack: $6313.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Turn: 7♠  J♥  4♦  9♣
+Player2(MP): Bet $1800.0 in 4.0 seconds [Pot: $1800.0]
+Player4(SB): Fold in 2.0 seconds
+Player5(BB): Check in 5.0 seconds
+River: 7♠  J♥  4♦  9♣  7♣
+Player5(BB): Fold in 1.0 seconds
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 3♦  3♣  8♥
+Turn: 3♦  3♣  8♥  8♦
+River: 3♦  3♣  8♥  8♦  6♥
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player6(MP) Stack: $0.0
+Player2(SB) Stack: $0.0
+Player3(BB) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Table Pot: $6.0
+Flop: 2♣  K♣  Q♥
+Turn: 2♣  K♣  Q♥  6♣
+River: 2♣  K♣  Q♥  6♣  4♦
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $1.0
+Table Pot: $2.0
+Flop: A♠  7♣  2♠
+Table Pot: $8.0
+Turn: A♠  7♣  2♠  4♣
+Table Pot: $24.0
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $0.0
+Player6(BB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Flop: 8♣  A♥  7♦
+Table Pot: $42.0
+
+
+----------------------------------
+ROUND: 5
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Table Pot: $138.65
+Flop: 6♦  9♣  2♠
+Turn: 6♦  9♣  2♠  J♥
+River: 6♦  9♣  2♠  J♥  K♣
+
+
+----------------------------------
+ROUND: 6
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player6(MP) Stack: $0.0
+Player2(SB) Stack: $0.0
+Player3(BB) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+
+
+Player1 is Hero
+Turn: 3♥  2♠  4♣  3♣
+River: 3♥  2♠  4♣  3♣  3♠
+
+
+Player1 is Hero
+Turn: 6♠  7♠  10♦  5♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 8♥  7♦  10♣
+Turn: 8♥  7♦  10♣  2♥
+River: 8♥  7♦  10♣  2♥  6♥
+
+
+Player1 is Hero
+Flop: 5♠  J♠  2♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player6(UTG) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player6(MP) Stack: $0.0
+Player3(BB) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player2(SB) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Flop: A♥  K♣  7♦
+Turn: A♥  K♣  7♦  10♣
+River: A♥  K♣  7♦  10♣  9♠
+Table Pot: $7.0
+Table Pot: $2.0
+Flop: 7♣  Q♥  2♦
+
+
+Player1 is Hero
+Flop: 8♥  Q♠  9♦
+Turn: 8♥  Q♠  9♦  2♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player4(UTG) Stack: $0.0
+Player6(MP) Stack: $0.0
+Player2(SB) Stack: $0.0
+Player3(BB) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $17.0
+Table Pot: $5.0
+Flop: 5♦  4♥  2♥
+Turn: 5♦  4♥  2♥  6♠
+River: 5♦  4♥  2♥  6♠  8♣
+
+
+Player1 is Hero
+Table Pot: $88.13
+River: K♦  Q♦  J♥  10♠  3♣
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 7♠  3♦  10♦
+Turn: 7♠  3♦  10♦  J♦
+River: 7♠  3♦  10♦  J♦  5♦
+
+
+Player1 is Hero
+Flop: Q♦  8♣  7♥
+
+
+Player1 is Hero
+Flop: Q♦  8♣  7♥
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $5.0
+Flop: J♥  2♠  10♦
+Table Pot: $14.96
+Turn: J♥  2♠  10♦  8♦
+Table Pot: $51.92
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $5.0
+Flop: J♥  2♠  10♦
+Table Pot: $14.96
+Turn: J♥  2♠  10♦  8♦
+Table Pot: $51.92
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $0.0
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: J♥  Q♣  2♠
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(UTG): $0.0
+Player4(BTN) Stack: $0.0
+Player5(SB) Stack: $0.0
+Player6(BB) Stack: $0.0
+Player2(HJ) Stack: $0.0
+Player3(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: J♥  Q♣  2♠
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 3♥  A♥  8♣
+Table Pot: $5.0
+Flop: 5♠  Q♥  K♥
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 3♥  A♥  8♣
+Table Pot: $5.0
+Flop: 5♠  Q♥  K♥
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Turn: Q♦  A♥  10♦  K♥
+River: Q♦  A♥  10♦  K♥  3♠
+
+
+----------------------------------
+ROUND: 4
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Flop: Q♦  A♥  10♦
+Turn: Q♦  A♥  10♦  K♥
+River: Q♦  A♥  10♦  K♥  3♠
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+River: 10♣  J♥  6♦  4♦  5♣
+Table Pot: $1.0
+
+
+Player1 is Hero
+Turn: 2♠  5♥  6♣  10♦
+River: 2♠  5♥  6♣  10♦  10♣
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $0.0
+Player3(HJ) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Table Pot: $2.0
+Player3(HJ): Fold in 6.0 seconds
+Player4(MP): Check in 3.0 seconds
+Player6(SB): Fold in 0 seconds
+Player4(MP): Check in 1.0 seconds
+Flop: 10♦  10♥  9♠
+Player4(MP): Check in 1.0 seconds
+Turn: 10♦  10♥  9♠  J♥
+Player5(BTN): Check in 1.0 seconds
+Player4(MP): Check in 1 seconds
+River: 10♦  10♥  9♠  J♥  2♥
+
+
+Player1 is Hero
+Hero(None): Fold in 0 seconds
+Table Pot: $2.0
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player6(BTN) Stack: $0.0
+Player2(BB) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Player5(MP): Fold in 4.0 seconds
+Flop: 3♣  K♦  5♥
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Turn: 3♣  K♦  5♥  2♠
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+River: 3♣  K♦  5♥  2♠  K♥
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+Hero(SB): Fold in 0 seconds
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player6(MP) Stack: $0.0
+Player2(SB) Stack: $0.0
+Player3(BB) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player5(HJ): Fold in 6.0 seconds
+Hero(BTN): Fold in 2.0 seconds
+Player3(BB): Fold in 3.0 seconds
+Player4(UTG): Fold in 1.0 seconds
+Flop: 8♥  K♠  Q♦
+Player4(UTG): Fold in 4.0 seconds
+Turn: 8♥  K♠  Q♦  8♦
+Player4(UTG): Fold in 2.0 seconds
+Player4(UTG): Fold in 1.0 seconds
+River: 8♥  K♠  Q♦  8♦  5♥
+Player5(HJ): Fold in 1.0 seconds
+Hero(BTN): Fold in 3.0 seconds
+Hero(BTN): Fold in 5.0 seconds
+Hero(BTN): Fold in 6.0 seconds
+Player4(UTG): Fold in 3.0 seconds
+Hero(BTN): Fold in 8.0 seconds
+Hero(BTN): Fold in 9.0 seconds
+Hero(BTN): Fold in 10.0 seconds
+Hero(BTN): Fold in 11.0 seconds
+Table Pot: $1.0
+
+
+Player1 is Hero
+River: Q♠  2♠  A♠  Q♥  A♦
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $0.0
+Player4(MP) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $0.0
+Player3(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player3(HJ): Fold in 6.0 seconds
+Player4(MP): Fold in 0 seconds
+Table Pot: $2.0
+Player5(BTN): Fold in 0 seconds
+Player6(SB): Fold in 1.0 seconds
+Flop: J♣  9♥  A♥
+Player6(SB): Fold in 2.0 seconds
+Player4(MP): Fold in 13.0 seconds
+Table Pot: $5.0
+Player5(BTN): Fold in 2.0 seconds
+Player6(SB): Fold in 1.0 seconds
+Hero(BB): Fold in 1.0 seconds
+Player3(HJ): Fold in 1 seconds
+Turn: J♣  9♥  A♥  10♣
+Player6(SB): Fold in 6.0 seconds
+Player6(SB): Fold in 7.0 seconds
+Player3(HJ): Fold in 1.0 seconds
+Player4(MP): Fold in 2.0 seconds
+Player4(MP): Fold in 3.0 seconds
+Player5(BTN): Fold in 1.0 seconds
+Player6(SB): Fold in 1.0 seconds
+River: J♣  9♥  A♥  10♣  10♥
+Player6(SB): Fold in 6.0 seconds
+Player3(HJ): Fold in 1.0 seconds
+Player4(MP): Fold in 1 seconds
+Player4(MP): Fold in 1.0 seconds
+Player6(SB): Fold in 5.0 seconds
+Player3(HJ): Fold in 1.0 seconds
+
+
+Player1 is Hero
+River: 10♣  9♦  A♣  6♦  10♥
+Player4(None): Check in 0 seconds
+Table Pot: $1.0
+Player6(None): Check in 0 seconds
+
+
+Player1 is Hero
+Flop: 9♥  6♠  K♥
+River: 9♥  6♠  K♥  Q♣  5♠
+Hero(SB): Check in 0 seconds
+Hero(SB): Check in 0 seconds
+
+
+Player1 is Hero
+River: 4♥  7♣  4♠  6♥  4♦
+
+
+Player1 is Hero
+Flop: A♥  5♥  Q♥
+Table Pot: $6.0
+Player5(None): Check in 3.0 seconds
+Flop: 5♥  Q♥  7♠
+Player4(None): Fold in 32.0 seconds
+Table Pot: $1.0
+
+
+Player1 is Hero
+Table Pot: $8.0
+Table Pot: $16.0
+Player4(None): Check in 1.0 seconds
+Player5(None): Check in 13.0 seconds
+Turn: 7♥  Q♦  8♠  8♥
+Table Pot: $32.0
+Table Pot: $26.0
+River: 2♦  7♥  Q♦  8♠  8♥
+
+
+Player1 is Hero
+Turn: 9♦  J♠  8♣  4♠
+River: 2♦  9♦  J♠  8♣  4♠
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player2(BB) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Player4(HJ): Fold in 2.0 seconds
+Player3(UTG): Check in 1.0 seconds
+Flop: J♥  J♠  5♣
+Player2(BB): Check in 5.0 seconds
+Player3(UTG): Check in 1 seconds
+Player6(BTN): Check in 4.0 seconds
+Turn: J♥  J♠  5♣  K♣
+Player2(BB): Check in 7.0 seconds
+Player3(UTG): Check in 1 seconds
+Player2(BB): Fold in 3.0 seconds
+River: J♥  J♠  5♣  K♣  9♥
+Player3(UTG): Check in 4.0 seconds
+Player6(BTN): Check in 6.0 seconds
+Table Pot: $2.0
+Player6(BTN): Fold in 2.0 seconds
+Flop: 8♦  6♣  4♣
+Player3(UTG): Check in 8.0 seconds
+Turn: 8♦  6♣  4♣  7♦
+Player3(UTG): Check in 7.0 seconds
+Table Pot: $184.0
+Player2(BB): Fold in 4.0 seconds
+River: 8♦  6♣  4♣  7♦  2♦
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player2(UTG) Stack: $0.0
+Player3(HJ) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Turn: K♥  6♦  3♠  10♣
+River: K♥  6♦  3♠  10♣  9♣
+Table Pot: $2.0
+
+
+Player1 is Hero
+River: 6♠  Q♣  K♣  9♣  J♣
+
+
+Player1 is Hero
+Table Pot: $30.21
+River: K♠  5♦  7♦  8♠  J♠
+
+
+Player1 is Hero
+Flop: Q♣  A♣  8♠
+Table Pot: $120.0
+Flop: A♣  8♠  5♠
+Table Pot: $150.0
+Turn: A♣  8♠  5♠  10♥
+
+
+Player1 is Hero
+Turn: 10♠  A♥  10♥  Q♦
+River: 10♠  A♥  10♥  Q♦  A♦
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BTN): $0.0
+Player2(SB) Stack: $0.0
+Player5(HJ) Stack: $0.0
+Player6(MP) Stack: $0.0
+Player3(BB) Stack: $0.0
+Player4(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 5♦  J♣  Q♣
+River: 5♦  J♣  Q♣  3♣  3♠
+
+
+----------------------------------
+ROUND: 2
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(BB): $0.0
+Player2(UTG) Stack: $0.0
+Player5(BTN) Stack: $0.0
+Player6(SB) Stack: $0.0
+Player3(HJ) Stack: $0.0
+Player4(MP) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+
+
+----------------------------------
+ROUND: 3
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(SB): $0.0
+Player2(BB) Stack: $0.0
+Player5(MP) Stack: $0.0
+Player6(BTN) Stack: $0.0
+Player3(UTG) Stack: $0.0
+Player4(HJ) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+Flop: 5♠  Q♠  3♠
+Turn: 5♠  Q♠  3♠  2♣
+River: 5♠  Q♠  3♠  2♣  K♦
+
+
+Player1 is Hero
+Table Pot: $5.0
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+
+
+----------------------------------
+ROUND: 1
+Total Players: 6
+Small Blind(SB): $0 , Big Blind(BB): $0
+Hero Stack(HJ): $0.0
+Player2(MP) Stack: $0.0
+Player3(BTN) Stack: $0.0
+Player4(SB) Stack: $0.0
+Player5(BB) Stack: $0.0
+Player6(UTG) Stack: $0.0
+Player1 is Hero
+----------------------------------
+Pre-Flop: 
+
+
+Player1 is Hero
+River: 9♣  4♠  4♣  7♦  2♥
+River: 9♣  4♠  4♣  7♦  2♥
+
+
+Player1 is Hero
+
+
+Player1 is Hero
+Table Pot: $5.0
+
+
+Player1 is Hero
+Flop: A♥  K♠  4♣
+Turn: A♥  K♠  4♣  K♥
+Table Pot: $5.0
+
+
+Player1 is Hero
+Flop: 8♦  K♣  K♥
+Turn: 8♦  K♣  K♥  5♥
+Table Pot: $2.0
+
+

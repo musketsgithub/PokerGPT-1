@@ -23,6 +23,10 @@ import cProfile
 import threading
 import time
 
+from paddleocr import PaddleOCR
+
+from scipy.ndimage import rotate
+
 
 matplotlib.use('TkAgg')
 
@@ -107,6 +111,15 @@ class ReadPokerTable:
             'K': cv2.imread('images/K.png', cv2.IMREAD_GRAYSCALE)
         }
 
+        self.action_templates = {
+            'bet': cv2.imread('images/bet.png', cv2.IMREAD_GRAYSCALE),
+            'check': cv2.imread('images/check.png', cv2.IMREAD_GRAYSCALE),
+            'call': cv2.imread('images/call.png', cv2.IMREAD_GRAYSCALE),
+            'raise': cv2.imread('images/raise.png', cv2.IMREAD_GRAYSCALE),
+            'fold': cv2.imread('images/fold.png', cv2.IMREAD_GRAYSCALE),
+            'all-in': cv2.imread('images/all-in.png', cv2.IMREAD_GRAYSCALE)
+        }
+
         self.progress_bar_template = cv2.imread('images/halfwaybar.png', cv2.IMREAD_GRAYSCALE)
 
         self.shutdown_flag = threading.Event()
@@ -125,6 +138,8 @@ class ReadPokerTable:
         self.action_timeout = 2.0  # Timeout for pending actions in seconds
         self.last_stack_updates = {}
 
+        self.ocr = PaddleOCR(use_angle_cls=True, lang='en')
+
     def is_pixel_white(self, pixel, min_white=230, max_white=255):
         """
         Check if a pixel is within the white range.
@@ -132,7 +147,7 @@ class ReadPokerTable:
         r, g, b = pixel
         return all(min_white <= value <= max_white for value in (r, g, b))
 
-    def capture_screen_area(self, relative_x, relative_y, width, height, resize_dimensions=None, filename=None):
+    def capture_screen_area(self, relative_x, relative_y, width, height, resize_dimensions=None, filename=None, whole_screen=False):
         """
         Capture a screen area based on relative coordinates for position and fixed pixel values for size.
         """
@@ -145,6 +160,10 @@ class ReadPokerTable:
 
         with mss.mss() as sct:
             monitor = {"top": abs_y, "left": abs_x, "width": width, "height": height}
+
+            if whole_screen:
+                monitor = sct.monitors[0]
+
             screenshot = sct.grab(monitor)
 
             screenshot = np.array(screenshot)
@@ -453,59 +472,63 @@ class ReadPokerTable:
         return None, None
 
     def detect_player_turn(self):
+        # print('hello123')
+
         """
         Loop through all players and detect which player's turn it is by checking the gray bar presence.
-
         Return the number of the active player.
         """
+        # Capture the entire poker window once
+        # full_screenshot = self.capture_screen_area(
+        #     relative_x=0,
+        #     relative_y=0,
+        #     width=self.poker_window_width,
+        #     height=self.poker_window_height,
+        #     whole_screen=True
+        # )
 
-        # Player1 Turn: 0.578, 0.734
-        # Player2 Turn: 0.049, 0.564
-        # Player3 Turn: 0.084, 0.266
-        # Player4 Turn: 0.428, 0.172
-        # Player5 Turn: 0.916, 0.260
-        # Player6 Turn: 0.947, 0.556
-
+        # Player turn indicator positions (relative coordinates)
         gray_background_region = {
-            1: (0.431, 0.782), #--good
-            2: (0.06, 0.609), #--good
-            3: (0.090, 0.316), #--good
-            4: (0.431, 0.224), #--good
-            5: (0.773, 0.316), #--good
-            6: (0.804, 0.609) #--good
+            1: (0.565, 0.915),
+            2: (0.170, 0.736),
+            3: (0.199, 0.34),
+            4: (0.561, 0.231),
+            5: (0.918, 0.34),
+            6: (0.951, 0.736)
         }
 
-        player_similarities = {}
-
         for player_number, (region_x, region_y) in gray_background_region.items():
-            progress_bar = self.capture_screen_area(region_x, region_y, 132, 8, resize_dimensions=(132,8))
-            progress_bar_gray = cv2.cvtColor(np.array(progress_bar), cv2.COLOR_BGR2GRAY)
+            # Convert relative coordinates to pixel positions within the screenshot
+            pixel_color = self.capture_screen_area(region_x, region_y, 100, 100, resize_dimensions=(100,100))
 
-            is_turn = False
-            # print("Progress bar shape", progress_bar_gray.shape)
-            similarity, _ = ssim(progress_bar_gray, self.progress_bar_template, full=True)
+            # timestamp = time.strftime("%Y%m%d_%H%M%S")
+            # filename = f"{player_number}_screenshot_{timestamp}.png"
+            # filepath = os.path.join("card_images", filename)
+            #
+            # # Save the image
+            # plt.imsave(filepath, pixel_color, cmap='gray')
 
-            player_similarities[player_number] = similarity
+            pixel_color = np.array(pixel_color)[0][0][:3]
 
-        # print(player_similarities)
 
-        player_number = max(player_similarities, key=player_similarities.get, default=None)
+            if self.is_pixel_white(pixel_color):
+                # print('white pixel found!')
 
-        # print(player_number)
+                # print(player_number)
 
-        with self.game_state_lock:
-            if self.game_state.get_current_player_turn() != player_number:
-                self.game_state.update_player(player_number, turn=True)
-                self.last_active_player = player_number
+                with self.game_state_lock:
+                    if self.game_state.get_current_player_turn() != player_number:
+                        self.game_state.update_player(player_number, turn=True)
+                        self.last_active_player = player_number
 
-                # Check if it's the hero's turn
-                if player_number == self.game_state.hero_player_number:
-                    self.game_state.analyze_hand(self.poker_assistant.openai_client)  # Pass openai_client here
+                        # Check if it's the hero's turn
+                        if player_number == self.game_state.hero_player_number:
+                            self.game_state.analyze_hand(self.poker_assistant.openai_client)
 
-            return player_number
+                    return player_number
 
-        # # Return the last active player if no active player is detected
-        # return self.last_active_player
+        # Return the last active player if no active player is detected
+        return self.last_active_player
 
     def detect_total_pot_size(self):
         """
@@ -531,9 +554,11 @@ class ReadPokerTable:
                     # print(f"Total Pot Size updated to: ${new_pot_size:.2f}")
 
         except ValueError as e:
-            print(f"Unable to parse total pot size from detected text: '{detected_text}' (Error: {e})")
+            pass
+            # print(f"Unable to parse total pot size from detected text: '{detected_text}' (Error: {e})")
         except Exception as e:
-            print(f"Unexpected error processing pot size: '{detected_text}' (Error: {e})")
+            pass
+            # print(f"Unexpected error processing pot size: '{detected_text}' (Error: {e})")
 
         return detected_text
 
@@ -598,126 +623,96 @@ class ReadPokerTable:
 
         return True
 
-    def find_player_cards(self, player_number):
+    def find_hero_cards(self):
         """Find the cards of a specific player."""
-        print('hello2')
-        # Player Card Numbers/Letters
-        # Player Cards1: 0.442, 0.621  Player Cards: x=0.442, y=0.655
-        # Player Cards2: 0.505, 0.621
-
-        # Player Cards1: 0.066, 0.448
-        # Player Cards2: 0.130, 0.448
-
-        # Player Cards1: 0.099, 0.153
-        # Player Cards2: 0.161, 0.153
-
-        # Player Cards1: 0.442, 0.062
-        # Player Cards2: 0.505, 0.062
-
-        # Player Cards1: 0.785, 0.153
-        # Player Cards2: 0.847, 0.153
-
-        # Player Cards1: 0.816, 0.448
-        # Player Cards2: 0.879, 0.448
-
         # Coordinates for all players (Number Position, Icon Position)
-        player_card_positions = {
-            1: [(0.442, 0.621), (0.501, 0.621)],  # Player 1
-            2: [(0.064, 0.448), (0.128, 0.448)],  # Player 2
-            3: [(0.097, 0.153), (0.159, 0.153)],  # Player 3
-            4: [(0.439, 0.062), (0.502, 0.062)],  # Player 4
-            5: [(0.782, 0.153), (0.844, 0.153)],  # Player 5
-            6: [(0.813, 0.448), (0.876, 0.448)]  # Player 6
-        }
+        # player_card_positions = {
+        #     1: [(0.442, 0.760), (0.494, 0.754)],  # Player 1  good
+        #     # 2: [(0.064, 0.448), (0.128, 0.448)],  # Player 2
+        #     # 3: [(0.097, 0.153), (0.159, 0.153)],  # Player 3
+        #     # 4: [(0.448, 0.093), (0.497, 0.096)],  # Player 4  good
+        #     # 5: [(0.782, 0.153), (0.844, 0.153)],  # Player 5
+        #     # 6: [(0.838, 0.643), (0.890, 0.637)]  # Player 6 good
+        # }
 
-        if player_number not in player_card_positions:
-            print(f"Invalid player number: {player_number}")
-            return None
+        hero_card_positions = [(0.443, 0.750), (0.498, 0.744)]
 
-        # print(f"Processing cards for Player {player_number}")
         cards_found = []
-
-        for index, (num_x, num_y) in enumerate(player_card_positions[player_number], start=1):
+        for index, (num_x, num_y) in enumerate(hero_card_positions, start=1):
             icon_x, icon_y = num_x, num_y + 0.032  # Adjust for icon position
-            icon_width, icon_height = 30, 30  # Card icon dimensions
-            num_width, num_height = 200, 200 # Card number/letter dimensions
+            icon_x = None
+            icon_y = None
+            if index==1:
+                icon_x = num_x
+                icon_y = num_y+0.044
+            if index==2:
+                icon_x=num_x-0.006
+                icon_y = num_y+0.046
+            icon_width, icon_height = 20, 20 # Card icon dimensions
+            num_width, num_height = 12, 22 # Card number/letter dimensions
 
-            # # Process card suit
-            # card_filename = f"card{index}Icon_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
-            #
-            # screenshot_icon = self.capture_screen_area(icon_x, icon_y, icon_width,
-            #                                            icon_height, resize_dimensions=(icon_width, icon_height))  # , filename=card_filename)
-            # screenshot_icon_gray = cv2.cvtColor(np.array(screenshot_icon), cv2.COLOR_BGR2GRAY)
-            #
-            # card_suit = None
-            #
-            # for suit, template in self.card_icon_templates.items():
-            #
-            #     # print(screenshot_icon_gray.shape)
-            #     # print(template.shape)
-            #
-            #     print("icon shape", screenshot_icon_gray.shape)
-            #     print("template shape", template.shape)
-            #     similarity, _ = ssim(screenshot_icon_gray, template, full=True)
-            #     if similarity > 0.6:
-            #         card_suit = suit
-            #         # print(f"(Icon) for Player {player_number}, Card {index}: {card_suit}")
-            #
-            # # Capture and process card number/letter using template matching
-            # card2_filename = f"card{index}Letter_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png"
+            screenshot_icon = self.capture_screen_area(icon_x, icon_y, icon_width,
+                                                       icon_height, resize_dimensions=(icon_width, icon_height))  # , filename=card_filename)
+            screenshot_icon_gray = cv2.cvtColor(np.array(screenshot_icon), cv2.COLOR_BGR2GRAY)
 
-            # if player_number == 1 and index == 1:
-            #     screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))  # , filename=card2_filename)
-            #     screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
-            #
-            #     timestamp = time.strftime("%Y%m%d_%H%M%S")
-            #     filename = f"screenshot_{timestamp}.png"
-            #     filepath = os.path.join("card_images", filename)
-            #
-            #     # Save the image
-            #     plt.imsave(filepath, screenshot_num_gray, cmap='gray')
+            if index==1:
+                screenshot_icon_gray = rotate(screenshot_icon_gray, -6, reshape=False, cval=255)
+            else:
+                screenshot_icon_gray = rotate(screenshot_icon_gray, 6, reshape=False, cval=255)
 
-            # card_rank = None
-            # for rank, template in self.card_number_templates.items():
-            #     print(screenshot_num_gray.shape)
-            #     print(template.shape)
-            #     similarity, _ = ssim(screenshot_num_gray, template, full=True)
-            #
-            #     # print(f"rank: {rank}, similarity: {similarity}")
-            #
-            #     if similarity > 0.6:
-            #         card_rank = rank
-            #         # print(f"(Rank) for Player {player_number}, Card {index}: {card_rank}")
-            #
-            # if card_rank and card_suit:
-            #     card = f'{card_rank}{card_suit}'
-            #     cards_found.append(card)
-            # else:
-            #     cards_found.append(None)
+            card_suit = None
+            possible_suits = {}
+            for suit, template in self.card_icon_templates.items():
+                similarity, _ = ssim(screenshot_icon_gray, template, full=True)
+
+                possible_suits[suit] = similarity
+
+            card_suit = max(possible_suits, key=possible_suits.get, default=None)
+
+            screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))  # , filename=card2_filename)
+            screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
+
+            if index==1:
+                screenshot_num_gray = rotate(screenshot_num_gray, -6, reshape=False, cval=255)
+            else:
+                screenshot_num_gray = rotate(screenshot_num_gray, 6, reshape=False, cval=255)
+
+            card_rank = None
+            possible_ranks = {}
+            for rank, template in self.card_number_templates.items():
+                similarity, _ = ssim(screenshot_num_gray, template, full=True)
+                possible_ranks[rank] = similarity
+
+            card_rank = max(possible_ranks, key=possible_ranks.get, default=None)
+
+            if card_rank and card_suit:
+                card = f'{card_rank}{card_suit}'
+                cards_found.append(card)
+            else:
+                cards_found.append(None)
 
         valid_cards = [card for card in cards_found if card is not None]
-
+        #
         # if valid_cards:
-        # print(f"Valid cards for Player {player_number}: {valid_cards}")
+        #     print(f"Valid cards for Hero: {valid_cards}")
 
-        # print(valid_cards)
         return valid_cards
 
     def find_cards_on_table(self):
         card_number_positions = [
-            (0.366, 0.352),  # Card 1 position coordinates x,y
-            (0.429, 0.352),  # Card 2 position coordinates x,y
-            (0.494, 0.352),  # Card 3 position coordinates x,y
-            (0.558, 0.352),  # Card 4 position coordinates x,y
-            (0.624, 0.352)  # Card 5 position coordinates x,y
+            (0.302, 0.420),  # Card 1 position coordinates x,y
+            (0.386, 0.420),  # Card 2 position coordinates x,y
+            (0.471, 0.420),  # Card 3 position coordinates x,y
+            (0.556, 0.420),  # Card 4 position coordinates x,y
+            (0.641, 0.420)  # Card 5 position coordinates x,y
         ]
 
         card_icon_positions = [
-            (0.361, 0.421),  # Card 1 position coordinates x,y
-            (0.425, 0.421),  # Card 2 position coordinates x,y
-            (0.490, 0.421),  # Card 3 position coordinates x,y
-            (0.554, 0.421),  # Card 4 position coordinates x,y
-            (0.620, 0.421)  # Card 5 position coordinates x,y
+            (0.302, 0.459),  # Card 1 position coordinates x,y
+            (0.386, 0.459),  # Card 2 position coordinates x,y
+            (0.471, 0.459),  # Card 3 position coordinates x,y
+            (0.556, 0.459),  # Card 4 position coordinates x,y
+            (0.641, 0.459)  # Card 5 position coordinates x,y
         ]
 
         cards_found = []
@@ -728,14 +723,15 @@ class ReadPokerTable:
 
             x, y = icon_position
             num_x, num_y = number_position
-            icon_width, icon_height = 30, 30# Card icon dimensions
-            num_width, num_height = 200, 200  # Card number/letter dimensions
+            icon_width, icon_height = 20, 20# Card icon dimensions
+            num_width, num_height = 12, 22  # Card number/letter dimensions
 
             # Capture and process card suit
             screenshot_icon = self.capture_screen_area(x, y, icon_width, icon_height, resize_dimensions=(icon_width, icon_height))
 
             # try:
             screenshot_icon_gray = cv2.cvtColor(np.array(screenshot_icon), cv2.COLOR_BGR2GRAY)
+
 
             # timestamp = time.strftime("%Y%m%d_%H%M%S")
             # filename = f"{index}_screenshot_{timestamp}.png"
@@ -761,9 +757,12 @@ class ReadPokerTable:
             # # Save the image
             # plt.imsave(filepath, screenshot_icon_gray, cmap='gray')
 
+            card_suit = None
             possible_suits = {}
             for card_name, template in self.card_icon_templates.items():
                 similarity, _ = ssim(screenshot_icon_gray, template, full=True)
+
+                # print(f"Suit: {card_name}, Similarity: {similarity}")
 
                 # print(f'Suit : {card_name}, Similarity: {similarity}')
 
@@ -776,12 +775,12 @@ class ReadPokerTable:
             screenshot_num = self.capture_screen_area(num_x, num_y, num_width, num_height, resize_dimensions=(num_width, num_height))
             screenshot_num_gray = cv2.cvtColor(np.array(screenshot_num), cv2.COLOR_BGR2GRAY)
 
-            timestamp = time.strftime("%Y%m%d_%H%M%S")
-            filename = f"{index}_screenshot_{timestamp}.png"
-            filepath = os.path.join("card_images", filename)
-
-            # Save the image
-            plt.imsave(filepath, screenshot_num_gray, cmap='gray')
+            # timestamp = time.strftime("%Y%m%d_%H%M%S")
+            # filename = f"{index}_screenshot_{timestamp}.png"
+            # filepath = os.path.join("card_images", filename)
+            #
+            # # Save the image
+            # plt.imsave(filepath, screenshot_num_gray, cmap='gray')
 
             # print('hey')
             # plt.imshow(screenshot_num_gray)
@@ -795,16 +794,18 @@ class ReadPokerTable:
             # plt.imsave(filepath, screenshot_num_gray, cmap='gray')
 
             card_rank = None
-            # possible_ranks = {}
-            # for rank, template in self.card_number_templates.items():
-            #     similarity, _ = ssim(screenshot_num_gray, template, full=True)
-            #
-            #     # print(f"Rank : {rank}, Similarity: {similarity}")
-            #
-            #     if similarity > 0.3:
-            #         possible_ranks[rank] = similarity
-            #
-            # card_rank = max(possible_ranks, key=possible_ranks.get, default=None)
+            possible_ranks = {}
+            for rank, template in self.card_number_templates.items():
+                similarity, _ = ssim(screenshot_num_gray, template, full=True)
+
+                # print(f"Rank: {rank}, Similarity: {similarity}")
+
+                # print(f"Rank : {rank}, Similarity: {similarity}")
+
+                if similarity > 0.3:
+                    possible_ranks[rank] = similarity
+
+            card_rank = max(possible_ranks, key=possible_ranks.get, default=None)
 
             if card_rank and card_suit:
                 card = f'{card_rank}{card_suit}'
@@ -841,47 +842,31 @@ class ReadPokerTable:
     def convert_to_screen_coords(self, rel_x, rel_y):
         """Convert relative coordinates to screen coordinates based on the window position."""
         # Calculate absolute screen coordinates
-        abs_x = self.window.left + int(rel_x * self.window.width)
-        abs_y = self.window.top + int(rel_y * self.window.height)
+        abs_x = self.poker_window_left + int(rel_x * self.poker_window_width)
+        abs_y = self.poker_window_top+ int(rel_y * self.poker_window_height)
         return abs_x, abs_y
 
     def find_dealer_button(self, button_template):
         """Find the dealer button in one of the defined regions."""
+        # print('hi')
 
         dealer_button_regions = {
-            1: (0.392, 0.611),  # done - these motherfuckers change positions randomly -- good
-            2: (0.198, 0.463),  # done - these motherfuckers change positions randomly -- good
-            3: (0.212, 0.343),  # done - these motherfuckers change positions randomly
-            4: (0.529, 0.258),  # done - these motherfuckers change positions randomly -- good
-            5: (0.769, 0.336),  # done - these motherfuckers change positions randomly -- good
-            6: (0.720, 0.560)  # done - these motherfuckers change positions randomly -- good
+            1: (0.425, 0.691),  # done - these motherfuckers change positions randomly -- good
+            2: (0.212, 0.641),  # done - these motherfuckers change positions randomly -- good
+            3: (0.214, 0.337),  # done - these motherfuckers change positions randomly --
+            4: (0.445, 0.282),  # done - these motherfuckers change positions randomly --
+            5: (0.764, 0.339),  # done - these motherfuckers change positions randomly -- good
+            6: (0.765, 0.665)  # done - these motherfuckers change positions randomly -- good
         }
 
         for player_number, (region_x, region_y) in dealer_button_regions.items():
-
-            width, height = 30,24 # Adjust these dimensions as necessary
+            # print('gay1')
+            # print('player_number:', player_number)
+            width, height = 20, 20 # Adjust these dimensions as necessary
             screenshot = self.capture_screen_area(region_x, region_y, width, height, resize_dimensions=(width, height))
             screenshot_gray = cv2.cvtColor(np.array(screenshot), cv2.COLOR_BGR2GRAY)
 
-            # plt.imshow(screenshot_gray)
-            # plt.show()
-            #
-            # timestamp = time.strftime("%Y%m%d_%H%M%S")
-            # filename = f"screenshot_{timestamp}.png"
-            # filepath = os.path.join("stupid", filename)
-            #
-            # # Save the image
-            # plt.imsave(filepath, screenshot_gray, cmap='gray')
-
             similarity, _ = ssim(screenshot_gray, button_template, full=True)
-
-            # plt.imshow(screenshot_gray)
-            # plt.title("Potential Dealer Button")
-            # plt.show()
-            #
-            # plt.imshow(button_template)
-            # plt.title("Button Template")
-            # plt.show()
 
             # print(f"player number: {player_number}, score: {similarity}")
 
@@ -915,12 +900,14 @@ class ReadPokerTable:
         return None  # Dealer button not found
 
     def action1(self):
+        marker = 0
         while True:
             player_number = 1
-            current_time = time.time()
+            # print(time.time() - marker)
+            marker = time.time()
             # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
             self.detect_player_stack_and_action(1)
-            self.last_action_time[player_number] = current_time
+            # self.last_action_time[player_number] = current_time
             self.last_action_player = player_number
             time.sleep(0.01)  # Short sleep is okay here
 
@@ -930,7 +917,7 @@ class ReadPokerTable:
             current_time = time.time()
             # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
             self.detect_player_stack_and_action(2)
-            self.last_action_time[player_number] = current_time
+            # self.last_action_time[player_number] = current_time
             self.last_action_player = player_number
             time.sleep(0.01)  # Short sleep is okay here
 
@@ -941,7 +928,7 @@ class ReadPokerTable:
             current_time = time.time()
             # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
             self.detect_player_stack_and_action(3)
-            self.last_action_time[player_number] = current_time
+            # self.last_action_time[player_number] = current_time
             self.last_action_player = player_number
             time.sleep(0.01)  # Short sleep is okay here
 
@@ -951,7 +938,7 @@ class ReadPokerTable:
             current_time = time.time()
             # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
             self.detect_player_stack_and_action(4)
-            self.last_action_time[player_number] = current_time
+            # self.last_action_time[player_number] = current_time
             self.last_action_player = player_number
             time.sleep(0.01)  # Short sleep is okay here
 
@@ -961,7 +948,7 @@ class ReadPokerTable:
             current_time = time.time()
             # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] > 2:
             self.detect_player_stack_and_action(5)
-            self.last_action_time[player_number] = current_time
+            # self.last_action_time[player_number] = current_time
             self.last_action_player = player_number
             time.sleep(0.01)  # Short sleep is okay here
 
@@ -972,7 +959,7 @@ class ReadPokerTable:
             current_time = time.time()
             # if player_number not in self.last_action_time or current_time - self.last_action_time[player_number] >  2:
             self.detect_player_stack_and_action(6)
-            self.last_action_time[player_number] = current_time
+            # self.last_action_time[player_number] = current_time
             self.last_action_player = player_number
             time.sleep(0.01)  # Short sleep is okay here
 
@@ -1086,7 +1073,7 @@ class ReadPokerTable:
 
         cards_detection_thread = threading.Thread(target=self.continuous_detection_table_cards)
 
-        player_cards_detection_thread = threading.Thread(target=self.continuous_detection_player_cards)
+        hero_cards_detection_thread = threading.Thread(target=self.continuous_detection_hero_cards)
 
         pot_detection_thread = threading.Thread(target=self.continuous_detection_total_pot_size)
 
@@ -1104,13 +1091,15 @@ class ReadPokerTable:
         turn_detection_thread.start()
         dealer_detection_thread.start()
         cards_detection_thread.start()
-        player_cards_detection_thread.start()
+        hero_cards_detection_thread.start()
         pot_detection_thread.start()
         hero_buttons_thread.start()
 
     def detect_player_stack_and_action(self, player_number):
         """Detect and process player stack size and actions with timing handling."""
         current_time = time.time()
+
+        # time1=time.time()
 
         # Clean up expired pending actions
         if player_number in self.pending_actions:
@@ -1119,59 +1108,65 @@ class ReadPokerTable:
 
         # Define regions for all players
         player_regions = {
-            1: {'stack': (0.467, 0.732), 'action': (0.467, 0.701)},
-            2: {'stack': (0.059, 0.560), 'action': (0.059, 0.529)},
-            3: {'stack': (0.093, 0.265), 'action': (0.093, 0.235)},
-            4: {'stack': (0.430, 0.173), 'action': (0.430, 0.144)},
-            5: {'stack': (0.814, 0.265), 'action': (0.814, 0.235)},
-            6: {'stack': (0.846, 0.560), 'action': (0.842, 0.530)}
+            1: {'stack': (0.458, 0.915), 'action': (0.54, 0.845)},  # DONE #stack12
+            2: {'stack': (0.074, 0.736), 'action': (0.146, 0.682)},  # DONE #stack12
+            3: {'stack': (0.105,0.34), 'action': (0.182,0.280)},  # DONE stack12
+            4: {'stack': (0.461, 0.231), 'action': (0.540, 0.182)},  # DONE  #stack12
+            5: {'stack': (0.8, 0.34), 'action': (0.9, 0.280)},  # DONE  stack12
+            6: {'stack': (0.855, 0.736), 'action': (0.931, 0.682)}  # DONE  stack12
         }
 
         region_stack_x, region_stack_y = player_regions[player_number]['stack']
         region_action_x, region_action_y = player_regions[player_number]['action']
-        width = 95
+        width = 50
         height = 24
 
+        # time1 = time.time()
+
         # Detect stack size
-        detected_stack_text = self.detect_text_changed(
-            player_number,
-            player_number + 10,
-            region_stack_x,
-            region_stack_y,
-            width,
-            height,
-            typeofthing='stack'
-        )
+        # detected_stack_text = self.detect_text_changed(
+        #     player_number,
+        #     player_number + 10,
+        #     region_stack_x,
+        #     region_stack_y,
+        #     width,
+        #     height,
+        #     typeofthing='stack',
+        # )
+
+        # print('time1',time.time()-time1)
 
         # if player_number==1:
         #     print(detected_stack_text)
 
         # Process stack update
-        if detected_stack_text is not None:
-            with self.game_state_lock:
-                self.update_player_active_state(player_number, detected_stack_text)
-                current_stack_size, stack_size_change = self.get_player_stack_size(player_number, detected_stack_text)
+        # if detected_stack_text is not None:
+        #     with self.game_state_lock:
+        #         self.update_player_active_state(player_number, detected_stack_text)
+        #         current_stack_size, stack_size_change = self.get_player_stack_size(player_number, detected_stack_text)
+        #
+        #         if current_stack_size is not None:
+        #             self.game_state.update_player(player_number, stack_size=current_stack_size)
+        #             self.last_stack_updates[player_number] = {
+        #                 'time': current_time,
+        #                 'change': stack_size_change
+        #             }
+        #
+        #             # Check if we have a pending action waiting for this stack update
+        #             if player_number in self.pending_actions:
+        #                 pending = self.pending_actions[player_number]
+        #                 if pending['action'] in ['call', 'raise', 'bet']:
+        #                     self.game_state.update_player(
+        #                         player_number,
+        #                         stack_size=current_stack_size,
+        #                         amount=stack_size_change if stack_size_change else 0,
+        #                         action=pending['action'].capitalize()
+        #                     )
+        #                 del self.pending_actions[player_number]
+        #                 self.last_action_player = player_number
+        #                 return
 
-                if current_stack_size is not None:
-                    self.game_state.update_player(player_number, stack_size=current_stack_size)
-                    self.last_stack_updates[player_number] = {
-                        'time': current_time,
-                        'change': stack_size_change
-                    }
-
-                    # Check if we have a pending action waiting for this stack update
-                    if player_number in self.pending_actions:
-                        pending = self.pending_actions[player_number]
-                        if pending['action'] in ['call', 'raise', 'bet']:
-                            self.game_state.update_player(
-                                player_number,
-                                stack_size=current_stack_size,
-                                amount=stack_size_change if stack_size_change else 0,
-                                action=pending['action'].capitalize()
-                            )
-                        del self.pending_actions[player_number]
-                        self.last_action_player = player_number
-                        return
+        # time2 = time.time()
 
         # Detect action
         detected_action_text = self.detect_text_changed(
@@ -1179,13 +1174,35 @@ class ReadPokerTable:
             player_number + 20,
             region_action_x,
             region_action_y,
-            width,
-            height,
+            100,
+            100,
             typeofthing='action'
         )
 
+        # print('time2', time.time() - time2)
+
+        # print(detected_action_text)
+
+        # print(f"player number: {player_number}", detected_action_text)
+
         if detected_action_text is not None:
             detected_action = detected_action_text.lower()
+
+            if 'call' in detected_action:
+                detected_action = 'call'
+            if 'raise' in detected_action:
+                detected_action = 'raise'
+            if 'bet' in detected_action:
+                detected_action = 'bet'
+            if 'all-in' in detected_action:
+                detected_action = 'all-in'
+            if 'fold' in detected_action:
+                detected_action = 'fold'
+            if 'check' in detected_action:
+                detected_action = 'check'
+            #
+            # if detected_action in ['call', 'raise', 'bet', 'all-in', 'check', 'fold']:
+            #     print(f"player {player_number}, {detected_action}")
 
             with self.game_state_lock:
                 # For actions that don't require stack changes
@@ -1225,36 +1242,71 @@ class ReadPokerTable:
 
     def detect_text_changed(self, player_number, unique_id, relative_x, relative_y, width, height, typeofthing=None):
         """Detect text from a specified region of the screen with optimizations."""
-        screenshot = self.capture_screen_area(relative_x, relative_y, width, height, resize_dimensions=(width, height))
+        pixel_color = self.capture_screen_area(relative_x, relative_y, 100, 100, resize_dimensions=(100, 100))
 
-        if screenshot is None:
-            return None
+        timestamp = time.strftime("%Y%m%d_%H%M%S")
+        # filename = f"{player_number}_screenshot_{timestamp}.png"
+        # filepath = os.path.join("card_images", filename)
+        #
+        # # Save the image
+        # plt.imsave(filepath, pixel_color, cmap='gray')
+        #
+        # pixel_color = np.array(pixel_color)[0][0][:3]
 
-        screenshot_array = np.array(screenshot)
-        gray_image = cv2.cvtColor(screenshot_array, cv2.COLOR_BGR2GRAY)
-        _, thresh_image = cv2.threshold(gray_image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        print(f'pixel color: {pixel_color[0][0][:3]}, time: {timestamp}')
 
-        # Custom configurations for Tesseract
-        custom_config = r'--oem 3 --psm 6'
-        detected_text = pytesseract.image_to_string(thresh_image, config=custom_config)
+        action_taken = None
+        possible_actions = {}
+        if typeofthing=='action' and player_number==3:
+            filename = f"{player_number}_screenshot_{timestamp}.png"
+            filepath = os.path.join("card_images", filename)
+            #
+            # # Save the image
+            plt.imsave(filepath, pixel_color, cmap='gray')
+            #
+            # for action, template in self.action_templates.items():
+            #     similarity, _ = ssim(screenshot, template, full=True)
+            #
+            #     if similarity > 0.5:
+            #         possible_actions[action] = similarity
+            #
+            #     print(f"action: {action}, similarity: {similarity}")
+            #
+            # action_taken = max(possible_actions, key=possible_actions.get, default=None)
+            #
+            # return action_taken
 
-        # Create a unique dictionary key for each type of text
-        dict_key = f"player_{player_number}_{typeofthing}"
-
-        # if player_number == 1:  # Debug logging for player 1
-        #     if dict_key in self.detected_text_dict:
-        #         print(f"Old Text ({typeofthing})", self.detected_text_dict[dict_key])
-        #     print(f"New Text ({typeofthing})", detected_text.strip())
-
-        # Check if text has changed
-        if dict_key in self.detected_text_dict:
-            if detected_text.strip() != self.detected_text_dict[dict_key]:
-                self.detected_text_dict[dict_key] = detected_text.strip()
-                return detected_text.strip()
-            return None
-        else:
-            self.detected_text_dict[dict_key] = detected_text.strip()
-            return None
+        # if screenshot is None:
+        #     return None
+        #
+        # screenshot_array = np.array(screenshot)
+        # gray_image = cv2.cvtColor(screenshot_array, cv2.COLOR_BGR2GRAY)
+        # _, thresh_image = cv2.threshold(gray_image, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
+        #
+        # # Custom configurations for Tesseract
+        # custom_config = r'--oem 3 --psm 6'
+        #
+        # start_time = time.time()
+        # detected_text = pytesseract.image_to_string(thresh_image, config=custom_config)
+        # print('time', time.time()-start_time)
+        #
+        # # Create a unique dictionary key for each type of text
+        # dict_key = f"player_{player_number}_{typeofthing}"
+        #
+        # # if player_number == 1:  # Debug logging for player 1
+        # #     if dict_key in self.detected_text_dict:
+        # #         print(f"Old Text ({typeofthing})", self.detected_text_dict[dict_key])
+        # #     print(f"New Text ({typeofthing})", detected_text.strip())
+        #
+        # # Check if text has changed
+        # if dict_key in self.detected_text_dict:
+        #     if detected_text.strip() != self.detected_text_dict[dict_key]:
+        #         self.detected_text_dict[dict_key] = detected_text.strip()
+        #         return detected_text.strip()
+        #     return None
+        # else:
+        #     self.detected_text_dict[dict_key] = detected_text.strip()
+        #     return None
 
     def update_player_active_state(self, player_number, detected_stack_text):
 
@@ -1279,7 +1331,7 @@ class ReadPokerTable:
             self.detect_player_turn()
 
             # Sleep before the next detection cycle
-            time.sleep(0.1)  # Adjust the sleep time as needed
+            time.sleep(0.01)  # Adjust the sleep time as needed
 
             # except Exception as e:
             # print(f"Error in continuous detection: {e}")
@@ -1288,6 +1340,8 @@ class ReadPokerTable:
         """Continuously detect game state changes."""
 
         while True:
+            # print('yo123')
+
             if not self.window:
                 time.sleep(0.2)  # Adjust the sleep time as needed
                 continue  # Skip to the next iteration of the loop
@@ -1310,11 +1364,11 @@ class ReadPokerTable:
             # Sleep before the next detection cycle
             time.sleep(3)  # Adjust the sleep time as needed
 
-    def continuous_detection_player_cards(self):
+    def continuous_detection_hero_cards(self):
         """Continuously detect game state changes."""
 
         while True:
-            self.find_player_cards(1)
+            self.find_hero_cards()
             time.sleep(0.5)
             # if not self.window:
             #     time.sleep(0.5)  # Adjust the sleep time as needed

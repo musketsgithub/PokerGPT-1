@@ -6,7 +6,8 @@ import pywinctl as gw
 
 class GameState:
 
-    def __init__(self, hero_action, audio_player):
+    def __init__(self, hero_action, audio_player, window):
+        self.window = window
 
         self.hero_action = hero_action
 
@@ -64,21 +65,20 @@ class GameState:
         self.current_hand_analysis = ""  # Add this line
 
     def extract_blinds_from_title(self):
-        windows = []
+        # windows = []
+        #
+        # while windows == []:
+        #     windows = [w for w in gw.getAllWindows() if "nlhp" in w.title.lower()]
+        #     poker_windows = []
 
-        while windows == []:
-            windows = [w for w in gw.getAllWindows() if "nlhp" in w.title.lower()]
-            poker_windows = []
-
-        for window in windows:
             # Find all monetary amounts (assuming they follow a '$' symbol)
-            amounts = re.findall(r'\$(\d+\.?\d*)', window.title)
-            if amounts and len(amounts) >= 2:
-                # Assuming the first amount is the small blind and the second is the big blind
-                self.small_blind = float(amounts[0])
-                self.big_blind = float(amounts[1])
-                print(f"Small Blind: ${self.small_blind}, Big Blind: ${self.big_blind}")
-                return True
+        amounts = re.findall(r'\$(\d+\.?\d*)', self.window.title)
+        if amounts and len(amounts) >= 2:
+            # Assuming the first amount is the small blind and the second is the big blind
+            self.small_blind = float(amounts[0])
+            self.big_blind = float(amounts[1])
+            print(f"Small Blind: ${self.small_blind}, Big Blind: ${self.big_blind}")
+            return True
 
     # Method to add an entry to the log
     def add_log_entry(self, data):
@@ -298,7 +298,8 @@ class GameState:
         Update information about a specific player.
         """
 
-        print(won_amount)
+        # print(won_amount)
+
 
         # Update player won amount
         if won_amount is not None:

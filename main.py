@@ -29,7 +29,7 @@ class PokerWindowAnalyzer(threading.Thread):
         self.hero_action = HeroAction(window)
         self.hero_info = HeroInfo()
         self.hero_hand_range = PokerHandRangeDetector()
-        self.game_state = GameState(self.hero_action, self.audio_player)
+        self.game_state = GameState(self.hero_action, self.audio_player, self.window)
 
         # Set up poker assistant
         self.poker_assistant = PokerAssistant(
