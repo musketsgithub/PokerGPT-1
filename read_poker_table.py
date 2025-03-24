@@ -28,7 +28,7 @@ import pytesseract
 # Only import PaddleOCR on Windows as a fallback
 if platform.system() == 'Windows':
     try:
-        
+
         from paddleocr import PaddleOCR
     except ImportError:
         print("PaddleOCR not available, falling back to pytesseract only")

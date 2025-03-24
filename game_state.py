@@ -2,6 +2,10 @@ import os
 import time
 import re
 import pywinctl as gw
+import mss
+import numpy as np
+import matplotlib.pyplot as plt
+import threading
 
 
 class GameState:
@@ -291,51 +295,26 @@ class GameState:
         # Joining the entries with newline character for better readability
         return '\n'.join(formatted_log)
 
-    def update_player(self, player_number, player_name=None, status=None, role=None, hero=None, cards=None, turn=None,
-                      action=None, amount=None, stack_size=None, won_amount=None, player_type=None,
-                      exploitation_strategy=None):
-        """
-        Update information about a specific player.
-        """
+    def update_player(self, player_number, **kwargs):
+        """Update a player's attributes"""
+        # Extract the attributes from kwargs
+        status = kwargs.get('status')
+        role = kwargs.get('role')
+        cards = kwargs.get('cards')
+        turn = kwargs.get('turn')
+        action = kwargs.get('action')
+        hero = kwargs.get('hero')
+        amount = kwargs.get('amount')
+        bet_number = kwargs.get('bet_number')
+        stack_size = kwargs.get('stack_size')
+        position = kwargs.get('position')
+        table_position = kwargs.get('table_position')
 
-        # print(won_amount)
-
-
-        # Update player won amount
-        if won_amount is not None:
-            won_amount_rounded = round(won_amount, 2)
-
-            self.players[player_number]['won_amount'] = won_amount_rounded
-
-            self.players[player_number]['pots_won'] += 1
-
-        # Initialize player data if not already present
+        # Update the player's attributes
         if player_number not in self.players:
-            self.players[player_number] = {
-                'name': f'Player {player_number}',  # Correct
-                'status': 'Active',  # Correct
-                'role': None,  # Correct
-                'hero': None,
-                'cards': None,  # Correct
-                'turn': None,  # Correct
-                'turn_start_time': None,  # Correct
-                'action': None,  # Correct
-                'action_time': 0.0,  # Correct
-                'amount': None,  # Correct
-                'pot_size': 0.0,  # Correct
-                'stack_size': 0.0,  # Correct
-                'won_amount': 0.0,  # Correct
-                'pots_won': 0,  # Correct
-                'player_type': None,  # Correct
-                'exploitation_strategy': None  # Correct
-            }
+            self.players[player_number] = {}
 
-        player_role = self.players.get(player_number, {}).get('role')
-
-        # Update Player Name
-        if player_name is not None:
-            self.players[player_number]['name'] = player_name
-            self.add_log_entry({'method': 'update_player_name', 'player_number': player_number, 'name': player_name})
+        player_role = self.players.get(player_number, {}).get('role', 'Unknown')
 
         # Update Player Status
         if status is not None:
@@ -344,21 +323,16 @@ class GameState:
             # If the player's status is set to 'Active', add them to the active_players list
             if status == 'Active' and player_number not in self.active_players:
                 self.active_players.append(player_number)
-                # self.add_log_entry({'method': 'update_player_status','player_number': player_number, 'status': 'Active' })
 
             # If the player's status is set to 'Inactive', remove them from the active_players list
             elif status == 'Inactive' and player_number in self.active_players:
                 self.active_players.remove(player_number)
-                self.audio_player.play_left_audio(player_number)
                 self.add_log_entry(
                     {'method': 'update_player_status', 'player_number': player_number, 'status': 'Inactive'})
 
         # Update Player Role (dealer, small blind, big blind)
         if role is not None:
             self.players[player_number]['role'] = role
-
-            if role == "Dealer":
-                self.audio_player.play_is_dealer_audio(player_number)
 
         # Update Hero Player number and name
         if hero is not None:
@@ -374,7 +348,6 @@ class GameState:
 
         # Update player turn
         if turn is not None:
-
             # Set all other players' turn to False if this player's turn is set to True
             if turn:
                 for key in self.players:
@@ -383,8 +356,6 @@ class GameState:
 
                 # Record start time when the turn is set to True
                 self.players[player_number]['turn_start_time'] = time.time()
-                # self.add_log_entry({'method': 'update_player_turn','player_number': player_number, 'turn': turn })
-                # self.audio_player.play_turn_audio(player_number)
             else:
                 # Reset turn start time when the turn is over
                 self.players[player_number]['turn_start_time'] = None
@@ -404,40 +375,8 @@ class GameState:
                 if action_time == 0:
                     action_time = 1
 
-            # Play corresponding audio based on action
-            if action == "Bet":
-                self.audio_player.play_bet_audio(player_number)
-
-            elif action == "Call":
-                self.players[player_number]['action_time'] = action_time
-                self.audio_player.play_call_audio(player_number)
-
-            elif action == "Check":
-                self.players[player_number]['action_time'] = action_time
-                self.add_log_entry(
-                    {'method': 'update_player_action', 'player_number': player_number, 'role': player_role,
-                     'action': action, 'time': action_time})
-                self.audio_player.play_check_audio(player_number)
-
-            elif action == "Fold":
-                self.players[player_number]['action_time'] = action_time
-                self.add_log_entry(
-                    {'method': 'update_player_action', 'player_number': player_number, 'role': player_role,
-                     'action': action, 'time': action_time})
-                self.audio_player.play_fold_audio(player_number)
-
-            elif action == "Raise":
-                self.audio_player.play_raise_audio(player_number)
-
-            # 1 player_number       ( 1 - 6 )
-            # 2 player_role         (dealer, small blind, big blind)
-            # 3 action              (fold, raise, call etc.)
-            # 4 amount              (number)
-            # 5 board_stage         (pre-flop, flop, river etc.)
-
         # Check if amount is a numeric value and update pot size
         if amount is not None:
-
             # Round the amount value to 2 decimal places. (4.43)
             rounded_amount = round(amount, 2)
 
@@ -455,53 +394,40 @@ class GameState:
 
             player_action = self.players[player_number].get('action')
 
-            # print(f"PLAYER {player_number} | ACTION = {player_action} | ADD AMOUNT = {rounded_amount} | CURRENT POT = {current_pot_size} |  NEW POT = {new_pot_size}")
-
             start_time = self.players.get(player_number, {}).get('turn_start_time')
             action_time = 0
 
             if player_action in ("Raise", "Bet", "Call"):
-
                 if (start_time is not None):
                     action_time = time.time() - self.players.get(player_number, {}).get('turn_start_time')
-                    action_time = round(action_time, 0)  # Round to one decimal place
-
+                    action_time = round(action_time, 0)
                     if action_time == 0:
                         action_time = 1
 
                     self.players[player_number]['action_time'] = action_time
 
-                self.add_log_entry(
-                    {'method': 'update_player_action_raise', 'player_number': player_number, 'role': player_role,
-                     'action': player_action, 'amount': rounded_amount, 'time': action_time, 'pot_size': new_pot_size})
+                    self.update_player_stats(player_number, player_role, player_action, amount, action_time)
 
-            self.update_player_betting_history(player_number, role, action, amount, self.current_board_stage)
+                self.total_pot += rounded_amount
 
-        if player_type is not None:
-            self.players[player_number]['player_type'] = player_type  # categorizes player by play style/type
+        if table_position is not None:
+            self.players[player_number]['table_position'] = table_position
+            # self.add_log_entry({'method': 'update_player_table_position','player_number': player_number, 'table_position': table_position })
 
-        if exploitation_strategy is not None:
-            self.players[player_number][
-                'exploitation_strategy'] = exploitation_strategy  # Strategic tips on how to exploit this player
+        # Update player position
+        if position is not None:
+            self.players[player_number]['position'] = position
 
-        # Update player's stack size
+        # Update player stack size
         if stack_size is not None:
-            # Round stack_size to 2 decimal places
-            rounded_stack_size = round(stack_size, 2)
-            self.players[player_number]['stack_size'] = rounded_stack_size
-            # self.add_log_entry({'method': 'update_player_stack', 'player_number': player_number, 'stack_size': rounded_stack_size})
+            self.players[player_number]['stack_size'] = stack_size
 
-        # Update player won amount
-        if won_amount is not None:
-            won_amount_rounded = round(won_amount, 2)
-            self.players[player_number]['won_amount'] = won_amount_rounded
-            self.players[player_number]['pots_won'] += 1
+        if bet_number is not None:
+            self.players[player_number]['bet_number'] = bet_number
 
-            won_counter = self.players.get(player_number, {}).get('pots_won')
-            self.audio_player.play_wins_the_pot_audio(player_number)
-
-            self.add_log_entry({'method': 'update_player_won', 'player_number': player_number, 'role': player_role,
-                                'won_amount': won_amount_rounded, 'pots_won': won_counter})
+        # Update the current player's turn
+        if turn is True:
+            self.current_player_turn = player_number
 
     # *DONE*
     def get_current_player_turn(self):
@@ -509,9 +435,9 @@ class GameState:
         Retrieve the player number of the player whose turn is currently set to True.
         """
         for player_number, player_info in self.players.items():
-            if player_info['turn']:
+            if player_info.get('turn', False):  # Use .get() with a default value to avoid KeyError
                 return player_number
-        return 0  # Return None or handle the case where no player has the turn
+        return 0  # Return 0 if no player has the turn
 
     # *DONE*
     def update_community_cards(self, cards):
@@ -521,6 +447,15 @@ class GameState:
         self.community_cards = cards
 
         self.update_board_stage(cards)
+
+    def update_table_cards(self, cards):
+        """
+        Update the cards on the table.
+        This method is used by the board card detection system.
+        """
+        self.cards_on_table = cards
+        # Update community cards as well to maintain compatibility
+        self.update_community_cards(cards)
 
     # *DONE*
     def update_board_stage(self, cards):
